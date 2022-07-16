@@ -1,0 +1,138 @@
+[2022-06-09 18:42:58,541] ERROR in app: Exception on /backend/ChangeBanchName [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/admin/Downloads/code/dajia/backend/package/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/admin/Downloads/code/dajia/backend/package/flask_cors/decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "/Users/admin/Downloads/code/dajia/backend/backend.py", line 321, in backendChangeBanchName
+    result=update_or_insert_to_change_banch_name(data)
+  File "/Users/admin/Downloads/code/dajia/backend/database.py", line 683, in update_or_insert_to_change_banch_name
+    cursor.commit()
+AttributeError: 'CMySQLCursor' object has no attribute 'commit'
+[2022-06-09 18:44:02,847] ERROR in app: Exception on /backend/ChangeBanchName [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/admin/Downloads/code/dajia/backend/package/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/admin/Downloads/code/dajia/backend/package/flask_cors/decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "/Users/admin/Downloads/code/dajia/backend/backend.py", line 321, in backendChangeBanchName
+    result=update_or_insert_to_change_banch_name(data)
+  File "/Users/admin/Downloads/code/dajia/backend/database.py", line 684, in update_or_insert_to_change_banch_name
+    cursor.commit()
+AttributeError: 'CMySQLCursor' object has no attribute 'commit'
+[2022-06-09 18:44:40 +0800] [32673] [WARNING] Worker with pid 32680 was terminated due to signal 1
+[2022-06-09 18:45:09,372] ERROR in app: Exception on /backend/ChangeBanchName [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/admin/Downloads/code/dajia/backend/package/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/admin/Downloads/code/dajia/backend/package/flask_cors/decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "/Users/admin/Downloads/code/dajia/backend/backend.py", line 321, in backendChangeBanchName
+    result=update_or_insert_to_change_banch_name(data['data'])
+  File "/Users/admin/Downloads/code/dajia/backend/database.py", line 684, in update_or_insert_to_change_banch_name
+    cursor.commit()
+AttributeError: 'CMySQLCursor' object has no attribute 'commit'
+[2022-06-09 18:46:54,692] ERROR in app: Exception on /backend/ChangeBanchName [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/admin/Downloads/code/dajia/backend/package/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/admin/Downloads/code/dajia/backend/package/flask_cors/decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "/Users/admin/Downloads/code/dajia/backend/backend.py", line 321, in backendChangeBanchName
+    result=update_or_insert_to_change_banch_name(data['data'])
+  File "/Users/admin/Downloads/code/dajia/backend/database.py", line 685, in update_or_insert_to_change_banch_name
+    cursor.commit()
+AttributeError: 'CMySQLCursor' object has no attribute 'commit'
+[2022-06-09 18:54:43,033] ERROR in app: Exception on /backend/ChangeBanchName [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/admin/Downloads/code/dajia/backend/package/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/admin/Downloads/code/dajia/backend/package/flask_cors/decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "/Users/admin/Downloads/code/dajia/backend/backend.py", line 321, in backendChangeBanchName
+    result=update_or_insert_to_change_banch_name(data['data'])
+  File "/Users/admin/Downloads/code/dajia/backend/database.py", line 687, in update_or_insert_to_change_banch_name
+    cursor.commit()
+AttributeError: 'CMySQLCursor' object has no attribute 'commit'
+[2022-06-09 18:55:24 +0800] [32749] [CRITICAL] WORKER TIMEOUT (pid:32752)
+[2022-06-09 18:55:25 +0800] [32749] [WARNING] Worker with pid 32752 was terminated due to signal 9
+[2022-06-09 18:55:35,933] ERROR in app: Exception on /backend/ChangeBanchName [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/admin/Downloads/code/dajia/backend/package/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/admin/Downloads/code/dajia/backend/package/flask_cors/decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "/Users/admin/Downloads/code/dajia/backend/backend.py", line 321, in backendChangeBanchName
+    result=update_or_insert_to_change_banch_name(data['data'])
+  File "/Users/admin/Downloads/code/dajia/backend/database.py", line 687, in update_or_insert_to_change_banch_name
+    cursor.commit()
+AttributeError: 'CMySQLCursor' object has no attribute 'commit'
+[2022-06-09 18:55:39,666] ERROR in app: Exception on /backend/ChangeBanchName [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/admin/Downloads/code/dajia/backend/package/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/admin/Downloads/code/dajia/backend/package/flask_cors/decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "/Users/admin/Downloads/code/dajia/backend/backend.py", line 321, in backendChangeBanchName
+    result=update_or_insert_to_change_banch_name(data['data'])
+  File "/Users/admin/Downloads/code/dajia/backend/database.py", line 687, in update_or_insert_to_change_banch_name
+    cursor.commit()
+AttributeError: 'CMySQLCursor' object has no attribute 'commit'
+[2022-06-09 18:58:23 +0800] [32762] [WARNING] Worker with pid 32770 was terminated due to signal 1
+[2022-06-09 18:58:23 +0800] [32762] [WARNING] Worker with pid 32769 was terminated due to signal 1
