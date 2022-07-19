@@ -8,6 +8,7 @@ import { select_route } from "./api";
 import { personal_sidebar } from "./api";
 import { admin_sidebar } from "./api";
 import { manager_sidebar } from "./api";
+import { connectSocket } from "./socketIo";
 
 const Backend=({access})=>{
     const {page}=useParams()
@@ -50,6 +51,11 @@ const Backend=({access})=>{
         }
 
     })
+    useEffect(() => {
+        if(token) {
+            connectSocket(token)
+        }
+    }, [token])
 
     return(
         <Fragment>

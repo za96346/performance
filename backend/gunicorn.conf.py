@@ -9,7 +9,7 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__))+'\package')
 import multiprocessing
 
 
-sys.path.append('/Users/admin/Downloads/code/dajia/backend')
+#sys.path.append('/Users/admin/Downloads/code/dajia/backend')
 
 curProjectRootPath = os.getcwd()
 
@@ -23,7 +23,7 @@ workers = multiprocessing.cpu_count() * 2 + 1
 # 指定每個工作者的線程數
 threads = multiprocessing.cpu_count()*2
 # 端口 5000
-bind = '0.0.0.0:5000'
+bind = '0.0.0.0:5001'
 # 設置守護進程,將進程交給supervisor管理
 
 

@@ -3,7 +3,7 @@ import axios from "axios"
 
 export const ip = '127.0.0.1'
 export const config = {
-    url: `http://${ip}:5000/`,
+    url: `http://${ip}:5001/`,
     urlYearPerformance: 'backend/year_performance',
     urlBanchIndex: 'backend/banch_index',
     urlBackEnd: 'backend',
@@ -16,6 +16,9 @@ export const config = {
     urlNewEmpInsertPerformanceTable: 'backend/NewEmpInsertPerformanceTable',
     urlChangeBanchName: 'backend/ChangeBanchName'
 };
+export const socketUrl = {
+    url: `http://${ip}:5002/`,
+}
 export const article_bar_arr = ['首頁', '年度考核分數', '每月考核績效']
 export const log_out = ['登出']
 export const personal_sidebar = ['每月考核績效', '年度考核分數'];
