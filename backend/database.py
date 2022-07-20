@@ -293,8 +293,8 @@ def sort(arr):
             emp_arr.append(data_in_arr[3])
         if data_in_arr[4] not in year_arr:
             year_arr.append(data_in_arr[4])
-    print('員工',emp_arr)
-    print('年度',year_arr)
+    #print('員工',emp_arr)
+    #print('年度',year_arr)
     i=0
     banch=select_user_banch(emp_arr[0])
 
@@ -316,7 +316,7 @@ def sort(arr):
                         attitude+=data_in_arr[6]
                         efficiency+=data_in_arr[7]
                         professional +=data_in_arr[8]
-                bar(f'sort {banch}年度績效 排序',i,len(arr)*len(year_arr)*len(emp_arr))
+                #bar(f'sort {banch}年度績效 排序',i,len(arr)*len(year_arr)*len(emp_arr))
                 i+=1
                 
             if emp_id and state==True:

@@ -2,24 +2,31 @@
 import { socketUrl } from './api';
 import io from 'socket.io-client';
 
-let socket;
+let socketBasic, socketMain;
 export const connectSocket = (token) => {
-    if (socket?.connected) return;
+    if (socketBasic?.connected) return;
 
-    socket = io.connect(socketUrl.url, {
+    socketBasic = io.connect(socketUrl.url, {
         transports: ['websocket'],
         autoConnect: true,
         forceNew: true,
         query: `${token}siousiou`,
     });
-    
 
-    socket.on('connect', (data) => {
+    socketMain = io.connect(socketUrl.url + socketUrl.urlMain, {
+        transports: ['websocket'],
+        autoConnect: true,
+        forceNew: true,
+        query: `${token}siousiou`,
+    });
+
+    socketBasic.on('connect', (data) => {
         console.log('connect data => ',data)
     });
 
-    socket.on('DataBaseChange', (data) => {
+
+    socketMain.on('DataBaseChange', (data) => {
         console.log('hihi data => ', data)
     });
-    socket.emit("DataBaseChange",{})
+    socketMain.emit("DataBaseChange",{})
 }

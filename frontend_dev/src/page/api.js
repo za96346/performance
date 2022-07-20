@@ -18,6 +18,7 @@ export const config = {
 };
 export const socketUrl = {
     url: `http://${ip}:5002/`,
+    urlMain: 'main',
 }
 export const article_bar_arr = ['首頁', '年度考核分數', '每月考核績效']
 export const log_out = ['登出']
