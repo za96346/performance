@@ -778,9 +778,9 @@ def for_loop_insert_performance(arr):
     #yesr is the admin want to create whole a new year.
     
     for personData in arr:
-        account =personData[0]
-        year=personData[1]
-        state=personData[2]
+        account = personData[0]
+        year = personData[1]
+        state = personData[2]
 
         if state=='yes':
             #如果狀態為yes就要去尋找這帳號目前的部門
@@ -788,7 +788,7 @@ def for_loop_insert_performance(arr):
             for month in range(1,13):
                 try:
                     insert_to_table_performance_per_month(
-                        '',year,month,account,banch,0,0,0,'',0,0
+                        '',year, month, account, banch, 0, 0, 0, '', 0, 0
                     )
                 except:
                     pass

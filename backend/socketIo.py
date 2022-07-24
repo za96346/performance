@@ -23,39 +23,43 @@ class App (socketio.ASGIApp):
         super().__init__(socketio_server, other_asgi_app, static_files, socketio_path, on_startup, on_shutdown)
         
 class RedisManager (socketio.AsyncRedisManager):
-    def __init__(self, url='redis://localhost:6379/0', channel='socketio', write_only=False, logger=None, redis_options=None):
+    def __init__(self, url='redis://127.0.0.1:6379', channel='socketio', write_only=False, logger=None, redis_options=None):
         super().__init__(url, channel, write_only, logger, redis_options)
 
 class BasicNamespace(socketio.AsyncNamespace):
-    def __init__(self, namespace=None):
+    def __init__(self, namespace):
         super().__init__(namespace)
+        self.namespace = namespace
     async def on_connect(self, sid, environ):
         print("connected!", sid)
         data, status = praseToken(environ["QUERY_STRING"])
         user = data['account']
 
-        print("使用者 => ", user)
+        print("使用者連線 => ", user)
         print("token解碼狀態 => ", status)
-        await self.save_session(sid, {'user': user})
-        await self.emit('DataBaseChange', {'user': user}, room = "lobby", skip_sid = sid)
+        await self.save_session(sid, {'user': user}, namespace = self.namespace)
+        
+        self.enter_room(sid, 'lobby')
+        #await self.emit('DataBaseChange', {'user': user}, room = "lobby", namespace = 'main')
         #print('transport', sio.transport(sid))
     async def on_disconnect(self, sid): 
-        print("disconnected! => ", sid)
-        print("room is close")
+        print("使用者離線 => ", sid)
         self.leave_room(sid, 'lobby')
-        await self.close_room('lobby')
+        print(await self.get_session(sid))
+        #await self.close_room('lobby')
         #raise ConnectionRefusedError('authentication failed')
         
     def on_connect_error(self, sid): 
         print("connection Error! => ", sid)
 
 class MainNamespace(socketio.AsyncNamespace):
-    def __init__(self, namespace=None):
+    def __init__(self, namespace):
         super().__init__(namespace)
+        self.namespace = namespace
     async def on_DataBaseChange(self, sid, data):
         print('connect DataBaseChange', data)
-        user = await self.get_session(sid)
-        print('user',user)
+        #user = await self.get_session(sid,namespace='/')
+        print('user',sid)
         #print(f"{user['user']}進入了房間",user)
         self.enter_room(sid, 'lobby')
         print('rooms member', self.rooms(sid))
@@ -63,8 +67,8 @@ class MainNamespace(socketio.AsyncNamespace):
 class SocketIo (socketio.AsyncServer):
     def __init__(self, client_manager=None, logger=False, json=None, async_handlers=True, namespaces=None, **kwargs):
         super().__init__(client_manager, logger, json, async_handlers, namespaces, **kwargs)
-        self.register_namespace(BasicNamespace('/'))
         self.register_namespace(MainNamespace('/main'))
+        self.register_namespace(BasicNamespace('/'))
 
         
 
@@ -72,7 +76,7 @@ class SocketIo (socketio.AsyncServer):
 if __name__ == '__main__': 
     #result = praseToken("eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50IjoiYWRtaW4xIn0.mftiskKX-PAEhDVtKXI7irw9az5PG8CXvR0C7I7AWj4siousiou&EIO=4&transport=websocket")
     #print("tokenPrase result => ", result)
-    SocketIoInstance = SocketIo(async_mode='asgi', cors_allowed_origins = '*', logger=False, engineio_logger=False)
+    SocketIoInstance = SocketIo(async_mode='asgi', client_manager= RedisManager(), cors_allowed_origins = '*', logger=False, engineio_logger=False)
     uvicorn.run(App(SocketIoInstance,static_files='*/html'), host='127.0.0.1', port=5002)
 
     
