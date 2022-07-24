@@ -29,7 +29,7 @@ class RedisManager (socketio.AsyncRedisManager):
 class BasicNamespace(socketio.AsyncNamespace):
     def __init__(self, namespace=None):
         super().__init__(namespace)
-    async def on_connect(self, sid, environ, c):
+    async def on_connect(self, sid, environ):
         print("connected!", sid)
         data, status = praseToken(environ["QUERY_STRING"])
         user = data['account']
@@ -39,11 +39,11 @@ class BasicNamespace(socketio.AsyncNamespace):
         await self.save_session(sid, {'user': user})
         await self.emit('DataBaseChange', {'user': user}, room = "lobby", skip_sid = sid)
         #print('transport', sio.transport(sid))
-    def on_disconnect(self, sid): 
+    async def on_disconnect(self, sid): 
         print("disconnected! => ", sid)
         print("room is close")
         self.leave_room(sid, 'lobby')
-        self.close_room('lobby')
+        await self.close_room('lobby')
         #raise ConnectionRefusedError('authentication failed')
         
     def on_connect_error(self, sid): 

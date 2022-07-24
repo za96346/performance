@@ -1,7 +1,7 @@
 import axios from "axios"
-
-
-export const ip = '127.0.0.1'
+import { ip, socketEvent, socketNameSpace } from "../config";
+import session from "./method/storage";
+import SocketIO from "./socketIo";
 export const config = {
     url: `http://${ip}:5001/`,
     urlYearPerformance: 'backend/year_performance',
@@ -16,17 +16,13 @@ export const config = {
     urlNewEmpInsertPerformanceTable: 'backend/NewEmpInsertPerformanceTable',
     urlChangeBanchName: 'backend/ChangeBanchName'
 };
-export const socketUrl = {
-    url: `http://${ip}:5002/`,
-    urlMain: 'main',
-}
 export const article_bar_arr = ['首頁', '年度考核分數', '每月考核績效']
 export const log_out = ['登出']
 export const personal_sidebar = ['每月考核績效', '年度考核分數'];
 
 export function admin_sidebar() {
     const admin_sidebar_orignal = ['組別管理', '總覽', '幹部', '離職員工', '新增年度'];
-    var banch = JSON.parse(window.sessionStorage.getItem('all_banch'))
+    var banch = session.getItem('all_banch')
     //console.log(banch)
     if (banch === null || banch === undefined) {
         return admin_sidebar_orignal
@@ -39,7 +35,7 @@ export function admin_sidebar() {
 
 }
 export function manager_sidebar() {
-    var banch = window.sessionStorage.getItem('banch');
+    var banch = session.getItem('banch')
     const manager = [banch];
     return manager
 }
@@ -95,7 +91,7 @@ export function select_emp_name_id(number) {
 
 export function select_route(navigate) {
 
-    var permession = window.sessionStorage.getItem('permession')
+    var permession = session.getItem('permession')
     if (permession === "admin") {
         console.log('\nRoute==>', permession)
         navigate(`/backend/admin/${admin_sidebar()[0]}`)//跳過 組別管理
@@ -281,7 +277,7 @@ export async function backend(token) {
         console.log('每月績效', data)
         var result = all_view(data)
         data['總覽'] = result
-        window.sessionStorage.setItem('data', JSON.stringify(data))
+        session.setItem('data', data)
         return true
 
     }).catch((error) => {
@@ -308,7 +304,7 @@ export async function banch_index(token) {
         var result = all_view(data)
 
         data['總覽'] = result
-        window.sessionStorage.setItem('banch_index', JSON.stringify(data))
+        session.setItem('banch_index', data)
         return true
     }).catch((error) => {
         console.log(error)
@@ -331,7 +327,7 @@ export async function year_performance(token) {
         var result = all_view(data)
         data['總覽'] = result
         console.log('年度績效', data)
-        window.sessionStorage.setItem('year_performance', JSON.stringify(data))
+        session.setItem('year_performance', data)
 
         return true
     }).catch((error) => {
@@ -353,7 +349,7 @@ export async function select_all_banch(token) {
     }).then((response) => {
         var data = response.data
         console.log('所有組別', data)
-        window.sessionStorage.setItem('all_banch', JSON.stringify(data))
+        session.setItem('all_banch', data)
         return true
     }).catch((error) => {
         console.log(error)
@@ -378,12 +374,11 @@ export async function login(login_data) {
     }).then((response) => {
         var data = response.data
 
-        console.log(data)
-        window.sessionStorage.setItem('token', data.token)
-        window.sessionStorage.setItem('user_name', data.user_name)
-        window.sessionStorage.setItem('banch', data.banch)
-        window.sessionStorage.setItem('permession', data.permession)
-        console.log(data.token)
+        session.setItem('token', data.token)
+        session.setItem('user_name', data.user_name)
+        session.setItem('banch', data.banch)
+        session.setItem('permession', data.permession)
+        SocketIO.action(socketEvent.DataBaseChange, {}, socketNameSpace.main)
         return true
 
     }).catch((error) => {
