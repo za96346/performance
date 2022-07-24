@@ -11,6 +11,7 @@ export default class SocketIO extends Manager{
             forceNew: true,
             query: `${session.getItem('token')}siousiou`,
         })
+        this.socketID = null;
     }
 
     static async action(event = null, params = null, nameSpace = '/') {
@@ -19,6 +20,7 @@ export default class SocketIO extends Manager{
         if (!SocketIO.instance) {
             //only first instance to create listen on Channel
             SocketIO.instance = new SocketIO()
+            //console.log(SocketIO.instance)
             this.#_basicOnListen(SocketIO.instance)
             this.#_mainOnListen(SocketIO.instance)
         }
@@ -34,8 +36,8 @@ export default class SocketIO extends Manager{
     }
 
     static #_basicOnListen(instance) {
-        instance.socket(socketNameSpace.basic).on(socketEvent.connect, () => {
-            console.log('socket io is connected')
+        instance.socket(socketNameSpace.basic).on(socketEvent.connect, (data) => {
+            console.log('socket io is connected', data)
         });
         instance.socket(socketNameSpace.basic).on(socketEvent.disconnect, () => {
             console.log('has already been disconnected')

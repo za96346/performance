@@ -4,10 +4,11 @@ import { useState,useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { change_banch_name } from "../api";
 import { check_and_recatch_data } from "../method/method_func";
+import session from "../method/storage";
 
 const Group_manage=({data,synchronize_update,synchronize})=>{
     const {page}=useParams()
-    var token=window.sessionStorage.getItem('token')
+    var token = session.getItem('token')
 
     const {article_page}=useParams()
     const [page_data_arr,set_page_data_arr]=useState([])

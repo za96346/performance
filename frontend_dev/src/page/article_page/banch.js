@@ -4,10 +4,11 @@ import { useEffect,useState } from "react";
 import  {Return_component}  from "../backend_component/data_input";
 import { Loading } from "../backend_component/loading";
 import { New_employee } from "../backend_component/search_input";
+import session from "../method/storage";
 
 
 const Banch_page=({data,synchronize_update,synchronize})=>{
-    var permession=window.sessionStorage.getItem('permession')
+    var permession = session.getItem('permession')
     const {page}=useParams()
     const {article_page}=useParams()
     const [page_data_arr,set_page_data_arr]=useState([])

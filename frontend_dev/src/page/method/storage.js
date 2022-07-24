@@ -20,4 +20,8 @@ export default class session{
         return this.data;
     }
 
+    static clear() {
+        window.sessionStorage.clear()
+    }
+
 }

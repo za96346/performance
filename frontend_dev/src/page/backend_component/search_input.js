@@ -3,6 +3,7 @@ import { useState,useEffect } from "react"
 import { select } from "react-cookies"
 import { useParams } from "react-router-dom"
 import { admin_sidebar } from "../api"
+import session from "../method/storage"
 
 export function Search_month({search,set_search}){
 
@@ -72,8 +73,8 @@ export function Search_name({search,set_search}){
         text:'請選擇組員'
     })
     const name_arr=[]
-    var banch_index=JSON.parse(window.sessionStorage.getItem('banch_index'))
-    var permession=window.sessionStorage.getItem('permession')
+    var banch_index = session.getItem('banch_index')
+    var permession = session.getItem('permession')
     for(const data of banch_index[page]){
         permession==='admin'
         ?name_arr.push(data[2])

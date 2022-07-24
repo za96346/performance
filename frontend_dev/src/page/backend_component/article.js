@@ -13,6 +13,7 @@ import { fade_in } from "../fade_in";
 import Emp_workoff from "../article_page/emp_workoff"
 import New_performance from "./new_performance";
 import Group_manage from "../article_page/group_manage";
+import session from "../method/storage";
 
 const Article=({data,synchronize_update,synchronize})=>{
     const [article_bar_onclick,set_article_bar_onclick]=useState({
@@ -22,10 +23,10 @@ const Article=({data,synchronize_update,synchronize})=>{
 
 
 
-    const navigate=useNavigate()
-    const {page}=useParams()
-    const {article_page}=useParams()
-    var permession=window.sessionStorage.getItem('permession')
+    const navigate = useNavigate()
+    const {page} = useParams()
+    const {article_page} = useParams()
+    var permession = session.getItem('permession')
 
     function article_bar_onclick_class(index){
         if(article_bar_onclick.now_item===article_bar_arr[index]){
@@ -49,7 +50,7 @@ const Article=({data,synchronize_update,synchronize})=>{
         else{
             set_article_bar_onclick({...article_bar_onclick,now_item:article_page})
         }
-    })
+    }, [article_page])
 
 
     

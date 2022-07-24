@@ -8,6 +8,7 @@ import { useNavigate,useParams } from "react-router-dom";
 import { useEffect,useState,useCallback } from "react";
 import { sequential_search } from "./ algorithm/sequential_search";
 import { useRef } from "react";
+import session from "./method/storage";
 const Manager=()=>{
     const [synchronize,synchronize_update]=useState(false)//設定同步頁面
     const {page}=useParams()
@@ -15,7 +16,7 @@ const Manager=()=>{
     const navigate=useNavigate()
     const combine=manager_sidebar().concat(personal_sidebar,log_out)
     const [data,set_data]=useState([])
-    var account=window.sessionStorage.getItem('account')
+    var account = session.getItem('account')
 
 
     //article_bar_arr=['首頁','年度考核分數','每月考核績效']
@@ -24,11 +25,11 @@ const Manager=()=>{
 
         function identify(){
             if(page!=='登出'){
-                var year_perform=JSON.parse(window.sessionStorage.getItem('year_performance'))[page]
-                var manager_personal_year=JSON.parse(window.sessionStorage.getItem('year_performance'))['manager_personal']
+                var year_perform = session.getItem('year_performance')[page]
+                var manager_personal_year = session.getItem('year_performance')['manager_personal']
                 
-                var month_perform=JSON.parse(window.sessionStorage.getItem('data'))[page]
-                var manager_personal_month=JSON.parse(window.sessionStorage.getItem('data'))['manager_personal']
+                var month_perform = session.getItem('data')[page]
+                var manager_personal_month = session.getItem('data')['manager_personal']
                 if(article_page===article_bar_arr[1]){
                     set_data(year_perform.length>0?year_perform:[])
                 }
@@ -42,7 +43,7 @@ const Manager=()=>{
                     set_data(manager_personal_year.length>0?manager_personal_year:[])
                 }
                 else{
-                    var value=JSON.parse(window.sessionStorage.getItem('banch_index'))[page]
+                    var value = session.getItem('banch_index')[page]
                     set_data(value.length>0?value:[])
                 }
             }

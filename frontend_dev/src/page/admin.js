@@ -5,6 +5,7 @@ import { admin_sidebar, log_out, personal_sidebar, article_bar_arr } from "./api
 import { useParams, useNavigate } from "react-router-dom";
 import { useCallback, useEffect, useState } from "react";
 import { useRef } from "react";
+import session from "./method/storage";
 const Admin = () => {
     const [synchronize, synchronize_update] = useState(false)//設定同步頁面
     const { page } = useParams()
@@ -24,7 +25,7 @@ const Admin = () => {
                 if (article_page === article_bar_arr[1]) {
                     //年度
                     if(page==='總覽'){
-                        var a=JSON.parse(window.sessionStorage.getItem('year_performance'))[page]
+                        var a = session.getItem('year_performance')[page]
                         for(let a_item of a){
                             state =false
                             for(let temp_item of temp){
@@ -42,7 +43,7 @@ const Admin = () => {
                         set_data(value.length>0?value:[])
                     }
                     else{
-                        value = JSON.parse(window.sessionStorage.getItem('year_performance'))[page]
+                        value = session.getItem('year_performance')[page]
                         console.log('年度資料',value)    
                     }
 
@@ -50,7 +51,7 @@ const Admin = () => {
                 }
                 else if (article_page === article_bar_arr[2]) {
                     //每月
-                    value = JSON.parse(window.sessionStorage.getItem('data'))[page]
+                    value = session.getItem('data')[page]
                     console.log('每月資料',value)
                     set_data(value.length > 0 ? value : [])
                 }
@@ -58,7 +59,7 @@ const Admin = () => {
                 else if (page === '新增年度') {
                     //新增年度
                     value = []
-                    var obj = JSON.parse(window.sessionStorage.getItem('banch_index'))
+                    var obj = session.getItem('banch_index')
 
                     for(let key in obj){
                         var items=obj[key]
@@ -75,14 +76,14 @@ const Admin = () => {
                     set_data(value.length > 0 ? value : [])
                 }
                 else if(page==='組別管理'){
-                    value=JSON.parse(window.sessionStorage.getItem('all_banch'))
+                    value=session.getItem('all_banch')
                     console.log('group_change',value)
                     set_data(value.length > 0 ? value : [])
                 }
                 else {
                     //首頁 離職員工
                     
-                    value = JSON.parse(window.sessionStorage.getItem('banch_index'))[page]
+                    value = session.getItem('banch_index')[page]
                     console.log('首頁 離職員工資料',value,page)
                     set_data(value.length > 0 ? value : [])
                 }

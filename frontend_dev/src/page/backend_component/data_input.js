@@ -3,7 +3,7 @@ import {  useParams,useNavigate } from "react-router-dom"
 import { bubble_sorting } from "../ algorithm/bubble_sorting"
 import { fixed_title,fixed_title_emp,group_change,performance_banch_change,position_arr, select_all_banch } from "../api"
 import { rule_num_letter,rule_num,search,obj_to_arr, update, check_and_recatch_data } from "../method/method_func"
-
+import session from "../method/storage"
 
 
 export function Return_component(props){
@@ -59,7 +59,7 @@ export function Return_component(props){
         var endidx=startidx+visibleCount
         var startoffset=Top - (Top % itemSize);
         
-        console.log(startIndex,endIndex,offset)
+        //console.log(startIndex,endIndex,offset)
 
         let originStartIdx=startidx
         
@@ -68,7 +68,7 @@ export function Return_component(props){
             originStartIdx + visibleCount + bufferSize,
             arr.length
         ))
-        console.log(arr.length)
+        //console.log(arr.length)
 
     };  
 
@@ -195,12 +195,12 @@ export function Id_name(props){
     var reCatchData=useRef(false)
 
 
-    var token=window.sessionStorage.getItem('token')
+    var token = session.getItem('token')
     const {page}=useParams()
     const {article_page}=useParams()
 
     
-    var permession=window.sessionStorage.getItem('permession')
+    var permession = session.getItem('permession')
     
     const [toggle,set_toggle]=useState()
     const [bg,set_bg]=useState()
@@ -535,7 +535,7 @@ export function Id_name(props){
                         <select style={{width:'3vw'}} onInput={autoSave} name={'group'} value={value.current.group} type='text' 
                                 readOnly={page==='離職員工'?false:true}>
                             {
-                                JSON.parse(window.sessionStorage.getItem('all_banch')).map((item,index)=>{
+                                session.getItem('all_banch').map((item,index)=>{
                                     return(
                                         <option key={index}>{item}</option>
                                     )
@@ -622,7 +622,6 @@ export function Fixed_title({component_state,page_data_arr,set_page_data_arr}){
         set_page_data_arr(arr)
     }
     if(component_state===1){
-        var permession=window.sessionStorage.getItem('permession')
         return(
              <div className={'row_container'} id={'fixed_title'}>
                 <div onClick={()=>sort_fun(0,0)} style={{width:'2vw'}}>{fixed_title[0]}</div> 

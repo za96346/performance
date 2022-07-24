@@ -5,12 +5,13 @@ import { useEffect,useState,useCallback } from "react";
 import { useNavigate,useParams } from "react-router-dom";
 import { personal_sidebar,log_out } from "./api";
 import { useRef } from "react";
+import session from "./method/storage";
 const Personal=()=>{
     const [synchronize,synchronize_update]=useState(false)//設定同步頁面
     const {page}=useParams()
     const {article_page}=useParams()
     const navigate=useNavigate()
-    var permession= window.sessionStorage.getItem('permession')
+    var permession= session.getItem('permession')
     const [data,set_data]=useState([]);
 
     const combine=personal_sidebar.concat(log_out)
@@ -20,12 +21,12 @@ const Personal=()=>{
             if(page!=='登出'){
                 var value=[]
 
-                if(page===personal_sidebar[0]){
-                    value=JSON.parse(window.sessionStorage.getItem('data'))[permession]
+                if(page === personal_sidebar[0]){
+                    value = session.getItem('data')[permession]
                     set_data(value.length>0?value:[])
                 }
                 else if(page===personal_sidebar[1]){
-                    value=JSON.parse(window.sessionStorage.getItem('year_performance'))[permession]
+                    value = session.getItem('year_performance')[permession]
                     set_data(value.length>0?value:[])
                 }
             }

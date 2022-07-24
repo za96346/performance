@@ -2,6 +2,7 @@ import {BrowserRouter,Route,Routes,Link, useParams} from "react-router-dom";
 
 import Login from "./login";
 import Backend from "./backend";
+import session from "./method/storage";
 
 import { article_bar_arr,admin_sidebar } from "./api";
 
@@ -15,7 +16,7 @@ const Home=()=> {
   
   const [permession_state,set_permession_state]=useState(false)
   useEffect(()=>{
-    var token=window.sessionStorage.getItem('token')
+    var token = session.getItem('token')
     if(token){
       set_permession_state(true)
     }
@@ -25,7 +26,7 @@ const Home=()=> {
   function select_router(){
     
     if(permession_state===true){
-      var permession=window.sessionStorage.getItem('permession')
+      var permession = session.getItem('permession')
       if(permession==="admin"){
           return(<>
             <Route exact={true} path="/backend/admin/:page"element={<Backend  access={'admin'}/>}/>

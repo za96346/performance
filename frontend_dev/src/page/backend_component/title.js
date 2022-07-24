@@ -2,9 +2,10 @@ import { Fragment } from "react"
 import { useState,useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { fade_in } from "../fade_in";
+import session from "../method/storage";
 const Title=({sidebar_arr})=>{
     const {page}=useParams()
-    const permession=window.sessionStorage.getItem('permession')
+    const permession = session.getItem('permession')
     const navigate=useNavigate()
     const [style_opacity,set_style_opacity]=useState({opacity:0,transition:''})
     useEffect(()=>{

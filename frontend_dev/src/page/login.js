@@ -5,6 +5,7 @@ import { login, select_route, backend, banch_index, year_performance, select_all
 import { fade_in } from "./fade_in";
 import { Loading } from "./backend_component/loading";
 import { Login_loading } from "./backend_component/login_loadind";
+import session from "./method/storage";
 const Login = ({ set_permession_state }) => {
     const [load_in, set_load_in] = useState(false)
     const [text, set_text] = useState('登入中')
@@ -28,7 +29,7 @@ const Login = ({ set_permession_state }) => {
     const navigate = useNavigate()
 
     useEffect(() => {
-        var token = window.sessionStorage.getItem('token')
+        var token = session.getItem('token')
         if (token) { select_route(navigate) }
         else { set_permession_state(false) }
         fade_in(style0, set_style0, 0, '1s')
@@ -54,7 +55,7 @@ const Login = ({ set_permession_state }) => {
 
             set_permession_state(true)
 
-            var token = window.sessionStorage.getItem('token')
+            var token = session.getItem('token')
             var result3 = await year_performance(token)
             var result1 = await banch_index(token)
             var result2 = await backend(token)

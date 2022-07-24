@@ -7,12 +7,13 @@ import Manager from "./manager";
 import { personal_sidebar } from "./api";
 import { admin_sidebar } from "./api";
 import SocketIO from "./socketIo";
+import session from "./method/storage";
 
 const Backend=({access})=>{
     const {page}=useParams()
     const {article_page}=useParams()
-    var token=window.sessionStorage.getItem('token')
-    var permession=window.sessionStorage.getItem('permession')
+    var token = session.getItem('token')
+    var permession = session.getItem('permession')
     const navigate=useNavigate()
 
 
@@ -33,9 +34,11 @@ const Backend=({access})=>{
     }
     useEffect(()=>{
         if(page==="登出"){
-            window.sessionStorage.clear()
+            session.clear()
             navigate('/')
-            SocketIO.action('disconnect', {}, '/')
+            SocketIO.action().then((result) => {
+                result.disconnect()
+            })
         }
         else if(admin_sidebar().indexOf(page)===-1&&
                 personal_sidebar.indexOf(page)===-1){

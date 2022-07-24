@@ -2,6 +2,7 @@ import { Fragment } from "react"
 import { useState,useEffect } from "react";
 import { useNavigate,Link,NavLink, useParams } from "react-router-dom";
 import { fade_in } from "../fade_in";
+import session from "../method/storage";
 const Sidebar=({sidebar_arr,style})=>{
     const {page}=useParams()
     const navigate=useNavigate()
@@ -10,7 +11,7 @@ const Sidebar=({sidebar_arr,style})=>{
         now_item:'',
         classname:''
     })
-    var permession=window.sessionStorage.getItem('permession')
+    var permession = session.getItem('permession')
     function sidebar_onclick_class(index){
         if(sidebar_onclick.now_item===sidebar_arr[index]){
             return 'sidebar_div_onclick'
@@ -22,7 +23,7 @@ const Sidebar=({sidebar_arr,style})=>{
     useEffect(()=>{
         set_sidebar_onclick({sidebar_onclick,now_item:page})
 
-    })
+    }, [page])
     const [style_opacity,set_style_opacity]=useState({opacity:0,transition:''})
     useEffect(()=>{
         fade_in(style_opacity,set_style_opacity,600,'1.5s')

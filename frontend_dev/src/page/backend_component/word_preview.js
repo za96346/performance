@@ -3,6 +3,7 @@ import { useNavigate, useParams,useLocation } from 'react-router-dom';
 import { sequential_search } from '../ algorithm/sequential_search';
 import { intersection } from '../ algorithm/intersection';
 import Word_component from './word_component';
+import session from '../method/storage';
 
 const Word_preview=()=>{
     const {banch}=useParams()
@@ -10,7 +11,7 @@ const Word_preview=()=>{
     const {year}=useParams()
     const {month}=useParams()
     const [arr,set_arr]=useState([])
-    var permession=window.sessionStorage.getItem('permession')
+    var permession = session.getItem('permession')
 
     function identify_undefined(props){
         if(props==='undefined'){
@@ -25,7 +26,7 @@ const Word_preview=()=>{
         var result_name=[]
         var result_year=[]
         var result_month=[]
-        var data=JSON.parse(window.sessionStorage.getItem('data'))[banch]
+        var data = session.getItem('data')[banch]
         
         if(data!==undefined){
             people!=='請選擇組員'&&typeof(people)!='undefined'&&people.length>0

@@ -5,9 +5,10 @@ import { useState,useEffect, useRef } from "react"
 import { insert_performance_table } from "../api"
 import { select } from "react-cookies"
 import { check_and_recatch_data } from "../method/method_func"
+import session from "../method/storage"
 const New_performance=({data,synchronize_update,synchronize})=>{
     const {page}=useParams()
-    var token=window.sessionStorage.getItem('token')
+    var token = session.getItem('token')
     const [confirm_data,set_confirm_data]=useState([])
     const [page_data_arr,set_page_data_arr]=useState([])
     const [select_year,set_select_year]=useState('請選擇年份')

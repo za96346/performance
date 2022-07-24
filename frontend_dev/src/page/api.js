@@ -378,7 +378,7 @@ export async function login(login_data) {
         session.setItem('user_name', data.user_name)
         session.setItem('banch', data.banch)
         session.setItem('permession', data.permession)
-        SocketIO.action(socketEvent.DataBaseChange, {}, socketNameSpace.main)
+        SocketIO.action()
         return true
 
     }).catch((error) => {

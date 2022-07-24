@@ -1,4 +1,5 @@
 import { banch_index,backend,year_performance,insert_banch_table, updata_performance_table, new_emp_insert_performance_table, select_all_banch } from "../api"
+import session from "./storage"
 export async function check_and_recatch_data(token,synchronize_update,sec){
     //負責設定同步畫面及同步抓取資料
     var result1=await banch_index(token)
@@ -56,11 +57,11 @@ export async function search(arr,item_index,new_item,reCatchData,synchronize_upd
             }
         }
 
-        var data=JSON.parse(window.sessionStorage.getItem('banch_index'))
+        var data = session.getItem('banch_index')
         data[page]=temp
             
-        window.sessionStorage.setItem('banch_index',JSON.stringify(data))
-        var new_data=JSON.parse(window.sessionStorage.getItem('banch_index'))[page]
+        session.setItem('banch_index',data)
+        var new_data = session.getItem('banch_index')[page]
         set_page_data_arr([...new_data,['+']])
         setTimeout(()=>{
             set_new_emp('已儲存變更')
@@ -70,7 +71,7 @@ export async function search(arr,item_index,new_item,reCatchData,synchronize_upd
 
 export async function update(new_item,set_new_emp){
     //function update 更新 performance_per_month的資料
-    var token=window.sessionStorage.getItem('token')
+    var token = session.getItem('token')
     var result1=await updata_performance_table(new_item,token)
     var result2= await backend(token)
     var result3=await year_performance(token)
@@ -87,7 +88,7 @@ export async function check_arr(arr,reCatchData,synchronize_update){
     //當資料填完整後就request api
     //arr=[帳號,密碼,名字,組別,編號,開始日期,職位權限,工作狀態]
     var count=0
-    var token=window.sessionStorage.getItem('token')
+    var token = session.getItem('token')
     for(var data of arr){
         if(data!==''){
             count+=1

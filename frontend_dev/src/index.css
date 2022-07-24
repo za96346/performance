@@ -321,7 +321,7 @@ select{
     background-color: rgb(175, 249, 252);
     color: rgb(65, 49, 49);
 }
-
+/*
 a::before{
     content: '';
     background-color: rgba(140, 219, 226,0);
@@ -367,6 +367,7 @@ a:hover::after{
     right: 80%;
     background-color: rgb(255, 255, 255);
 }
+*/
 
 
 .title{
