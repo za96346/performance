@@ -213,19 +213,20 @@ export function Id_name(props){
             //每月考核績效
 
             value.current={
-                id:item[0]||'',
-                name:item[1]||'',
-                goal:item[2]||'',
-                account:item[3],
-                year:parseInt(item[4])||0,
-                month:parseInt(item[5])||0,
-                attitude:parseInt(item[6])||0,
-                efficient:parseInt(item[7])||0,
-                professional:parseInt(item[8])||0,
-                award:(item[6]+item[7]+item[8])*100||0,
-                describes:item[9]||'',
-                be_late:parseInt(item[10])||0,
-                day_off_not_on_rule:parseInt(item[11])||0
+                id: item[0] || '',
+                name: item[1] || '',
+                goal: item[2] || '',
+                account: item[3],
+                year: parseInt(item[4]) || 0,
+                month: parseInt(item[5]) || 0,
+                attitude: parseInt(item[6]) || 0,
+                efficient: parseInt(item[7]) || 0,
+                professional: parseInt(item[8]) || 0,
+                award: (item[6]+item[7]+item[8]) * 100 || 0,
+                describes: item[9] || '',
+                be_late: parseInt(item[10]) || 0,
+                day_off_not_on_rule: parseInt(item[11]) || 0,
+                banch: item[12] || ''
             }
         }
         else if(component_state===4){

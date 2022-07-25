@@ -71,6 +71,7 @@ export async function search(arr,item_index,new_item,reCatchData,synchronize_upd
 
 export async function update(new_item,set_new_emp){
     //function update 更新 performance_per_month的資料
+    console.log('new_item', new_item)
     var token = session.getItem('token')
     var result1=await updata_performance_table(new_item,token)
     var result2= await backend(token)

@@ -54,6 +54,10 @@ const Backend=({access})=>{
 
     })
 
+    useEffect(() => {
+        SocketIO.action()
+    }, [])
+
     return(
         <Fragment>
             {

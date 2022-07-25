@@ -8,6 +8,19 @@ from backend import token_decoding
 #app = socketio.ASGIApp(sio, static_files={
  #   '/': 'app.html',
 #})
+
+socketEvent = {
+    'connect': 'connect',
+    'disconnect': 'disconnect',
+    'DataBaseChange': 'DataBaseChange',
+    'change_banch_name': 'change_banch_name',
+    'performance_banch_change': 'performance_banch_change',
+    'group_change': 'group_change',
+    'updata_performance_table': 'updata_performance_table',
+    'new_emp_insert_performance_table': 'new_emp_insert_performance_table',
+    'insert_performance_table': 'insert_performance_table'
+}
+
 def praseToken(token):
     #因為"QUERY_STRING" 自帶尾巴 所以要把尾巴處理掉
     letter = "siou"
@@ -31,10 +44,9 @@ class BasicNamespace(socketio.AsyncNamespace):
         super().__init__(namespace)
         self.namespace = namespace
     async def on_connect(self, sid, environ):
-        print("connected!", sid)
         data, status = praseToken(environ["QUERY_STRING"])
         user = data['account']
-
+        print("connected!", sid)
         print("使用者連線 => ", user)
         print("token解碼狀態 => ", status)
         await self.save_session(sid, {'user': user}, namespace = self.namespace)
@@ -63,6 +75,26 @@ class MainNamespace(socketio.AsyncNamespace):
         #print(f"{user['user']}進入了房間",user)
         self.enter_room(sid, 'lobby')
         print('rooms member', self.rooms(sid))
+    async def on_change_banch_name(self, sid, data):
+        print('connect change_banch_name', data)
+        print('user',sid)
+    async def on_performance_banch_change(self, sid, data):
+        print('connect performance_banch_change', data)
+        print('user',sid)
+    async def on_group_change(self, sid, data):
+        print('connect group_change', data)
+        print('user',sid)
+    async def on_updata_performance_table(self, sid, data):
+        #data[3] => account
+        #data[12] => banch
+        print('connect updata_performance_table', data)
+        print('user',sid)
+    async def on_new_emp_insert_performance_table(self, sid, data):
+        print('connect new_emp_insert_performance_table', data)
+        print('user',sid)
+    async def on_insert_performance_table(self, sid, data):
+        print('connect insert_performance_table', data)
+        print('user',sid)
 
 class SocketIo (socketio.AsyncServer):
     def __init__(self, client_manager=None, logger=False, json=None, async_handlers=True, namespaces=None, **kwargs):

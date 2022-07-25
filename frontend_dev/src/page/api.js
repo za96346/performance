@@ -122,6 +122,7 @@ export async function change_banch_name(token, data) {
         }
     }).then((response) => {
         console.log(response)
+        SocketIO.action(socketEvent.change_banch_name, data, socketNameSpace.main)
         return response.data
     }).catch((error) => {
         console.log(error)
@@ -142,6 +143,7 @@ export async function performance_banch_change(token, data) {
             'Access-Control-Allow-Origin': '*'
         }
     }).then((response) => {
+        SocketIO.action(socketEvent.performance_banch_change, data, socketNameSpace.main)
         console.log(response)
         return response.data
     }).catch((error) => {
@@ -164,6 +166,7 @@ export async function group_change(token, data) {
             'Access-Control-Allow-Origin': '*'
         }
     }).then((response) => {
+        SocketIO.action(socketEvent.group_change, data, socketNameSpace.main)
         console.log(response)
         return true
     }).catch((error) => {
@@ -185,6 +188,7 @@ export async function updata_performance_table(data, token) {
             'Access-Control-Allow-Origin': '*'
         }
     }).then((response) => {
+        SocketIO.action(socketEvent.updata_performance_table, data, socketNameSpace.main)
         console.log(response)
         return true
     }).catch((error) => {
@@ -207,6 +211,7 @@ export async function new_emp_insert_performance_table(token, data) {
         }
 
     }).then((response) => {
+        SocketIO.action(socketEvent.new_emp_insert_performance_table, data, socketNameSpace.main)
         console.log('NewEmpInsertPerformanceTable', response)
         return response.data
     }).catch((error) => {
@@ -216,6 +221,7 @@ export async function new_emp_insert_performance_table(token, data) {
 }
 
 export async function insert_performance_table(token, data) {
+    console.log("data of insert_performance_table", data)
     return await axios({
         method: 'POST',
         url: config.url + config.urlInsertPerformanceTable,
@@ -229,6 +235,7 @@ export async function insert_performance_table(token, data) {
         }
 
     }).then((response) => {
+        SocketIO.action(socketEvent.insert_performance_table, data, socketNameSpace.main)
         console.log('InsertPerformanceTable', response)
         return response.data
     }).catch((error) => {

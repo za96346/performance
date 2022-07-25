@@ -365,7 +365,8 @@ def select_performance_personal(account):
                             performance_per_month.`professional`,
                             performance_per_month.`directions`,
                             ifnull(performance_per_month.`be_late`,0),
-                            ifnull(performance_per_month.`day_off_not_on_rule`,0)
+                            ifnull(performance_per_month.`day_off_not_on_rule`,0),
+                            performance_per_month.`banch`
                                 from `performance_per_month` 
                                     left join  `user` on
                                         user.`account`=performance_per_month.`account`
@@ -396,7 +397,8 @@ def select_performance_manager(banch,state):
                             performance_per_month.`professional`,
                             performance_per_month.`directions`,
                             ifnull(performance_per_month.`be_late`,0),
-                            ifnull(performance_per_month.`day_off_not_on_rule`,0)
+                            ifnull(performance_per_month.`day_off_not_on_rule`,0),
+                            performance_per_month.`banch`
                                 from `performance_per_month` 
                                     inner join  `user` on
                                         user.`account`=performance_per_month.`account`
@@ -433,7 +435,8 @@ def select_performance_admin(banch,state):
                             performance_per_month.`professional`,
                             performance_per_month.`directions`,
                             ifnull(performance_per_month.`be_late`,0),
-                            ifnull(performance_per_month.`day_off_not_on_rule`,0)
+                            ifnull(performance_per_month.`day_off_not_on_rule`,0),
+                            performance_per_month.`banch`
                                 from `performance_per_month` 
                                     inner join  `user` on
                                         user.`account`=performance_per_month.`account`
@@ -464,7 +467,8 @@ def select_performance_admin_select_manager():
                             performance_per_month.`professional`,
                             performance_per_month.`directions`,
                             ifnull(performance_per_month.`be_late`,0),
-                            ifnull(performance_per_month.`day_off_not_on_rule`,0)
+                            ifnull(performance_per_month.`day_off_not_on_rule`,0),
+                            performance_per_month.`banch`
                                 from `performance_per_month` 
                                     inner join  `user` on
                                         user.`account`=performance_per_month.`account`
@@ -495,7 +499,8 @@ def select_performance_admin_off_work(state):
                             performance_per_month.`professional`,
                             performance_per_month.`directions`,
                             ifnull(performance_per_month.`be_late`,0),
-                            ifnull(performance_per_month.`day_off_not_on_rule`,0)
+                            ifnull(performance_per_month.`day_off_not_on_rule`,0),
+                            performance_per_month.`banch`
                                 from `performance_per_month` 
                                     inner join  `user` on
                                         user.`account`=performance_per_month.`account`
