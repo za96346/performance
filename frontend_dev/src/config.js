@@ -1,4 +1,4 @@
-export const ip = '111.253.175.193';
+export const ip = '172.21.1.51';
 export const socketUrl = {
     url: `http://${ip}:5002`,
     urlMain: '/main',

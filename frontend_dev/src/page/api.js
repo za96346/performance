@@ -3,7 +3,7 @@ import { ip, socketEvent, socketNameSpace } from "../config";
 import session from "./method/storage";
 import SocketIO from "./socketIo";
 export const config = {
-    url: `http://${ip}:5001/`,
+    url: `http://${ip}:5000/`,
     urlYearPerformance: 'backend/year_performance',
     urlBanchIndex: 'backend/banch_index',
     urlBackEnd: 'backend',
