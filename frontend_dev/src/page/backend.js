@@ -36,9 +36,9 @@ const Backend=({access})=>{
         if(page==="登出"){
             session.clear()
             navigate('/')
-            SocketIO.action().then((result) => {
-                result.disconnect()
-            })
+            // SocketIO.action().then((result) => {
+            //     result.disconnect()
+            // })
         }
         else if(admin_sidebar().indexOf(page)===-1&&
                 personal_sidebar.indexOf(page)===-1){

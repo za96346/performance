@@ -49,9 +49,6 @@ export default class SocketIO extends Manager{
     }
 
     static #_mainOnListen(instance) {
-        instance.socket(socketNameSpace.main).on(socketEvent.DataBaseChange, (data) => {
-            console.log('DataBaseChange data =>', data)
-        })
         instance.socket(socketNameSpace.main).on(socketEvent.change_banch_name, (data) => {
             console.log('change_banch_name data =>', data)
         })

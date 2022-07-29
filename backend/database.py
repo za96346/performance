@@ -141,9 +141,9 @@ def select_user_name(account):
     cursor.execute(f"select `name` from `user`where `account`='{account}';")
     data = cursor.fetchall()
     #print('\n------------------------select_user_name____________________________')
-    print('user name', data)
+    #print('user name', data)
     data = return_tuple_to_list(data)
-    print('user name transfer after ==>', data[0])
+    #print('user name transfer after ==>', data[0])
     cursor.close()
     connection.close()
     return data[0]
@@ -268,7 +268,7 @@ def select_user_emp_id(account):
     cursor.execute(f"select `emp_id` from `user` where `account`='{account}';")
     data = cursor.fetchall()
     #print('\n------------------------select_user_emp_id____________________________')
-    print(data)
+    #print(data)
     cursor.close()
     connection.close()
     data = return_tuple_to_single(data)
@@ -675,7 +675,7 @@ def updata_to_table_user_group(data):
 
 def update_or_insert_to_change_banch_name(data):
     #data=[[更改前的組別名稱,更改後的組別名稱],[更改前的組別名稱,更改後的組別名稱]....]
-    print(data,'\n')
+    #print(data,'\n')
     connection = __init__()
     cursor = connection.cursor()
     cursor.execute('use `dajia`;')
@@ -683,7 +683,7 @@ def update_or_insert_to_change_banch_name(data):
         if i[0]!='新增':
             if i[0]!=i[1]:
                 
-                print(i)
+                #print(i)
                 cursor.execute(f'''
                         update `performance_per_month` set
                             `banch`='{i[1]}'
@@ -734,7 +734,7 @@ def update_to_table_performance_per_month(data):
 
 def update_performance_who_change_banch(data):
     #data=[帳號,年,月,要換的組別]
-    print(data)
+    #print(data)
     connection = __init__()
     cursor = connection.cursor()
     cursor.execute('use `dajia`;')

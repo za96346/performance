@@ -1,4 +1,4 @@
-export const ip = '127.0.0.1';
+export const ip = '111.253.175.193';
 export const socketUrl = {
     url: `http://${ip}:5002`,
     urlMain: '/main',
@@ -10,7 +10,6 @@ export const socketNameSpace = {
 export const socketEvent = {
     connect: 'connect',
     disconnect: 'disconnect',
-    DataBaseChange: 'DataBaseChange',
     change_banch_name: 'change_banch_name',
     performance_banch_change: 'performance_banch_change',
     group_change: 'group_change',

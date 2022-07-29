@@ -1794,3 +1794,90 @@ AttributeError: 'CMySQLCursor' object has no attribute 'commit'
 [2022-07-24 20:17:59 +0800] [75185] [WARNING] Worker with pid 8990 was terminated due to signal 9
 [2022-07-24 20:17:59 +0800] [75185] [WARNING] Worker with pid 9003 was terminated due to signal 9
 [2022-07-24 20:17:59 +0800] [75185] [WARNING] Worker with pid 9001 was terminated due to signal 9
+[2022-07-28 03:57:47 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:29636)
+[2022-07-28 03:57:47 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:29638)
+[2022-07-28 03:57:47 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:29643)
+[2022-07-28 03:57:47 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:29644)
+[2022-07-28 03:57:47 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:29645)
+[2022-07-28 03:57:47 +0800] [29619] [WARNING] Worker with pid 29643 was terminated due to signal 9
+[2022-07-28 08:55:29 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:29633)
+[2022-07-28 08:55:29 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:29634)
+[2022-07-28 08:55:29 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:29635)
+[2022-07-28 08:55:29 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:29637)
+[2022-07-28 08:55:29 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:29639)
+[2022-07-28 08:55:29 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:29640)
+[2022-07-28 08:55:29 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:29641)
+[2022-07-28 08:55:29 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:29642)
+[2022-07-28 08:55:29 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:29646)
+[2022-07-28 08:55:29 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:29647)
+[2022-07-28 08:55:29 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:29648)
+[2022-07-28 08:55:29 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:29649)
+[2022-07-28 08:55:29 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:41288)
+[2022-07-28 08:55:29 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:41289)
+[2022-07-28 08:55:29 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:41290)
+[2022-07-28 08:55:29 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:41291)
+[2022-07-28 08:55:29 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:41292)
+[2022-07-28 08:55:29 +0800] [29619] [WARNING] Worker with pid 29649 was terminated due to signal 9
+[2022-07-28 08:55:29 +0800] [29619] [WARNING] Worker with pid 29641 was terminated due to signal 9
+[2022-07-28 08:55:29 +0800] [29619] [WARNING] Worker with pid 29639 was terminated due to signal 9
+[2022-07-28 08:55:29 +0800] [29619] [WARNING] Worker with pid 29635 was terminated due to signal 9
+[2022-07-28 08:55:29 +0800] [29619] [WARNING] Worker with pid 29633 was terminated due to signal 9
+[2022-07-28 08:55:29 +0800] [29619] [WARNING] Worker with pid 29642 was terminated due to signal 9
+[2022-07-28 08:55:29 +0800] [29619] [WARNING] Worker with pid 41288 was terminated due to signal 9
+[2022-07-28 08:55:29 +0800] [29619] [WARNING] Worker with pid 41289 was terminated due to signal 9
+[2022-07-28 08:55:29 +0800] [29619] [WARNING] Worker with pid 41292 was terminated due to signal 9
+[2022-07-28 08:55:29 +0800] [29619] [WARNING] Worker with pid 41291 was terminated due to signal 9
+[2022-07-28 08:55:29 +0800] [29619] [WARNING] Worker with pid 41290 was terminated due to signal 9
+[2022-07-28 08:55:29 +0800] [29619] [WARNING] Worker with pid 29647 was terminated due to signal 9
+[2022-07-28 08:55:29 +0800] [29619] [WARNING] Worker with pid 29637 was terminated due to signal 9
+[2022-07-28 08:55:29 +0800] [29619] [WARNING] Worker with pid 29634 was terminated due to signal 9
+[2022-07-28 08:55:29 +0800] [29619] [WARNING] Worker with pid 29640 was terminated due to signal 9
+[2022-07-28 08:55:29 +0800] [29619] [WARNING] Worker with pid 29648 was terminated due to signal 9
+[2022-07-28 08:56:09 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:44580)
+[2022-07-28 09:06:27 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:44581)
+[2022-07-28 09:06:27 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:44582)
+[2022-07-28 09:06:27 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:44583)
+[2022-07-28 09:06:27 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:44584)
+[2022-07-28 09:06:27 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:44585)
+[2022-07-28 09:06:27 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:44586)
+[2022-07-28 09:06:27 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:44587)
+[2022-07-28 09:06:27 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:44588)
+[2022-07-28 09:06:27 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:44589)
+[2022-07-28 09:06:27 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:44590)
+[2022-07-28 09:06:27 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:44591)
+[2022-07-28 09:06:27 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:44592)
+[2022-07-28 09:06:27 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:44593)
+[2022-07-28 09:06:27 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:44594)
+[2022-07-28 09:06:27 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:44595)
+[2022-07-28 09:06:27 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:44596)
+[2022-07-28 09:06:27 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:44598)
+[2022-07-28 09:06:27 +0800] [29619] [WARNING] Worker with pid 44595 was terminated due to signal 9
+[2022-07-28 09:06:27 +0800] [29619] [WARNING] Worker with pid 44594 was terminated due to signal 9
+[2022-07-28 09:06:27 +0800] [29619] [WARNING] Worker with pid 44593 was terminated due to signal 9
+[2022-07-28 09:06:27 +0800] [29619] [WARNING] Worker with pid 44592 was terminated due to signal 9
+[2022-07-28 09:06:27 +0800] [29619] [WARNING] Worker with pid 44591 was terminated due to signal 9
+[2022-07-28 09:06:27 +0800] [29619] [WARNING] Worker with pid 44590 was terminated due to signal 9
+[2022-07-28 09:06:27 +0800] [29619] [WARNING] Worker with pid 44588 was terminated due to signal 9
+[2022-07-28 09:06:27 +0800] [29619] [WARNING] Worker with pid 44587 was terminated due to signal 9
+[2022-07-28 09:06:27 +0800] [29619] [WARNING] Worker with pid 44586 was terminated due to signal 9
+[2022-07-28 09:06:27 +0800] [29619] [WARNING] Worker with pid 44585 was terminated due to signal 9
+[2022-07-28 09:06:27 +0800] [29619] [WARNING] Worker with pid 44584 was terminated due to signal 9
+[2022-07-28 09:06:27 +0800] [29619] [WARNING] Worker with pid 44583 was terminated due to signal 9
+[2022-07-28 09:06:27 +0800] [29619] [WARNING] Worker with pid 44582 was terminated due to signal 9
+[2022-07-28 09:06:27 +0800] [29619] [WARNING] Worker with pid 44581 was terminated due to signal 9
+[2022-07-28 09:06:27 +0800] [29619] [WARNING] Worker with pid 44598 was terminated due to signal 9
+[2022-07-28 09:10:25 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:44637)
+[2022-07-28 09:10:25 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:44638)
+[2022-07-28 09:10:25 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:44639)
+[2022-07-28 09:10:25 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:44640)
+[2022-07-28 09:10:25 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:44641)
+[2022-07-28 09:10:25 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:44642)
+[2022-07-28 09:10:25 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:44643)
+[2022-07-28 09:10:25 +0800] [29619] [CRITICAL] WORKER TIMEOUT (pid:44644)
+[2022-07-28 09:10:25 +0800] [29619] [WARNING] Worker with pid 44643 was terminated due to signal 9
+[2022-07-28 09:10:25 +0800] [29619] [WARNING] Worker with pid 44641 was terminated due to signal 9
+[2022-07-28 09:10:25 +0800] [29619] [WARNING] Worker with pid 44640 was terminated due to signal 9
+[2022-07-28 09:10:25 +0800] [29619] [WARNING] Worker with pid 44639 was terminated due to signal 9
+[2022-07-28 09:10:25 +0800] [29619] [WARNING] Worker with pid 44638 was terminated due to signal 9
+[2022-07-28 09:10:25 +0800] [29619] [WARNING] Worker with pid 44637 was terminated due to signal 9
+[2022-07-28 09:10:25 +0800] [29619] [WARNING] Worker with pid 44644 was terminated due to signal 9

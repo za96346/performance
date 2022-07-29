@@ -1,7 +1,14 @@
 
+from cgi import print_arguments
 import socketio
 import uvicorn
+import os
+from package.dotenv import load_dotenv
 from backend import token_decoding
+from database import select_banch_all, select_user_banch,select_banch
+from redisdb import redisdb
+import time
+from log import log
 #Sanic是Python 3.5及更新版本的一個非常高效的異步web伺服器。
 #sio = socketio.AsyncServer(async_mode='asgi', cors_allowed_origins = '*', logger=False, engineio_logger=False)
 #mgr = socketio.AsyncRedisManager('redis://127.0.0.1:5002', write_only = True)
@@ -44,20 +51,13 @@ class BasicNamespace(socketio.AsyncNamespace):
         super().__init__(namespace)
         self.namespace = namespace
     async def on_connect(self, sid, environ):
-        data, status = praseToken(environ["QUERY_STRING"])
-        user = data['account']
-        print("connected!", sid)
-        print("使用者連線 => ", user)
-        print("token解碼狀態 => ", status)
-        await self.save_session(sid, {'user': user}, namespace = self.namespace)
-        
-        self.enter_room(sid, 'lobby')
+        pass
+
         #await self.emit('DataBaseChange', {'user': user}, room = "lobby", namespace = 'main')
         #print('transport', sio.transport(sid))
     async def on_disconnect(self, sid): 
-        print("使用者離線 => ", sid)
+        #print("使用者離線 => ", sid)
         self.leave_room(sid, 'lobby')
-        print(await self.get_session(sid))
         #await self.close_room('lobby')
         #raise ConnectionRefusedError('authentication failed')
         
@@ -67,31 +67,82 @@ class BasicNamespace(socketio.AsyncNamespace):
 class MainNamespace(socketio.AsyncNamespace):
     def __init__(self, namespace):
         super().__init__(namespace)
+        load_dotenv()
+        host = os.getenv('REDIS_DB_HOST')
+        port = int(os.getenv('REDIS_DB_PORT'))
         self.namespace = namespace
-    async def on_DataBaseChange(self, sid, data):
-        print('connect DataBaseChange', data)
-        #user = await self.get_session(sid,namespace='/')
-        print('user',sid)
-        #print(f"{user['user']}進入了房間",user)
-        self.enter_room(sid, 'lobby')
-        print('rooms member', self.rooms(sid))
+        self.redisDB = redisdb(host, port, db = 0)
+
+    @staticmethod
+    async def printData(self, sid, data):
+        print('-------------------------------------------------------------------------------------------------')
+        print('get request data', data)
+        print('user sid',sid)
+        print('userROOM =>', self.rooms(sid))
+        return self.rooms(sid)
+    
+    async def on_connect(self, sid, environ):
+        data, status = praseToken(environ["QUERY_STRING"])
+        user = data['account']
+        userBanch = select_user_banch(user);
+        userPermession = select_banch(user);
+        logInTime = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())
+        print("token解碼狀態 => ", status)
+        print("connected!", sid)
+        print("使用者連線 => ", user)
+        print('部門 => ', userBanch)
+
+
+        self.redisDB.saveUser({
+            'user': user,
+            'banch': userBanch, 
+            'permession': userPermession,
+            'sid': sid,
+            'connectDate': logInTime
+        })
+
+        log.write(f'使用者{user}  登入時間{logInTime}')
+        
+        self.enter_room(sid, userBanch)
+        self.enter_room(sid, userPermession)
+        self.enter_room(sid, user)
+        for item in self.rooms(sid):
+            if item != sid:
+                self.leave_room(sid, item)
+                self.redisDB.leaveRoom(sid)
+                print('進入房間 => ', item)
+
+    async def on_disconnect(self, sid):
+        print("使用者離線 => ", sid)
+        for item in self.rooms(sid):
+            if item != sid:
+                self.leave_room(sid, item)
+                self.redisDB.leaveRoom(sid)
+                print('離開房間 => ', item)
+
     async def on_change_banch_name(self, sid, data):
         print('connect change_banch_name', data)
         print('user',sid)
+
     async def on_performance_banch_change(self, sid, data):
         print('connect performance_banch_change', data)
         print('user',sid)
+
     async def on_group_change(self, sid, data):
         print('connect group_change', data)
         print('user',sid)
+
     async def on_updata_performance_table(self, sid, data):
         #data[3] => account
         #data[12] => banch
-        print('connect updata_performance_table', data)
-        print('user',sid)
+        userRoom = await MainNamespace.printData(self, sid, data)
+        for room in userRoom:
+            await self.emit('updata_performance_table', 'update', room = room, skip_sid = sid,namespace = self.namespace)
+
     async def on_new_emp_insert_performance_table(self, sid, data):
         print('connect new_emp_insert_performance_table', data)
         print('user',sid)
+
     async def on_insert_performance_table(self, sid, data):
         print('connect insert_performance_table', data)
         print('user',sid)
@@ -106,10 +157,11 @@ class SocketIo (socketio.AsyncServer):
 
 
 if __name__ == '__main__': 
-    #result = praseToken("eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50IjoiYWRtaW4xIn0.mftiskKX-PAEhDVtKXI7irw9az5PG8CXvR0C7I7AWj4siousiou&EIO=4&transport=websocket")
-    #print("tokenPrase result => ", result)
-    SocketIoInstance = SocketIo(async_mode='asgi', client_manager= RedisManager(), cors_allowed_origins = '*', logger=False, engineio_logger=False)
-    uvicorn.run(App(SocketIoInstance,static_files='*/html'), host='127.0.0.1', port=5002)
+    load_dotenv()
+    host = os.getenv('SOCKET_IO_HOST')
+    port = int(os.getenv('SOCKET_IO_PORT'))
+    SocketIoInstance = SocketIo(async_mode='asgi', cors_allowed_origins = '*', logger=False, engineio_logger=False)
+    uvicorn.run(App(SocketIoInstance,static_files='*/html'), host = host, port = port)
 
     
 

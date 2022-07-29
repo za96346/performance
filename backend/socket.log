@@ -1,0 +1,8 @@
+INFO 2022-07-29 14:25:20,255 - Started server process [16419]
+INFO 2022-07-29 14:25:20,256 - Waiting for application startup.
+INFO 2022-07-29 14:25:20,256 - Application startup complete.
+INFO 2022-07-29 14:25:20,266 - Uvicorn running on http://127.0.0.1:5002 (Press CTRL+C to quit)
+INFO 2022-07-29 14:26:32,240 - Shutting down
+INFO 2022-07-29 14:26:32,347 - Waiting for application shutdown.
+INFO 2022-07-29 14:26:32,349 - Application shutdown complete.
+INFO 2022-07-29 14:26:32,349 - Finished server process [16419]
