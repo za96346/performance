@@ -1881,3 +1881,42 @@ AttributeError: 'CMySQLCursor' object has no attribute 'commit'
 [2022-07-28 09:10:25 +0800] [29619] [WARNING] Worker with pid 44638 was terminated due to signal 9
 [2022-07-28 09:10:25 +0800] [29619] [WARNING] Worker with pid 44637 was terminated due to signal 9
 [2022-07-28 09:10:25 +0800] [29619] [WARNING] Worker with pid 44644 was terminated due to signal 9
+[2022-07-30 16:34:56 +0800] [36225] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2022-07-30 16:34:56 +0800] [36225] [ERROR] Retrying in 1 second.
+[2022-07-30 16:34:57 +0800] [36225] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2022-07-30 16:34:57 +0800] [36225] [ERROR] Retrying in 1 second.
+[2022-07-30 16:34:58 +0800] [36225] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2022-07-30 16:34:58 +0800] [36225] [ERROR] Retrying in 1 second.
+[2022-07-30 16:34:59 +0800] [36225] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2022-07-30 16:34:59 +0800] [36225] [ERROR] Retrying in 1 second.
+[2022-07-30 16:35:00 +0800] [36225] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2022-07-30 16:35:00 +0800] [36225] [ERROR] Retrying in 1 second.
+[2022-07-30 16:35:01 +0800] [36225] [ERROR] Can't connect to ('0.0.0.0', 5000)
+[2022-07-30 16:39:00 +0800] [36441] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2022-07-30 16:39:00 +0800] [36441] [ERROR] Retrying in 1 second.
+[2022-07-30 16:39:01 +0800] [36441] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2022-07-30 16:39:01 +0800] [36441] [ERROR] Retrying in 1 second.
+[2022-07-30 16:39:02 +0800] [36441] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2022-07-30 16:39:02 +0800] [36441] [ERROR] Retrying in 1 second.
+[2022-07-30 16:39:03 +0800] [36441] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2022-07-30 16:39:03 +0800] [36441] [ERROR] Retrying in 1 second.
+[2022-07-30 16:39:04 +0800] [36441] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2022-07-30 16:39:04 +0800] [36441] [ERROR] Retrying in 1 second.
+[2022-07-30 16:39:05 +0800] [36441] [ERROR] Can't connect to ('0.0.0.0', 5000)
+[2022-07-30 16:46:13 +0800] [36554] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2022-07-30 16:46:13 +0800] [36554] [ERROR] Retrying in 1 second.
+[2022-07-30 16:46:14 +0800] [36554] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2022-07-30 16:46:14 +0800] [36554] [ERROR] Retrying in 1 second.
+[2022-07-30 16:46:15 +0800] [36554] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2022-07-30 16:46:15 +0800] [36554] [ERROR] Retrying in 1 second.
+[2022-07-30 16:46:16 +0800] [36554] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2022-07-30 16:46:16 +0800] [36554] [ERROR] Retrying in 1 second.
+[2022-07-30 16:46:17 +0800] [36554] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2022-07-30 16:46:17 +0800] [36554] [ERROR] Retrying in 1 second.
+[2022-07-30 16:46:18 +0800] [36554] [ERROR] Can't connect to ('0.0.0.0', 5000)
+[2022-07-30 16:59:07 +0800] [37146] [ERROR] Retrying in 1 second.
+[2022-07-30 16:59:38 +0800] [37146] [ERROR] Retrying in 1 second.
+[2022-07-30 17:00:09 +0800] [37146] [ERROR] Retrying in 1 second.
+[2022-07-30 17:00:40 +0800] [37146] [ERROR] Retrying in 1 second.
+[2022-07-30 17:01:11 +0800] [37146] [ERROR] Retrying in 1 second.
+[2022-07-30 17:01:12 +0800] [37146] [ERROR] Can't connect to ('0.0.0.05001', 8000)

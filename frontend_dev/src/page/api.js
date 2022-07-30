@@ -2,20 +2,7 @@ import axios from "axios"
 import { ip, socketEvent, socketNameSpace } from "../config";
 import session from "./method/storage";
 import SocketIO from "./socketIo";
-export const config = {
-    url: `http://${ip}:5000/`,
-    urlYearPerformance: 'backend/year_performance',
-    urlBanchIndex: 'backend/banch_index',
-    urlBackEnd: 'backend',
-    urlInsertBanchTable: 'backend/InsertBanchTable',
-    urlInsertPerformanceTable: 'backend/InsertPerformanceTable',
-    urlUpdatePerformance: 'backend/UpdatePerformanceTable',
-    urlGroupChange: 'backend/GroupChange',
-    urlSelectAllBanch: 'backend/SelectAllBanch',
-    urlPerformanceBanchChange: 'backend/PerformanceBanchChange',
-    urlNewEmpInsertPerformanceTable: 'backend/NewEmpInsertPerformanceTable',
-    urlChangeBanchName: 'backend/ChangeBanchName'
-};
+import { config } from "../config";
 export const article_bar_arr = ['首頁', '年度考核分數', '每月考核績效']
 export const log_out = ['登出']
 export const personal_sidebar = ['每月考核績效', '年度考核分數'];

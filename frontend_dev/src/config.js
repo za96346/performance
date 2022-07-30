@@ -1,4 +1,20 @@
-export const ip = '172.21.1.51';
+// export const ip = '172.21.1.51';
+export const ip = '127.0.0.1';
+
+export const config = {
+    url: `http://${ip}:5001/`,
+    urlYearPerformance: 'backend/year_performance',
+    urlBanchIndex: 'backend/banch_index',
+    urlBackEnd: 'backend',
+    urlInsertBanchTable: 'backend/InsertBanchTable',
+    urlInsertPerformanceTable: 'backend/InsertPerformanceTable',
+    urlUpdatePerformance: 'backend/UpdatePerformanceTable',
+    urlGroupChange: 'backend/GroupChange',
+    urlSelectAllBanch: 'backend/SelectAllBanch',
+    urlPerformanceBanchChange: 'backend/PerformanceBanchChange',
+    urlNewEmpInsertPerformanceTable: 'backend/NewEmpInsertPerformanceTable',
+    urlChangeBanchName: 'backend/ChangeBanchName'
+};
 export const socketUrl = {
     url: `http://${ip}:5002`,
     urlMain: '/main',

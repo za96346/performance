@@ -2,14 +2,12 @@ from backend import app
 import sys,os
 sys.path.append(os.path.dirname(os.path.abspath(__file__))+'/package')
 sys.path.append(os.path.dirname(os.path.abspath(__file__))+'\package')
+from package.dotenv import load_dotenv
 #from package.gevent import monkey
 #monkey.patch_all()
-
-
 import multiprocessing
 
-
-#sys.path.append('/Users/admin/Downloads/code/dajia/backend')
+load_dotenv()
 
 curProjectRootPath = os.getcwd()
 
@@ -23,7 +21,7 @@ workers = multiprocessing.cpu_count() * 2 + 1
 # 指定每個工作者的線程數
 threads = multiprocessing.cpu_count()*2
 # 端口 5000
-bind = '0.0.0.0:5000'
+bind = os.getenv('BACKEND_HOST') + ':' + os.getenv('BACKEND_PORT')
 # 設置守護進程,將進程交給supervisor管理
 
 
