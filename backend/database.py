@@ -199,7 +199,7 @@ def select_manager_user_name_emp_id(banch):
     connection = __init__()
     cursor = connection.cursor()
     cursor.execute('use `dajia`;')
-    cursor.execute(f"select `emp_id`,`name`,`account` from `user`where `position`='一般職員' and `banch`='{banch}' and `work_state`='on';")
+    cursor.execute(f"select `emp_id`,`name`,`account`, `on_work_day` from `user`where `position`='一般職員' and `banch`='{banch}' and `work_state`='on';")
     data = cursor.fetchall()
     #print('\n------------------------sselect_manager_user_name_emp_id____________________________')
     cursor.close()

@@ -499,6 +499,7 @@ export function Id_name(props){
                 style={style}>
                 <input style={{width:'10vw'}} placeholder={item[0]} type='text'/>
                 <input style={{width:'10vw',overflow:'hidden',height:style.height}} placeholder={item[1]} type='text'/>
+                <input style={{width:'10vw'}} placeholder={item[3]} type='text'/>
             </div>
         )
     }
@@ -659,6 +660,7 @@ export function Fixed_title({component_state,page_data_arr,set_page_data_arr}){
             <div className={'row_container2'} id={'fixed_title'}>
                 <div onClick={()=>sort_fun(0,0)} style={{width:'10vw'}}><div>{fixed_title[0]}</div></div> 
                 <div onClick={()=>sort_fun(1,0)} style={{width:'10vw'}}><div>{fixed_title[1]}</div></div>
+                <div onClick={()=>sort_fun(1,0)} style={{width:'10vw'}}><div>{fixed_title_emp[5]}</div></div>
             </div>
         )
     }
