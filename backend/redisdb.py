@@ -1,4 +1,3 @@
-from asyncio import protocols
 import json
 import redis
 import os
@@ -35,8 +34,12 @@ class redisdb(redis.Redis):
             self.lset(redisUserList, duplicateIndex, self.jen(data))
         else:
             #not duplicate then insert
-            self.rpush(redisUserList, self.jen(data))
+            if self.rpushx(redisUserList, self.jen(data)):
+                pass
+            else:
+                self.rpush(redisUserList, self.jen(data))
         self.persist(redisUserList)
+        print('重複==>>', isDuplication, duplicateIndex, self.llen(redisUserList))
         self.Deduplication(redisUserList, 0, -1)
 
     def leaveRoom(self, sid):

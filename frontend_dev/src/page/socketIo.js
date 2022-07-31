@@ -60,6 +60,7 @@ export default class SocketIO extends Manager{
         })
         instance.socket(socketNameSpace.main).on(socketEvent.updata_performance_table, (data) => {
             console.log('updata_performance_table data =>', data)
+            alert('data')
         })
         instance.socket(socketNameSpace.main).on(socketEvent.new_emp_insert_performance_table, (data) => {
             console.log('new_emp_insert_performance_table data =>', data)

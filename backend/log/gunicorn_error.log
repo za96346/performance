@@ -1920,3 +1920,20 @@ AttributeError: 'CMySQLCursor' object has no attribute 'commit'
 [2022-07-30 17:00:40 +0800] [37146] [ERROR] Retrying in 1 second.
 [2022-07-30 17:01:11 +0800] [37146] [ERROR] Retrying in 1 second.
 [2022-07-30 17:01:12 +0800] [37146] [ERROR] Can't connect to ('0.0.0.05001', 8000)
+[2022-07-31 14:07:35 +0800] [45680] [CRITICAL] WORKER TIMEOUT (pid:45697)
+[2022-07-31 14:07:35 +0800] [45680] [CRITICAL] WORKER TIMEOUT (pid:45702)
+[2022-07-31 14:07:35 +0800] [45680] [CRITICAL] WORKER TIMEOUT (pid:45703)
+[2022-07-31 14:07:35 +0800] [45680] [CRITICAL] WORKER TIMEOUT (pid:45704)
+[2022-07-31 14:07:35 +0800] [45680] [CRITICAL] WORKER TIMEOUT (pid:45705)
+[2022-07-31 14:07:35 +0800] [45680] [CRITICAL] WORKER TIMEOUT (pid:45706)
+[2022-07-31 14:07:35 +0800] [45680] [CRITICAL] WORKER TIMEOUT (pid:45707)
+[2022-07-31 14:07:35 +0800] [45680] [CRITICAL] WORKER TIMEOUT (pid:45708)
+[2022-07-31 14:07:35 +0800] [45680] [CRITICAL] WORKER TIMEOUT (pid:45709)
+[2022-07-31 14:07:35 +0800] [45680] [WARNING] Worker with pid 45708 was terminated due to signal 9
+[2022-07-31 14:07:35 +0800] [45680] [WARNING] Worker with pid 45707 was terminated due to signal 9
+[2022-07-31 14:07:35 +0800] [45680] [WARNING] Worker with pid 45706 was terminated due to signal 9
+[2022-07-31 14:07:35 +0800] [45680] [WARNING] Worker with pid 45705 was terminated due to signal 9
+[2022-07-31 14:07:35 +0800] [45680] [WARNING] Worker with pid 45704 was terminated due to signal 9
+[2022-07-31 14:07:35 +0800] [45680] [WARNING] Worker with pid 45703 was terminated due to signal 9
+[2022-07-31 14:07:35 +0800] [45680] [WARNING] Worker with pid 45697 was terminated due to signal 9
+[2022-07-31 14:07:35 +0800] [45680] [WARNING] Worker with pid 45709 was terminated due to signal 9

@@ -1,5 +1,562 @@
-
-Started server process [37804]
+Shutting down
+connection closed
+Waiting for application shutdown.
+Application shutdown complete.
+Finished server process [39532]
+Started server process [40324]
 Waiting for application startup.
 Application startup complete.
 Uvicorn running on http://127.0.0.1:5002 (Press CTRL+C to quit)
+('127.0.0.1', 56719) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-30 17:59:57
+('127.0.0.1', 56887) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-30 18:00:19
+('127.0.0.1', 56978) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalSocialWorker1  登入時間2022-07-30 18:00:36
+('127.0.0.1', 57317) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-30 18:01:55
+('127.0.0.1', 57321) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalSocialWorker1  登入時間2022-07-30 18:01:55
+('127.0.0.1', 57325) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-30 18:01:55
+('127.0.0.1', 57341) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalSocialWorker1  登入時間2022-07-30 18:01:58
+('127.0.0.1', 57343) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-30 18:01:59
+('127.0.0.1', 57347) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-30 18:01:59
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 57385) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-30 18:02:05
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 57399) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-30 18:02:08
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 57416) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalSocialWorker1  登入時間2022-07-30 18:02:10
+connection closed
+('127.0.0.1', 57506) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalSocialWorker1  登入時間2022-07-30 18:02:19
+connection closed
+('127.0.0.1', 57534) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-30 18:02:24
+connection closed
+('127.0.0.1', 57789) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-30 18:03:13
+connection closed
+('127.0.0.1', 57832) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-30 18:03:21
+Shutting down
+connection closed
+connection closed
+connection closed
+Waiting for application shutdown.
+Application shutdown complete.
+Finished server process [40324]
+Started server process [40504]
+Waiting for application startup.
+Application startup complete.
+Uvicorn running on http://127.0.0.1:5002 (Press CTRL+C to quit)
+('127.0.0.1', 58253) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalSocialWorker1  登入時間2022-07-30 18:04:47
+('127.0.0.1', 58265) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-30 18:04:49
+('127.0.0.1', 58269) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-30 18:04:49
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 49281) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-30 18:31:11
+('127.0.0.1', 49290) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-30 18:31:11
+('127.0.0.1', 49295) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalSocialWorker1  登入時間2022-07-30 18:31:11
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 49320) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-30 18:36:16
+('127.0.0.1', 49328) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalSocialWorker1  登入時間2022-07-30 18:36:17
+('127.0.0.1', 49332) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-30 18:36:17
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 49606) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-30 18:40:52
+('127.0.0.1', 49613) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-30 18:40:52
+('127.0.0.1', 49619) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalSocialWorker1  登入時間2022-07-30 18:40:52
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 49675) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalSocialWorker1  登入時間2022-07-30 18:50:22
+('127.0.0.1', 49677) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-30 18:50:22
+('127.0.0.1', 49683) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-30 18:50:22
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 49723) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-30 19:05:17
+('127.0.0.1', 49729) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-30 19:05:17
+('127.0.0.1', 49733) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalSocialWorker1  登入時間2022-07-30 19:05:17
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 49769) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-30 19:22:02
+('127.0.0.1', 49770) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-30 19:22:02
+('127.0.0.1', 49781) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalSocialWorker1  登入時間2022-07-30 19:22:02
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 49808) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-30 19:37:32
+('127.0.0.1', 49812) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-30 19:37:32
+('127.0.0.1', 49820) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalSocialWorker1  登入時間2022-07-30 19:37:33
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 49839) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 49840) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-30 19:53:03
+使用者personalSocialWorker1  登入時間2022-07-30 19:53:03
+('127.0.0.1', 49851) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-30 19:53:03
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 49879) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-30 20:09:49
+('127.0.0.1', 49889) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalSocialWorker1  登入時間2022-07-30 20:09:49
+('127.0.0.1', 49893) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-30 20:09:49
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 49918) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-30 20:26:19
+('127.0.0.1', 49923) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalSocialWorker1  登入時間2022-07-30 20:26:19
+('127.0.0.1', 49925) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-30 20:26:19
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 49979) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-30 20:42:26
+('127.0.0.1', 49983) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalSocialWorker1  登入時間2022-07-30 20:42:26
+('127.0.0.1', 49985) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-30 20:42:26
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 50016) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-30 20:58:47
+('127.0.0.1', 50027) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalSocialWorker1  登入時間2022-07-30 20:58:49
+('127.0.0.1', 50029) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-30 20:58:49
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 50060) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-30 21:16:33
+('127.0.0.1', 50071) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-30 21:16:33
+('127.0.0.1', 50073) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalSocialWorker1  登入時間2022-07-30 21:16:33
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 50109) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalSocialWorker1  登入時間2022-07-30 21:34:27
+('127.0.0.1', 50112) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-30 21:34:27
+('127.0.0.1', 50117) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-30 21:34:27
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 50140) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-30 21:50:41
+('127.0.0.1', 50148) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-30 21:50:42
+('127.0.0.1', 50152) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalSocialWorker1  登入時間2022-07-30 21:50:42
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 50176) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-30 21:55:49
+('127.0.0.1', 50184) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalSocialWorker1  登入時間2022-07-30 21:55:50
+('127.0.0.1', 50188) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-30 21:55:50
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 50208) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalSocialWorker1  登入時間2022-07-30 21:55:52
+('127.0.0.1', 50222) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-30 21:55:53
+('127.0.0.1', 50226) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-30 21:55:54
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 51309) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-30 22:12:16
+('127.0.0.1', 51313) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalSocialWorker1  登入時間2022-07-30 22:12:17
+('127.0.0.1', 51315) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-30 22:12:17
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 51428) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-30 22:29:12
+('127.0.0.1', 51448) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalSocialWorker1  登入時間2022-07-30 22:29:12
+('127.0.0.1', 51452) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-30 22:29:13
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 51548) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-30 22:39:14
+('127.0.0.1', 51550) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalSocialWorker1  登入時間2022-07-30 22:39:14
+('127.0.0.1', 51601) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-30 22:39:15
+connection closed
+connection closed
+connection closed
+Shutting down
+Waiting for application shutdown.
+Application shutdown complete.
+Finished server process [40504]
+Started server process [44764]
+Waiting for application startup.
+Application startup complete.
+Uvicorn running on http://127.0.0.1:5002 (Press CTRL+C to quit)
+('127.0.0.1', 58859) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-31 12:29:01
+('127.0.0.1', 58948) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-31 12:29:11
+Shutting down
+connection closed
+connection closed
+Waiting for application shutdown.
+Application shutdown complete.
+Finished server process [44764]
+Started server process [44917]
+Waiting for application startup.
+Application startup complete.
+Uvicorn running on http://127.0.0.1:5002 (Press CTRL+C to quit)
+('127.0.0.1', 59590) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-31 12:31:44
+('127.0.0.1', 59598) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-31 12:31:45
+Shutting down
+connection closed
+connection closed
+Waiting for application shutdown.
+Application shutdown complete.
+Finished server process [44917]
+Started server process [45073]
+Waiting for application startup.
+Application startup complete.
+Uvicorn running on http://127.0.0.1:5002 (Press CTRL+C to quit)
+('127.0.0.1', 60401) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-31 12:34:44
+('127.0.0.1', 60405) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-31 12:34:44
+Shutting down
+connection closed
+connection closed
+Waiting for application shutdown.
+Application shutdown complete.
+Finished server process [45073]
+Started server process [45177]
+Waiting for application startup.
+Application startup complete.
+Uvicorn running on http://127.0.0.1:5002 (Press CTRL+C to quit)
+('127.0.0.1', 60864) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-31 12:36:28
+('127.0.0.1', 60872) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-31 12:36:30
+Shutting down
+connection closed
+connection closed
+Waiting for application shutdown.
+Application shutdown complete.
+Finished server process [45177]
+Started server process [45248]
+Waiting for application startup.
+Application startup complete.
+Uvicorn running on http://127.0.0.1:5002 (Press CTRL+C to quit)
+('127.0.0.1', 61073) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-31 12:37:15
+('127.0.0.1', 61077) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-31 12:37:16
+('127.0.0.1', 62040) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-07-31 12:41:08
+connection closed
+('127.0.0.1', 62652) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-07-31 12:43:20
+connection closed
+('127.0.0.1', 63014) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-07-31 12:44:27
+connection closed
+('127.0.0.1', 63369) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-07-31 12:45:40
+connection closed
+('127.0.0.1', 64893) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-07-31 12:51:35
+connection closed
+('127.0.0.1', 65288) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-07-31 12:53:00
+connection closed
+('127.0.0.1', 51571) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-07-31 13:03:43
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 52955) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-07-31 13:09:15
+('127.0.0.1', 52959) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-31 13:09:15
+('127.0.0.1', 52969) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-31 13:09:16
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 53003) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-31 13:13:27
+('127.0.0.1', 53005) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-07-31 13:13:28
+('127.0.0.1', 53021) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-31 13:13:28
+connection closed
+('127.0.0.1', 53428) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-07-31 13:15:00
+connection closed
+('127.0.0.1', 53624) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-07-31 13:15:44
+connection closed
+('127.0.0.1', 55360) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-07-31 13:22:24
+connection closed
+('127.0.0.1', 55424) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-07-31 13:22:37
+connection closed
+('127.0.0.1', 55768) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-07-31 13:23:57
+connection closed
+('127.0.0.1', 56897) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-07-31 13:28:19
+connection closed
+('127.0.0.1', 57403) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-07-31 13:30:13
+connection closed
+('127.0.0.1', 57891) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-07-31 13:32:11
+connection closed
+('127.0.0.1', 57980) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-07-31 13:32:30
+connection closed
+('127.0.0.1', 58277) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-07-31 13:33:40
+connection closed
+('127.0.0.1', 62831) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-07-31 13:51:45
+connection closed
+('127.0.0.1', 63307) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-07-31 13:53:35
+connection closed
+('127.0.0.1', 63529) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-07-31 13:54:25
+connection closed
+('127.0.0.1', 63824) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-07-31 13:55:35
+connection closed
+('127.0.0.1', 64179) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-07-31 13:56:58
+connection closed
+('127.0.0.1', 64719) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-07-31 13:59:03
+connection closed
+('127.0.0.1', 64986) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-07-31 13:59:50
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 50019) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-07-31 14:05:34
+('127.0.0.1', 50021) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-31 14:05:34
+('127.0.0.1', 50035) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-31 14:05:36
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 50060) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-07-31 14:07:37
+('127.0.0.1', 50064) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-31 14:07:37
+('127.0.0.1', 50075) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-31 14:07:37
+connection closed
+('127.0.0.1', 50230) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-07-31 14:08:11
+connection closed
+('127.0.0.1', 50976) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-07-31 14:10:58

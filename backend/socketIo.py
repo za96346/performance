@@ -8,7 +8,7 @@ from backend import token_decoding
 from database import select_banch_all, select_user_banch,select_banch
 from redisdb import redisdb
 import time
-from log import log
+from loger import log
 #Sanic是Python 3.5及更新版本的一個非常高效的異步web伺服器。
 #sio = socketio.AsyncServer(async_mode='asgi', cors_allowed_origins = '*', logger=False, engineio_logger=False)
 #mgr = socketio.AsyncRedisManager('redis://127.0.0.1:5002', write_only = True)
@@ -72,14 +72,6 @@ class MainNamespace(socketio.AsyncNamespace):
         port = int(os.getenv('REDIS_DB_PORT'))
         self.namespace = namespace
         self.redisDB = redisdb(host, port, db = 0)
-
-    @staticmethod
-    async def printData(self, sid, data):
-        print('-------------------------------------------------------------------------------------------------')
-        print('get request data', data)
-        print('user sid',sid)
-        print('userROOM =>', self.rooms(sid))
-        return self.rooms(sid)
     
     async def on_connect(self, sid, environ):
         data, status = praseToken(environ["QUERY_STRING"])
@@ -101,7 +93,7 @@ class MainNamespace(socketio.AsyncNamespace):
             'connectDate': logInTime
         })
 
-        log.write(f'使用者{user}  登入時間{logInTime}')
+        log.writeLog(f'使用者{user}  登入時間{logInTime}')
         
         self.enter_room(sid, userBanch)
         self.enter_room(sid, userPermession)
@@ -133,11 +125,11 @@ class MainNamespace(socketio.AsyncNamespace):
         print('user',sid)
 
     async def on_updata_performance_table(self, sid, data):
-        #data[3] => account
-        #data[12] => banch
-        userRoom = await MainNamespace.printData(self, sid, data)
-        for room in userRoom:
-            await self.emit('updata_performance_table', 'update', room = room, skip_sid = sid,namespace = self.namespace)
+        #user = data[3]
+        #banch = data[12]
+        room = [data[3], data[12]]
+        for item in room:
+            await self.emit('updata_performance_table', 'update', room = item, skip_sid = sid, namespace = self.namespace)
 
     async def on_new_emp_insert_performance_table(self, sid, data):
         print('connect new_emp_insert_performance_table', data)
