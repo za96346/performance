@@ -1,7 +1,7 @@
 import { Loading } from "../backend_component/loading";
 import { Return_component } from "../backend_component/data_input";
 import { useState,useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { change_banch_name } from "../api";
 import { check_and_recatch_data } from "../method/method_func";
 import session from "../method/storage";
@@ -9,7 +9,7 @@ import session from "../method/storage";
 const Group_manage=({data,synchronize_update,synchronize})=>{
     const {page}=useParams()
     var token = session.getItem('token')
-
+    const navigate = useNavigate()
     const {article_page}=useParams()
     const [page_data_arr,set_page_data_arr]=useState([])
     const [new_arr,set_new_arr]=useState(['',''])
@@ -85,7 +85,7 @@ const Group_manage=({data,synchronize_update,synchronize})=>{
                 <button
                 onClick={async()=>{
                     await change_banch_name(token,commit)
-                    check_and_recatch_data(token,synchronize_update,1000)
+                    check_and_recatch_data(token,synchronize_update,1000, () => {})
                 }}
                 >儲存</button>
             </div>

@@ -35,7 +35,7 @@ const Sidebar=({sidebar_arr,style})=>{
                 
 
                 {
-                    sidebar_arr.map((item,index)=>{
+                    sidebar_arr?.map((item,index)=>{
                             if(sidebar_arr[0]==='組別管理'&&index===0){
                                 return(                                    
                                     <Link

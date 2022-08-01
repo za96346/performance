@@ -74,9 +74,9 @@ export function Search_name({search,set_search}){
     })
     const name_arr=[]
     var banch_index = session.getItem('banch_index')
-    var permession = session.getItem('permession')
+    var permession = session.getItem('permession') || ''
     for(const data of banch_index[page]){
-        permession==='admin'
+        permession === 'admin'
         ?name_arr.push(data[2])
         :name_arr.push(data[1])
     }

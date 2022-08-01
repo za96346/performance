@@ -1,562 +1,2567 @@
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 61225) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-31 22:01:47
 Shutting down
-connection closed
-Waiting for application shutdown.
-Application shutdown complete.
-Finished server process [39532]
-Started server process [40324]
-Waiting for application startup.
-Application startup complete.
-Uvicorn running on http://127.0.0.1:5002 (Press CTRL+C to quit)
-('127.0.0.1', 56719) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者admin1  登入時間2022-07-30 17:59:57
-('127.0.0.1', 56887) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者personalBabysitter1  登入時間2022-07-30 18:00:19
-('127.0.0.1', 56978) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者personalSocialWorker1  登入時間2022-07-30 18:00:36
-('127.0.0.1', 57317) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者personalBabysitter1  登入時間2022-07-30 18:01:55
-('127.0.0.1', 57321) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者personalSocialWorker1  登入時間2022-07-30 18:01:55
-('127.0.0.1', 57325) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者admin1  登入時間2022-07-30 18:01:55
-('127.0.0.1', 57341) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者personalSocialWorker1  登入時間2022-07-30 18:01:58
-('127.0.0.1', 57343) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者personalBabysitter1  登入時間2022-07-30 18:01:59
-('127.0.0.1', 57347) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者admin1  登入時間2022-07-30 18:01:59
-connection closed
-connection closed
-connection closed
-('127.0.0.1', 57385) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者personalBabysitter1  登入時間2022-07-30 18:02:05
-connection closed
-connection closed
-connection closed
-('127.0.0.1', 57399) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者admin1  登入時間2022-07-30 18:02:08
-connection closed
-connection closed
-connection closed
-('127.0.0.1', 57416) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者personalSocialWorker1  登入時間2022-07-30 18:02:10
-connection closed
-('127.0.0.1', 57506) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者personalSocialWorker1  登入時間2022-07-30 18:02:19
-connection closed
-('127.0.0.1', 57534) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者personalBabysitter1  登入時間2022-07-30 18:02:24
-connection closed
-('127.0.0.1', 57789) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者personalBabysitter1  登入時間2022-07-30 18:03:13
-connection closed
-('127.0.0.1', 57832) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者personalBabysitter1  登入時間2022-07-30 18:03:21
-Shutting down
-connection closed
 connection closed
 connection closed
 Waiting for application shutdown.
 Application shutdown complete.
-Finished server process [40324]
-Started server process [40504]
+Finished server process [54766]
+Started server process [55160]
 Waiting for application startup.
 Application startup complete.
 Uvicorn running on http://127.0.0.1:5002 (Press CTRL+C to quit)
-('127.0.0.1', 58253) - "WebSocket /socket.io/" [accepted]
+('127.0.0.1', 61331) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者personalSocialWorker1  登入時間2022-07-30 18:04:47
-('127.0.0.1', 58265) - "WebSocket /socket.io/" [accepted]
+使用者admin1  登入時間2022-07-31 22:02:03
+('127.0.0.1', 61339) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者admin1  登入時間2022-07-30 18:04:49
-('127.0.0.1', 58269) - "WebSocket /socket.io/" [accepted]
+使用者personalBabysitter1  登入時間2022-07-31 22:02:05
+connection closed
+connection closed
+('127.0.0.1', 63860) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者personalBabysitter1  登入時間2022-07-30 18:04:49
+使用者admin1  登入時間2022-07-31 22:12:24
+('127.0.0.1', 63862) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-31 22:12:24
+connection closed
+connection closed
+('127.0.0.1', 64087) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-31 22:16:38
+('127.0.0.1', 64091) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-31 22:16:38
+connection closed
+('127.0.0.1', 60982) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-31 23:11:10
+connection closed
+('127.0.0.1', 61008) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-31 23:11:14
+Shutting down
+connection closed
+connection closed
+Waiting for application shutdown.
+Application shutdown complete.
+Finished server process [55160]
+Started server process [57383]
+Waiting for application startup.
+Application startup complete.
+Uvicorn running on http://127.0.0.1:5002 (Press CTRL+C to quit)
+('127.0.0.1', 50937) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-31 23:36:34
+('127.0.0.1', 50945) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-31 23:36:36
+Task exception was never retrieved
+future: <Task finished name='Task-32' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=TypeError("'bool' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 138, in on_updata_performance_table
+    to = self.redisDB.selectManager(label['banch'])['sid'],
+TypeError: 'bool' object is not subscriptable
+Task exception was never retrieved
+future: <Task finished name='Task-36' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=TypeError("'bool' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 138, in on_updata_performance_table
+    to = self.redisDB.selectManager(label['banch'])['sid'],
+TypeError: 'bool' object is not subscriptable
+('127.0.0.1', 51153) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-31 23:37:17
+Task exception was never retrieved
+future: <Task finished name='Task-75' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=TypeError("'bool' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 138, in on_updata_performance_table
+    to = self.redisDB.selectManager(label['banch'])['sid'],
+TypeError: 'bool' object is not subscriptable
+Task exception was never retrieved
+future: <Task finished name='Task-90' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=TypeError("'bool' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 138, in on_updata_performance_table
+    to = self.redisDB.selectManager(label['banch'])['sid'],
+TypeError: 'bool' object is not subscriptable
+('127.0.0.1', 51869) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter2  登入時間2022-07-31 23:39:51
+Task exception was never retrieved
+future: <Task finished name='Task-146' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=TypeError("'bool' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 138, in on_updata_performance_table
+    to = self.redisDB.selectManager(label['banch'])['sid'],
+TypeError: 'bool' object is not subscriptable
+Task exception was never retrieved
+future: <Task finished name='Task-161' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=TypeError("'bool' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 138, in on_updata_performance_table
+    to = self.redisDB.selectManager(label['banch'])['sid'],
+TypeError: 'bool' object is not subscriptable
+Shutting down
 connection closed
 connection closed
 connection closed
-('127.0.0.1', 49281) - "WebSocket /socket.io/" [accepted]
+connection closed
+Waiting for application shutdown.
+Application shutdown complete.
+Finished server process [57383]
+Started server process [57533]
+Waiting for application startup.
+Application startup complete.
+Uvicorn running on http://127.0.0.1:5002 (Press CTRL+C to quit)
+('127.0.0.1', 52248) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者personalBabysitter1  登入時間2022-07-30 18:31:11
-('127.0.0.1', 49290) - "WebSocket /socket.io/" [accepted]
+使用者admin1  登入時間2022-07-31 23:41:14
+('127.0.0.1', 52256) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者admin1  登入時間2022-07-30 18:31:11
-('127.0.0.1', 49295) - "WebSocket /socket.io/" [accepted]
+使用者personalBabysitter1  登入時間2022-07-31 23:41:14
+('127.0.0.1', 52260) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者personalSocialWorker1  登入時間2022-07-30 18:31:11
+使用者personalBabysitter2  登入時間2022-07-31 23:41:14
+('127.0.0.1', 52264) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-07-31 23:41:15
+Task exception was never retrieved
+future: <Task finished name='Task-60' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=TypeError("'bool' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 139, in on_updata_performance_table
+    to = self.redisDB.selectManager(label['banch'])['sid'],
+TypeError: 'bool' object is not subscriptable
+connection closed
+('127.0.0.1', 52437) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-07-31 23:41:52
+('127.0.0.1', 52891) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalPublicRelations1  登入時間2022-07-31 23:43:32
+connection closed
+('127.0.0.1', 52937) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalPublicRelations1  登入時間2022-07-31 23:43:39
+Task exception was never retrieved
+future: <Task finished name='Task-192' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=TypeError("'bool' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 139, in on_updata_performance_table
+    to = self.redisDB.selectManager(label['banch'])['sid'],
+TypeError: 'bool' object is not subscriptable
+('127.0.0.1', 53226) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerPublicRelations  登入時間2022-07-31 23:44:43
 connection closed
 connection closed
 connection closed
-('127.0.0.1', 49320) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者personalBabysitter1  登入時間2022-07-30 18:36:16
-('127.0.0.1', 49328) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者personalSocialWorker1  登入時間2022-07-30 18:36:17
-('127.0.0.1', 49332) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者admin1  登入時間2022-07-30 18:36:17
 connection closed
 connection closed
 connection closed
-('127.0.0.1', 49606) - "WebSocket /socket.io/" [accepted]
+('127.0.0.1', 53580) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者admin1  登入時間2022-07-30 18:40:52
-('127.0.0.1', 49613) - "WebSocket /socket.io/" [accepted]
+使用者admin1  登入時間2022-07-31 23:47:01
+connection closed
+('127.0.0.1', 53925) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者personalBabysitter1  登入時間2022-07-30 18:40:52
-('127.0.0.1', 49619) - "WebSocket /socket.io/" [accepted]
+使用者admin1  登入時間2022-07-31 23:49:48
+connection closed
+('127.0.0.1', 54313) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者personalSocialWorker1  登入時間2022-07-30 18:40:52
+使用者admin1  登入時間2022-07-31 23:51:20
+connection closed
+('127.0.0.1', 54370) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-31 23:51:32
+connection closed
+('127.0.0.1', 54528) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-31 23:52:08
+connection closed
+('127.0.0.1', 54670) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-31 23:52:40
+connection closed
+('127.0.0.1', 54764) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-31 23:53:01
+connection closed
+('127.0.0.1', 55033) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-31 23:54:04
+connection closed
+('127.0.0.1', 55186) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-31 23:54:37
+connection closed
+('127.0.0.1', 55224) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-31 23:54:44
+connection closed
+('127.0.0.1', 55306) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-31 23:55:00
+connection closed
+('127.0.0.1', 55364) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-31 23:55:12
+connection closed
+('127.0.0.1', 55508) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-31 23:55:45
+connection closed
+('127.0.0.1', 55530) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-31 23:55:49
+connection closed
+('127.0.0.1', 55758) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-31 23:56:42
+connection closed
+('127.0.0.1', 55941) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-07-31 23:57:24
+('127.0.0.1', 57042) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 00:01:43
+('127.0.0.1', 57054) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 00:01:45
+('127.0.0.1', 57690) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 00:04:14
+('127.0.0.1', 58508) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 58547) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 58564) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 58598) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 58618) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 58639) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 58670) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 58694) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 58711) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 58729) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 58762) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 58784) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 58833) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 58872) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 58877) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 58933) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 59262) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 59275) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 59288) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 59301) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 59306) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 59316) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 59338) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 59347) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 59378) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 59402) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 59411) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 59526) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 59551) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 59565) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 59570) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 59600) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 59605) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 59634) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 59656) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 59888) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 59898) - "WebSocket /socket.io/" [accepted]
+connection open
 connection closed
 connection closed
 connection closed
-('127.0.0.1', 49675) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者personalSocialWorker1  登入時間2022-07-30 18:50:22
-('127.0.0.1', 49677) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者admin1  登入時間2022-07-30 18:50:22
-('127.0.0.1', 49683) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者personalBabysitter1  登入時間2022-07-30 18:50:22
 connection closed
 connection closed
 connection closed
-('127.0.0.1', 49723) - "WebSocket /socket.io/" [accepted]
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 60571) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者admin1  登入時間2022-07-30 19:05:17
-('127.0.0.1', 49729) - "WebSocket /socket.io/" [accepted]
+('127.0.0.1', 60687) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者personalBabysitter1  登入時間2022-07-30 19:05:17
+('127.0.0.1', 60688) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 00:15:49
+使用者admin1  登入時間2022-08-01 00:15:49
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 60705) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 60706) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 60707) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 00:15:51
+使用者admin1  登入時間2022-08-01 00:15:52
+('127.0.0.1', 60824) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 60836) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 60837) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 00:16:12
+使用者personalBabysitter1  登入時間2022-08-01 00:16:12
+使用者personalBabysitter1  登入時間2022-08-01 00:16:50
+Task exception was never retrieved
+future: <Task finished name='Task-3071' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=TypeError("'bool' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 139, in on_updata_performance_table
+    to = self.redisDB.selectManager(label['banch'])['sid'],
+TypeError: 'bool' object is not subscriptable
+('127.0.0.1', 61203) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 00:17:35
+('127.0.0.1', 61204) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 61212) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 61213) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 00:17:36
+('127.0.0.1', 61221) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 00:17:37
+('127.0.0.1', 61222) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 61230) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 61231) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 00:17:38
+('127.0.0.1', 61243) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 00:17:40
+('127.0.0.1', 61245) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 61253) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 61254) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 00:17:41
+('127.0.0.1', 61262) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 00:17:42
+('127.0.0.1', 61264) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 61271) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 61272) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 00:17:43
+('127.0.0.1', 61316) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 00:17:52
+('127.0.0.1', 61318) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 61325) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 61326) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 00:17:53
+('127.0.0.1', 61339) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 00:17:55
+('127.0.0.1', 61341) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 61348) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 61349) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 00:17:56
+('127.0.0.1', 61370) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 00:18:00
+('127.0.0.1', 61372) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 00:18:00
+('127.0.0.1', 61390) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 00:18:03
+('127.0.0.1', 61398) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 00:18:04
+('127.0.0.1', 61407) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 00:18:05
+('127.0.0.1', 61415) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 00:18:06
+('127.0.0.1', 61433) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 00:18:09
+('127.0.0.1', 61441) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 00:18:10
+('127.0.0.1', 61445) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 00:18:10
+('127.0.0.1', 61453) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 00:18:11
+('127.0.0.1', 61477) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 00:18:15
+('127.0.0.1', 61485) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 00:18:16
+('127.0.0.1', 61516) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 00:18:22
+('127.0.0.1', 61524) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 00:18:23
+('127.0.0.1', 61559) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 00:18:31
+('127.0.0.1', 61563) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 00:18:31
+('127.0.0.1', 61594) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 00:18:36
+('127.0.0.1', 61602) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 00:18:37
+('127.0.0.1', 61606) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 00:18:38
+('127.0.0.1', 61610) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 00:18:38
+('127.0.0.1', 61622) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 00:18:39
+('127.0.0.1', 61631) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 00:18:40
+('127.0.0.1', 61644) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 00:18:42
+('127.0.0.1', 61649) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 00:18:42
+('127.0.0.1', 61675) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 00:18:46
+('127.0.0.1', 61683) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 00:18:47
+('127.0.0.1', 61695) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 00:18:49
+('127.0.0.1', 61699) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 00:18:50
+('127.0.0.1', 61715) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 00:18:52
+('127.0.0.1', 61723) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 00:18:53
+('127.0.0.1', 61749) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 00:18:58
+('127.0.0.1', 61757) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 00:18:59
+('127.0.0.1', 61761) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 00:18:59
+('127.0.0.1', 61765) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 00:19:00
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 61779) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 61780) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 61781) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 00:19:02
+使用者admin1  登入時間2022-08-01 00:19:02
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 61806) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 61807) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 61808) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 00:19:06
+使用者personalBabysitter1  登入時間2022-08-01 00:19:06
+使用者personalBabysitter1  登入時間2022-08-01 00:19:15
+Task exception was never retrieved
+future: <Task finished name='Task-4287' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=TypeError("'bool' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 139, in on_updata_performance_table
+    to = self.redisDB.selectManager(label['banch'])['sid'],
+TypeError: 'bool' object is not subscriptable
+('127.0.0.1', 61912) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 00:19:25
+('127.0.0.1', 61914) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 61921) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 61922) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 00:19:26
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 61928) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 61929) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 61930) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 00:19:27
+使用者admin1  登入時間2022-08-01 00:19:27
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 62111) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 62112) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 62113) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 00:20:07
+使用者admin1  登入時間2022-08-01 00:20:07
+使用者personalBabysitter1  登入時間2022-08-01 00:20:18
+Task exception was never retrieved
+future: <Task finished name='Task-4466' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=TypeError("'bool' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 139, in on_updata_performance_table
+    to = self.redisDB.selectManager(label['banch'])['sid'],
+TypeError: 'bool' object is not subscriptable
+Task exception was never retrieved
+future: <Task finished name='Task-4489' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=TypeError("'bool' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 139, in on_updata_performance_table
+    to = self.redisDB.selectManager(label['banch'])['sid'],
+TypeError: 'bool' object is not subscriptable
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 62322) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 62323) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 62324) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 00:20:50
+使用者admin1  登入時間2022-08-01 00:20:50
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 62349) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 62350) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 62351) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 00:20:54
+使用者personalBabysitter1  登入時間2022-08-01 00:20:54
+使用者personalBabysitter1  登入時間2022-08-01 00:20:58
+Task exception was never retrieved
+future: <Task finished name='Task-4609' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=TypeError("'bool' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 139, in on_updata_performance_table
+    to = self.redisDB.selectManager(label['banch'])['sid'],
+TypeError: 'bool' object is not subscriptable
+Task exception was never retrieved
+future: <Task finished name='Task-4673' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=TypeError("'bool' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 139, in on_updata_performance_table
+    to = self.redisDB.selectManager(label['banch'])['sid'],
+TypeError: 'bool' object is not subscriptable
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 63434) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 63435) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 63436) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 63437) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 63438) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 63439) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 00:25:10
+使用者admin1  登入時間2022-08-01 00:25:10
+使用者personalBabysitter1  登入時間2022-08-01 00:25:10
+使用者personalBabysitter1  登入時間2022-08-01 00:25:10
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 63473) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 63474) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 63475) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 63476) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 63477) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 63478) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 00:25:14
+使用者personalBabysitter1  登入時間2022-08-01 00:25:14
+使用者admin1  登入時間2022-08-01 00:25:14
+使用者admin1  登入時間2022-08-01 00:25:14
+使用者personalBabysitter1  登入時間2022-08-01 00:25:23
+Task exception was never retrieved
+future: <Task finished name='Task-4967' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=TypeError("'bool' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 139, in on_updata_performance_table
+    to = self.redisDB.selectManager(label['banch'])['sid'],
+TypeError: 'bool' object is not subscriptable
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 63643) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 63644) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 63645) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 63646) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 63647) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 63648) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 00:25:47
+使用者admin1  登入時間2022-08-01 00:25:47
+使用者personalBabysitter1  登入時間2022-08-01 00:25:47
+使用者personalBabysitter1  登入時間2022-08-01 00:25:47
+使用者personalBabysitter1  登入時間2022-08-01 00:26:03
+Task exception was never retrieved
+future: <Task finished name='Task-5075' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=TypeError("'bool' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 139, in on_updata_performance_table
+    to = self.redisDB.selectManager(label['banch'])['sid'],
+TypeError: 'bool' object is not subscriptable
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 64080) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 64081) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 64082) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 00:27:26
+使用者personalBabysitter1  登入時間2022-08-01 00:27:26
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 64094) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 64095) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 64096) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 00:27:28
+使用者admin1  登入時間2022-08-01 00:27:28
+使用者personalBabysitter1  登入時間2022-08-01 00:27:59
+Task exception was never retrieved
+future: <Task finished name='Task-5246' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=TypeError("'bool' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 139, in on_updata_performance_table
+    to = self.redisDB.selectManager(label['banch'])['sid'],
+TypeError: 'bool' object is not subscriptable
+Task exception was never retrieved
+future: <Task finished name='Task-5310' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=TypeError("'bool' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 139, in on_updata_performance_table
+    to = self.redisDB.selectManager(label['banch'])['sid'],
+TypeError: 'bool' object is not subscriptable
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 65244) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 65278) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 65279) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 08:26:03
+使用者admin1  登入時間2022-08-01 08:26:03
+('127.0.0.1', 65305) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 65317) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 65318) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 08:26:28
+使用者personalBabysitter1  登入時間2022-08-01 08:26:28
+Shutting down
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+Waiting for application shutdown.
+Application shutdown complete.
+Finished server process [57533]
+Started server process [64380]
+Waiting for application startup.
+Application startup complete.
+Uvicorn running on http://127.0.0.1:5002 (Press CTRL+C to quit)
+('127.0.0.1', 65417) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 08:27:34
+('127.0.0.1', 65418) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 08:27:34
+('127.0.0.1', 65425) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 08:27:35
+('127.0.0.1', 65427) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 08:27:35
+('127.0.0.1', 65431) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 65434) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 08:27:43
+Task exception was never retrieved
+future: <Task finished name='Task-78' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=TypeError("'bool' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 139, in on_updata_performance_table
+    to = self.redisDB.selectManager(label['banch'])['sid'],
+TypeError: 'bool' object is not subscriptable
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 49526) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 08:30:07
+使用者admin1  登入時間2022-08-01 08:30:08
+connection closed
 ('127.0.0.1', 49733) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者personalSocialWorker1  登入時間2022-07-30 19:05:17
+使用者personalBabysitter1  登入時間2022-08-01 08:30:10
 connection closed
 connection closed
 connection closed
-('127.0.0.1', 49769) - "WebSocket /socket.io/" [accepted]
+('127.0.0.1', 49758) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者personalBabysitter1  登入時間2022-07-30 19:22:02
-('127.0.0.1', 49770) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者admin1  登入時間2022-07-30 19:22:02
-('127.0.0.1', 49781) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者personalSocialWorker1  登入時間2022-07-30 19:22:02
+使用者admin1  登入時間2022-08-01 08:30:14
+Task exception was never retrieved
+future: <Task finished name='Task-228' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=TypeError("'bool' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 139, in on_updata_performance_table
+    'update',
+TypeError: 'bool' object is not subscriptable
+Shutting down
 connection closed
 connection closed
-connection closed
-('127.0.0.1', 49808) - "WebSocket /socket.io/" [accepted]
+Waiting for application shutdown.
+Application shutdown complete.
+Finished server process [64380]
+Started server process [64597]
+Waiting for application startup.
+Application startup complete.
+Uvicorn running on http://127.0.0.1:5002 (Press CTRL+C to quit)
+('127.0.0.1', 50100) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者personalBabysitter1  登入時間2022-07-30 19:37:32
-('127.0.0.1', 49812) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者admin1  登入時間2022-07-30 19:37:32
-('127.0.0.1', 49820) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者personalSocialWorker1  登入時間2022-07-30 19:37:33
-connection closed
-connection closed
-connection closed
-('127.0.0.1', 49839) - "WebSocket /socket.io/" [accepted]
-connection open
-('127.0.0.1', 49840) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者personalBabysitter1  登入時間2022-07-30 19:53:03
-使用者personalSocialWorker1  登入時間2022-07-30 19:53:03
-('127.0.0.1', 49851) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者admin1  登入時間2022-07-30 19:53:03
-connection closed
-connection closed
-connection closed
-('127.0.0.1', 49879) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者admin1  登入時間2022-07-30 20:09:49
-('127.0.0.1', 49889) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者personalSocialWorker1  登入時間2022-07-30 20:09:49
-('127.0.0.1', 49893) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者personalBabysitter1  登入時間2022-07-30 20:09:49
-connection closed
-connection closed
-connection closed
-('127.0.0.1', 49918) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者admin1  登入時間2022-07-30 20:26:19
-('127.0.0.1', 49923) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者personalSocialWorker1  登入時間2022-07-30 20:26:19
-('127.0.0.1', 49925) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者personalBabysitter1  登入時間2022-07-30 20:26:19
-connection closed
-connection closed
-connection closed
-('127.0.0.1', 49979) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者admin1  登入時間2022-07-30 20:42:26
-('127.0.0.1', 49983) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者personalSocialWorker1  登入時間2022-07-30 20:42:26
-('127.0.0.1', 49985) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者personalBabysitter1  登入時間2022-07-30 20:42:26
-connection closed
-connection closed
-connection closed
-('127.0.0.1', 50016) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者admin1  登入時間2022-07-30 20:58:47
-('127.0.0.1', 50027) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者personalSocialWorker1  登入時間2022-07-30 20:58:49
-('127.0.0.1', 50029) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者personalBabysitter1  登入時間2022-07-30 20:58:49
-connection closed
-connection closed
-connection closed
-('127.0.0.1', 50060) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者admin1  登入時間2022-07-30 21:16:33
-('127.0.0.1', 50071) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者personalBabysitter1  登入時間2022-07-30 21:16:33
-('127.0.0.1', 50073) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者personalSocialWorker1  登入時間2022-07-30 21:16:33
-connection closed
-connection closed
-connection closed
-('127.0.0.1', 50109) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者personalSocialWorker1  登入時間2022-07-30 21:34:27
+使用者personalBabysitter1  登入時間2022-08-01 08:31:34
 ('127.0.0.1', 50112) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者personalBabysitter1  登入時間2022-07-30 21:34:27
-('127.0.0.1', 50117) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者admin1  登入時間2022-07-30 21:34:27
+使用者admin1  登入時間2022-08-01 08:31:35
+Task exception was never retrieved
+future: <Task finished name='Task-32' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=TypeError("'bool' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 140, in on_updata_performance_table
+    to = self.redisDB.selectManager(label['banch'])['sid'],
+TypeError: 'bool' object is not subscriptable
+Task exception was never retrieved
+future: <Task finished name='Task-36' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=TypeError("'bool' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 140, in on_updata_performance_table
+    to = self.redisDB.selectManager(label['banch'])['sid'],
+TypeError: 'bool' object is not subscriptable
 connection closed
-connection closed
-connection closed
-('127.0.0.1', 50140) - "WebSocket /socket.io/" [accepted]
+('127.0.0.1', 50269) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者personalBabysitter1  登入時間2022-07-30 21:50:41
-('127.0.0.1', 50148) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者admin1  登入時間2022-07-30 21:50:42
-('127.0.0.1', 50152) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者personalSocialWorker1  登入時間2022-07-30 21:50:42
+使用者admin1  登入時間2022-08-01 08:32:04
 connection closed
-connection closed
-connection closed
-('127.0.0.1', 50176) - "WebSocket /socket.io/" [accepted]
+('127.0.0.1', 50287) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者admin1  登入時間2022-07-30 21:55:49
-('127.0.0.1', 50184) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者personalSocialWorker1  登入時間2022-07-30 21:55:50
-('127.0.0.1', 50188) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者personalBabysitter1  登入時間2022-07-30 21:55:50
+使用者personalBabysitter1  登入時間2022-08-01 08:32:07
+Task exception was never retrieved
+future: <Task finished name='Task-76' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=TypeError("'bool' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 140, in on_updata_performance_table
+    to = self.redisDB.selectManager(label['banch'])['sid'],
+TypeError: 'bool' object is not subscriptable
 connection closed
-connection closed
-connection closed
-('127.0.0.1', 50208) - "WebSocket /socket.io/" [accepted]
+('127.0.0.1', 50378) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者personalSocialWorker1  登入時間2022-07-30 21:55:52
-('127.0.0.1', 50222) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者admin1  登入時間2022-07-30 21:55:53
-('127.0.0.1', 50226) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者personalBabysitter1  登入時間2022-07-30 21:55:54
+使用者personalBabysitter1  登入時間2022-08-01 08:32:20
+Task exception was never retrieved
+future: <Task finished name='Task-95' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=TypeError("'bool' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 140, in on_updata_performance_table
+    to = self.redisDB.selectManager(label['banch'])['sid'],
+TypeError: 'bool' object is not subscriptable
 connection closed
-connection closed
-connection closed
-('127.0.0.1', 51309) - "WebSocket /socket.io/" [accepted]
+('127.0.0.1', 50449) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者admin1  登入時間2022-07-30 22:12:16
-('127.0.0.1', 51313) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者personalSocialWorker1  登入時間2022-07-30 22:12:17
-('127.0.0.1', 51315) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者personalBabysitter1  登入時間2022-07-30 22:12:17
+使用者admin1  登入時間2022-08-01 08:32:34
+Task exception was never retrieved
+future: <Task finished name='Task-117' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=TypeError("'bool' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 140, in on_updata_performance_table
+    to = self.redisDB.selectManager(label['banch'])['sid'],
+TypeError: 'bool' object is not subscriptable
 connection closed
-connection closed
-connection closed
-('127.0.0.1', 51428) - "WebSocket /socket.io/" [accepted]
+('127.0.0.1', 51321) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者admin1  登入時間2022-07-30 22:29:12
-('127.0.0.1', 51448) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者personalSocialWorker1  登入時間2022-07-30 22:29:12
-('127.0.0.1', 51452) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者personalBabysitter1  登入時間2022-07-30 22:29:13
+使用者admin1  登入時間2022-08-01 08:35:48
 connection closed
-connection closed
-connection closed
-('127.0.0.1', 51548) - "WebSocket /socket.io/" [accepted]
+('127.0.0.1', 51344) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者personalBabysitter1  登入時間2022-07-30 22:39:14
-('127.0.0.1', 51550) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者personalSocialWorker1  登入時間2022-07-30 22:39:14
-('127.0.0.1', 51601) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者admin1  登入時間2022-07-30 22:39:15
+使用者personalBabysitter1  登入時間2022-08-01 08:35:52
+Task exception was never retrieved
+future: <Task finished name='Task-198' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=TypeError("'bool' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 140, in on_updata_performance_table
+    to = self.redisDB.selectManager(label['banch'])['sid'],
+TypeError: 'bool' object is not subscriptable
 connection closed
+('127.0.0.1', 52331) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 08:39:44
+connection closed
+('127.0.0.1', 52345) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 08:39:47
+Task exception was never retrieved
+future: <Task finished name='Task-286' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=TypeError("'bool' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 140, in on_updata_performance_table
+    to = self.redisDB.selectManager(label['banch'])['sid'],
+TypeError: 'bool' object is not subscriptable
+connection closed
+('127.0.0.1', 52570) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 08:40:37
 connection closed
 connection closed
 Shutting down
 Waiting for application shutdown.
 Application shutdown complete.
-Finished server process [40504]
-Started server process [44764]
+Finished server process [64597]
+Started server process [89911]
 Waiting for application startup.
 Application startup complete.
 Uvicorn running on http://127.0.0.1:5002 (Press CTRL+C to quit)
-('127.0.0.1', 58859) - "WebSocket /socket.io/" [accepted]
+('127.0.0.1', 64831) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者admin1  登入時間2022-07-31 12:29:01
-('127.0.0.1', 58948) - "WebSocket /socket.io/" [accepted]
+使用者admin1  登入時間2022-08-01 20:07:34
+connection closed
+('127.0.0.1', 65393) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者personalBabysitter1  登入時間2022-07-31 12:29:11
+使用者admin1  登入時間2022-08-01 20:09:36
 Shutting down
+connection closed
+Waiting for application shutdown.
+Application shutdown complete.
+Finished server process [89911]
+Started server process [90295]
+Waiting for application startup.
+Application startup complete.
+Uvicorn running on http://127.0.0.1:5002 (Press CTRL+C to quit)
+('127.0.0.1', 49640) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 20:11:38
+connection closed
+('127.0.0.1', 49662) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 20:11:41
+connection closed
+('127.0.0.1', 49914) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 20:12:40
+Shutting down
+connection closed
+Waiting for application shutdown.
+Application shutdown complete.
+Finished server process [90295]
+Started server process [92496]
+Waiting for application startup.
+Application startup complete.
+Uvicorn running on http://127.0.0.1:5002 (Press CTRL+C to quit)
+('127.0.0.1', 60056) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 20:47:56
+connection closed
+('127.0.0.1', 60094) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 20:48:03
+('127.0.0.1', 60146) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 20:48:14
+connection closed
+('127.0.0.1', 60316) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 20:48:39
+connection closed
+('127.0.0.1', 60431) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 20:48:53
+connection closed
+('127.0.0.1', 60464) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 20:49:00
+Task exception was never retrieved
+future: <Task finished name='Task-98' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=TypeError("'bool' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 140, in on_updata_performance_table
+    to = self.redisDB.selectManager(label['banch'])['sid'],
+TypeError: 'bool' object is not subscriptable
+connection closed
+connection closed
+('127.0.0.1', 60855) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 60856) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 20:50:26
+使用者personalBabysitter1  登入時間2022-08-01 20:50:27
+Task exception was never retrieved
+future: <Task finished name='Task-150' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=TypeError("'bool' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 140, in on_updata_performance_table
+    to = self.redisDB.selectManager(label['banch'])['sid'],
+TypeError: 'bool' object is not subscriptable
+connection closed
+('127.0.0.1', 61128) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 20:51:18
+Task exception was never retrieved
+future: <Task finished name='Task-181' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=TypeError("'bool' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 140, in on_updata_performance_table
+    to = self.redisDB.selectManager(label['banch'])['sid'],
+TypeError: 'bool' object is not subscriptable
+connection closed
+('127.0.0.1', 61603) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 20:52:57
+Task exception was never retrieved
+future: <Task finished name='Task-224' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=TypeError("'bool' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 140, in on_updata_performance_table
+    to = self.redisDB.selectManager(label['banch'])['sid'],
+TypeError: 'bool' object is not subscriptable
+connection closed
+('127.0.0.1', 61951) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 20:54:10
+connection closed
+('127.0.0.1', 61968) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 20:54:13
+Task exception was never retrieved
+future: <Task finished name='Task-273' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=TypeError("'bool' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 140, in on_updata_performance_table
+    to = self.redisDB.selectManager(label['banch'])['sid'],
+TypeError: 'bool' object is not subscriptable
+connection closed
+connection closed
+('127.0.0.1', 62845) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 20:57:23
+connection closed
+('127.0.0.1', 62903) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 20:57:34
+('127.0.0.1', 63011) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 20:57:49
+connection closed
+connection closed
+('127.0.0.1', 64148) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 64151) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 21:01:35
+使用者admin1  登入時間2022-08-01 21:01:35
+connection closed
+connection closed
+('127.0.0.1', 64177) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 64178) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 21:01:38
+使用者admin1  登入時間2022-08-01 21:01:38
+connection closed
+('127.0.0.1', 64346) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 21:02:10
+connection closed
+('127.0.0.1', 64483) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 21:02:34
+Task exception was never retrieved
+future: <Task finished name='Task-532' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=TypeError("'bool' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 140, in on_updata_performance_table
+    to = self.redisDB.selectManager(label['banch'])['sid'],
+TypeError: 'bool' object is not subscriptable
+connection closed
+connection closed
+('127.0.0.1', 64937) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 64938) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 21:04:08
+使用者personalBabysitter1  登入時間2022-08-01 21:04:09
+connection closed
+('127.0.0.1', 65084) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 21:04:37
+connection closed
+('127.0.0.1', 65103) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 21:04:39
+Task exception was never retrieved
+future: <Task finished name='Task-614' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=TypeError("'bool' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 140, in on_updata_performance_table
+    to = self.redisDB.selectManager(label['banch'])['sid'],
+TypeError: 'bool' object is not subscriptable
+connection closed
+connection closed
+('127.0.0.1', 65234) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 65237) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 21:05:01
+使用者personalBabysitter1  登入時間2022-08-01 21:05:01
+Task exception was never retrieved
+future: <Task finished name='Task-648' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=TypeError("'bool' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 140, in on_updata_performance_table
+    to = self.redisDB.selectManager(label['banch'])['sid'],
+TypeError: 'bool' object is not subscriptable
+connection closed
+('127.0.0.1', 65402) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 21:05:32
+connection closed
+('127.0.0.1', 49224) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 21:06:09
+connection closed
+('127.0.0.1', 49245) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 21:06:12
+Task exception was never retrieved
+future: <Task finished name='Task-709' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=TypeError("'bool' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 140, in on_updata_performance_table
+    to = self.redisDB.selectManager(label['banch'])['sid'],
+TypeError: 'bool' object is not subscriptable
+('127.0.0.1', 49473) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 21:07:01
+('127.0.0.1', 49481) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 21:07:02
+('127.0.0.1', 49485) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 21:07:03
+('127.0.0.1', 49493) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 21:07:03
+('127.0.0.1', 49510) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 21:07:07
+('127.0.0.1', 49518) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 21:07:07
+connection closed
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 49529) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 21:07:09
+connection closed
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 49548) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 21:07:11
+Task exception was never retrieved
+future: <Task finished name='Task-845' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=TypeError("'bool' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 140, in on_updata_performance_table
+    to = self.redisDB.selectManager(label['banch'])['sid'],
+TypeError: 'bool' object is not subscriptable
+('127.0.0.1', 49693) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 49694) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 21:07:33
+使用者personalBabysitter1  登入時間2022-08-01 21:07:33
+('127.0.0.1', 49713) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 21:07:37
+('127.0.0.1', 49721) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 21:07:37
+('127.0.0.1', 49729) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 21:07:39
+('127.0.0.1', 49737) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 21:07:39
+('127.0.0.1', 49749) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 21:07:42
+('127.0.0.1', 49757) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 21:07:42
+('127.0.0.1', 49773) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 21:07:46
+('127.0.0.1', 49781) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 21:07:46
+('127.0.0.1', 49790) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 21:07:48
+('127.0.0.1', 49798) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 21:07:48
+('127.0.0.1', 49810) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 21:07:50
+('127.0.0.1', 49818) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 21:07:51
+('127.0.0.1', 49847) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 21:07:57
+('127.0.0.1', 49855) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 21:07:57
+('127.0.0.1', 49863) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 21:07:58
+('127.0.0.1', 49867) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 21:07:58
+('127.0.0.1', 49879) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 21:08:01
+('127.0.0.1', 49887) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 21:08:01
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 49911) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 21:08:05
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 49931) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 21:08:08
+Task exception was never retrieved
+future: <Task finished name='Task-1212' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=TypeError("'bool' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 140, in on_updata_performance_table
+    to = self.redisDB.selectManager(label['banch'])['sid'],
+TypeError: 'bool' object is not subscriptable
+('127.0.0.1', 50247) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-01 21:09:08
+connection closed
+('127.0.0.1', 54232) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 21:24:15
+connection closed
+('127.0.0.1', 54578) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 21:25:22
+connection closed
+('127.0.0.1', 54735) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 21:25:56
+connection closed
+('127.0.0.1', 54976) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 21:26:44
+Task exception was never retrieved
+future: <Task finished name='Task-1866' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=TypeError("'bool' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 140, in on_updata_performance_table
+    print('user',sid)
+TypeError: 'bool' object is not subscriptable
+Shutting down
+connection closed
 connection closed
 connection closed
 Waiting for application shutdown.
 Application shutdown complete.
-Finished server process [44764]
-Started server process [44917]
+Finished server process [92496]
+Started server process [94747]
 Waiting for application startup.
 Application startup complete.
 Uvicorn running on http://127.0.0.1:5002 (Press CTRL+C to quit)
-('127.0.0.1', 59590) - "WebSocket /socket.io/" [accepted]
+('127.0.0.1', 57292) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者personalBabysitter1  登入時間2022-07-31 12:31:44
-('127.0.0.1', 59598) - "WebSocket /socket.io/" [accepted]
+使用者personalBabysitter1  登入時間2022-08-01 21:35:41
+('127.0.0.1', 57296) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者admin1  登入時間2022-07-31 12:31:45
+使用者admin1  登入時間2022-08-01 21:35:41
+('127.0.0.1', 57300) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-01 21:35:42
 Shutting down
+connection closed
 connection closed
 connection closed
 Waiting for application shutdown.
 Application shutdown complete.
-Finished server process [44917]
-Started server process [45073]
+Finished server process [94747]
+Started server process [94792]
 Waiting for application startup.
 Application startup complete.
 Uvicorn running on http://127.0.0.1:5002 (Press CTRL+C to quit)
-('127.0.0.1', 60401) - "WebSocket /socket.io/" [accepted]
+('127.0.0.1', 57483) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者personalBabysitter1  登入時間2022-07-31 12:34:44
-('127.0.0.1', 60405) - "WebSocket /socket.io/" [accepted]
+使用者managerBabysitter  登入時間2022-08-01 21:36:17
+('127.0.0.1', 57491) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者admin1  登入時間2022-07-31 12:34:44
+使用者admin1  登入時間2022-08-01 21:36:18
+('127.0.0.1', 57499) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 21:36:19
+Task exception was never retrieved
+future: <Task finished name='Task-46' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=KeyError('公關組')>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 133, in on_updata_performance_table
+    await self.broadCast(label, sid)
+  File "socketIo.py", line 157, in broadCast
+    to = self.redisDB.selectManager(label[banch])['sid'],
+KeyError: '公關組'
 Shutting down
+connection closed
 connection closed
 connection closed
 Waiting for application shutdown.
 Application shutdown complete.
-Finished server process [45073]
-Started server process [45177]
+Finished server process [94792]
+Started server process [95011]
 Waiting for application startup.
 Application startup complete.
 Uvicorn running on http://127.0.0.1:5002 (Press CTRL+C to quit)
-('127.0.0.1', 60864) - "WebSocket /socket.io/" [accepted]
+('127.0.0.1', 58467) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者personalBabysitter1  登入時間2022-07-31 12:36:28
-('127.0.0.1', 60872) - "WebSocket /socket.io/" [accepted]
+使用者admin1  登入時間2022-08-01 21:39:53
+('127.0.0.1', 58471) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者admin1  登入時間2022-07-31 12:36:30
+使用者personalBabysitter1  登入時間2022-08-01 21:39:53
+('127.0.0.1', 58475) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-01 21:39:53
+connection closed
+('127.0.0.1', 58613) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-01 21:40:22
+Task exception was never retrieved
+future: <Task finished name='Task-79' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=KeyError('公關組')>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 149, in on_updata_performance_table
+    await self.broadCast(label, sid)
+  File "socketIo.py", line 173, in broadCast
+    to = self.redisDB.selectManager(label[banch])['sid'],
+KeyError: '公關組'
+Task exception was never retrieved
+future: <Task finished name='Task-98' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=KeyError('保育組')>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 149, in on_updata_performance_table
+    await self.broadCast(label, sid)
+  File "socketIo.py", line 173, in broadCast
+    to = self.redisDB.selectManager(label[banch])['sid'],
+KeyError: '保育組'
 Shutting down
+connection closed
 connection closed
 connection closed
 Waiting for application shutdown.
 Application shutdown complete.
-Finished server process [45177]
-Started server process [45248]
+Finished server process [95011]
+Started server process [95160]
 Waiting for application startup.
 Application startup complete.
 Uvicorn running on http://127.0.0.1:5002 (Press CTRL+C to quit)
-('127.0.0.1', 61073) - "WebSocket /socket.io/" [accepted]
+('127.0.0.1', 59662) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者admin1  登入時間2022-07-31 12:37:15
-('127.0.0.1', 61077) - "WebSocket /socket.io/" [accepted]
+使用者managerBabysitter  登入時間2022-08-01 21:43:56
+('127.0.0.1', 59667) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者personalBabysitter1  登入時間2022-07-31 12:37:16
-('127.0.0.1', 62040) - "WebSocket /socket.io/" [accepted]
+使用者admin1  登入時間2022-08-01 21:43:56
+('127.0.0.1', 59676) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者managerBabysitter  登入時間2022-07-31 12:41:08
-connection closed
-('127.0.0.1', 62652) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者managerBabysitter  登入時間2022-07-31 12:43:20
-connection closed
-('127.0.0.1', 63014) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者managerBabysitter  登入時間2022-07-31 12:44:27
-connection closed
-('127.0.0.1', 63369) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者managerBabysitter  登入時間2022-07-31 12:45:40
-connection closed
-('127.0.0.1', 64893) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者managerBabysitter  登入時間2022-07-31 12:51:35
-connection closed
-('127.0.0.1', 65288) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者managerBabysitter  登入時間2022-07-31 12:53:00
-connection closed
-('127.0.0.1', 51571) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者managerBabysitter  登入時間2022-07-31 13:03:43
+使用者personalBabysitter1  登入時間2022-08-01 21:43:56
+Shutting down
 connection closed
 connection closed
 connection closed
-('127.0.0.1', 52955) - "WebSocket /socket.io/" [accepted]
+Waiting for application shutdown.
+Application shutdown complete.
+Finished server process [95160]
+Started server process [95248]
+Waiting for application startup.
+Application startup complete.
+Uvicorn running on http://127.0.0.1:5002 (Press CTRL+C to quit)
+('127.0.0.1', 60048) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者managerBabysitter  登入時間2022-07-31 13:09:15
-('127.0.0.1', 52959) - "WebSocket /socket.io/" [accepted]
+使用者managerBabysitter  登入時間2022-08-01 21:45:11
+('127.0.0.1', 60052) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者personalBabysitter1  登入時間2022-07-31 13:09:15
-('127.0.0.1', 52969) - "WebSocket /socket.io/" [accepted]
+使用者admin1  登入時間2022-08-01 21:45:12
+('127.0.0.1', 60060) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者admin1  登入時間2022-07-31 13:09:16
+使用者personalBabysitter1  登入時間2022-08-01 21:45:12
+connection closed
+('127.0.0.1', 60071) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-01 21:45:14
+connection closed
+('127.0.0.1', 60086) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 21:45:16
+connection closed
+('127.0.0.1', 60107) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-01 21:45:18
+connection closed
+('127.0.0.1', 63085) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-01 21:56:18
+connection closed
+('127.0.0.1', 50754) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-01 22:11:52
+connection closed
+('127.0.0.1', 56628) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-01 22:34:13
+connection closed
+('127.0.0.1', 56889) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-01 22:34:58
+connection closed
+('127.0.0.1', 56917) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 22:35:02
+connection closed
+('127.0.0.1', 58017) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-01 22:39:15
+connection closed
+('127.0.0.1', 58313) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-01 22:40:16
+connection closed
+('127.0.0.1', 58331) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 22:40:19
+connection closed
+('127.0.0.1', 58582) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-01 22:41:10
+connection closed
+('127.0.0.1', 58606) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 22:41:14
+connection closed
+('127.0.0.1', 59040) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-01 22:42:41
+connection closed
+('127.0.0.1', 60172) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-01 22:47:00
+connection closed
+('127.0.0.1', 60299) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-01 22:47:28
+connection closed
+('127.0.0.1', 60526) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-01 22:48:19
+connection closed
+('127.0.0.1', 60756) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-01 22:48:58
+connection closed
+('127.0.0.1', 61028) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-01 22:49:56
+connection closed
+('127.0.0.1', 61289) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-01 22:50:54
+connection closed
+('127.0.0.1', 61356) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 22:51:05
+connection closed
+('127.0.0.1', 62132) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-01 22:53:40
+connection closed
+('127.0.0.1', 62258) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 22:54:07
+connection closed
+('127.0.0.1', 62993) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-01 22:56:34
+connection closed
+('127.0.0.1', 63476) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-01 22:58:29
+connection closed
+('127.0.0.1', 63846) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-01 22:59:48
+connection closed
+('127.0.0.1', 64055) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-01 23:00:21
+connection closed
+('127.0.0.1', 64330) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-01 23:01:26
+connection closed
+('127.0.0.1', 64525) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-01 23:02:01
+Shutting down
 connection closed
 connection closed
 connection closed
-('127.0.0.1', 53003) - "WebSocket /socket.io/" [accepted]
+Waiting for application shutdown.
+Application shutdown complete.
+Finished server process [95248]
+Started server process [99925]
+Waiting for application startup.
+Application startup complete.
+Uvicorn running on http://127.0.0.1:5002 (Press CTRL+C to quit)
+('127.0.0.1', 50927) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者personalBabysitter1  登入時間2022-07-31 13:13:27
-('127.0.0.1', 53005) - "WebSocket /socket.io/" [accepted]
+使用者managerBabysitter  登入時間2022-08-01 23:12:53
+('127.0.0.1', 50940) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者managerBabysitter  登入時間2022-07-31 13:13:28
-('127.0.0.1', 53021) - "WebSocket /socket.io/" [accepted]
+使用者admin1  登入時間2022-08-01 23:12:56
+('127.0.0.1', 50941) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者admin1  登入時間2022-07-31 13:13:28
+使用者personalBabysitter1  登入時間2022-08-01 23:12:56
 connection closed
-('127.0.0.1', 53428) - "WebSocket /socket.io/" [accepted]
+('127.0.0.1', 51807) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者managerBabysitter  登入時間2022-07-31 13:15:00
+使用者managerBabysitter  登入時間2022-08-01 23:16:06
 connection closed
-('127.0.0.1', 53624) - "WebSocket /socket.io/" [accepted]
+('127.0.0.1', 51854) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者managerBabysitter  登入時間2022-07-31 13:15:44
+使用者admin1  登入時間2022-08-01 23:16:12
 connection closed
-('127.0.0.1', 55360) - "WebSocket /socket.io/" [accepted]
+('127.0.0.1', 51889) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者managerBabysitter  登入時間2022-07-31 13:22:24
+使用者personalBabysitter1  登入時間2022-08-01 23:16:19
 connection closed
-('127.0.0.1', 55424) - "WebSocket /socket.io/" [accepted]
+('127.0.0.1', 53208) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者managerBabysitter  登入時間2022-07-31 13:22:37
+使用者admin1  登入時間2022-08-01 23:21:05
 connection closed
-('127.0.0.1', 55768) - "WebSocket /socket.io/" [accepted]
+('127.0.0.1', 53222) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者managerBabysitter  登入時間2022-07-31 13:23:57
+使用者managerBabysitter  登入時間2022-08-01 23:21:07
 connection closed
-('127.0.0.1', 56897) - "WebSocket /socket.io/" [accepted]
+('127.0.0.1', 58363) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者managerBabysitter  登入時間2022-07-31 13:28:19
+使用者personalBabysitter1  登入時間2022-08-01 23:39:40
 connection closed
-('127.0.0.1', 57403) - "WebSocket /socket.io/" [accepted]
+('127.0.0.1', 58526) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者managerBabysitter  登入時間2022-07-31 13:30:13
+使用者personalBabysitter1  登入時間2022-08-01 23:40:14
 connection closed
-('127.0.0.1', 57891) - "WebSocket /socket.io/" [accepted]
+('127.0.0.1', 58547) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者managerBabysitter  登入時間2022-07-31 13:32:11
+使用者admin1  登入時間2022-08-01 23:40:17
 connection closed
-('127.0.0.1', 57980) - "WebSocket /socket.io/" [accepted]
+('127.0.0.1', 58561) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者managerBabysitter  登入時間2022-07-31 13:32:30
+使用者managerBabysitter  登入時間2022-08-01 23:40:19
 connection closed
-('127.0.0.1', 58277) - "WebSocket /socket.io/" [accepted]
+('127.0.0.1', 60698) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者managerBabysitter  登入時間2022-07-31 13:33:40
+使用者admin1  登入時間2022-08-01 23:48:23
 connection closed
-('127.0.0.1', 62831) - "WebSocket /socket.io/" [accepted]
+('127.0.0.1', 60769) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者managerBabysitter  登入時間2022-07-31 13:51:45
+使用者admin1  登入時間2022-08-01 23:48:35
 connection closed
-('127.0.0.1', 63307) - "WebSocket /socket.io/" [accepted]
+('127.0.0.1', 60980) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者managerBabysitter  登入時間2022-07-31 13:53:35
+使用者admin1  登入時間2022-08-01 23:49:15
+Task exception was never retrieved
+future: <Task finished name='Task-1025' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=KeyError('保育組')>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 151, in on_updata_performance_table
+    await self.broadCast(label, sid)
+  File "socketIo.py", line 176, in broadCast
+    to = self.redisDB.selectManager(label[banch])['sid'],
+KeyError: '保育組'
 connection closed
-('127.0.0.1', 63529) - "WebSocket /socket.io/" [accepted]
+('127.0.0.1', 63703) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者managerBabysitter  登入時間2022-07-31 13:54:25
+使用者managerbabysitter  登入時間2022-08-01 23:59:04
 connection closed
-('127.0.0.1', 63824) - "WebSocket /socket.io/" [accepted]
+('127.0.0.1', 63724) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者managerBabysitter  登入時間2022-07-31 13:55:35
+使用者personalBabysitter1  登入時間2022-08-01 23:59:06
 connection closed
-('127.0.0.1', 64179) - "WebSocket /socket.io/" [accepted]
+('127.0.0.1', 63749) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者managerBabysitter  登入時間2022-07-31 13:56:58
+使用者admin1  登入時間2022-08-01 23:59:09
+Task exception was never retrieved
+future: <Task finished name='Task-1286' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=KeyError('保育組')>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 151, in on_updata_performance_table
+    await self.broadCast(label, sid)
+  File "socketIo.py", line 176, in broadCast
+    to = self.redisDB.selectManager(label[banch])['sid'],
+KeyError: '保育組'
 connection closed
-('127.0.0.1', 64719) - "WebSocket /socket.io/" [accepted]
+('127.0.0.1', 64162) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者managerBabysitter  登入時間2022-07-31 13:59:03
+使用者admin1  登入時間2022-08-02 00:00:30
 connection closed
-('127.0.0.1', 64986) - "WebSocket /socket.io/" [accepted]
+('127.0.0.1', 64176) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者managerBabysitter  登入時間2022-07-31 13:59:50
+使用者managerbabysitter  登入時間2022-08-02 00:00:33
+Task exception was never retrieved
+future: <Task finished name='Task-1347' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=KeyError('保育組')>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 151, in on_updata_performance_table
+    await self.broadCast(label, sid)
+  File "socketIo.py", line 176, in broadCast
+    to = self.redisDB.selectManager(label[banch])['sid'],
+KeyError: '保育組'
+connection closed
+('127.0.0.1', 64443) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:01:21
+connection closed
+('127.0.0.1', 64461) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerbabysitter  登入時間2022-08-02 00:01:24
+connection closed
+('127.0.0.1', 64537) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:01:40
+connection closed
+('127.0.0.1', 64907) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerbabysitter  登入時間2022-08-02 00:02:40
+connection closed
+('127.0.0.1', 64942) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:02:46
+connection closed
+('127.0.0.1', 64961) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-02 00:02:49
 connection closed
 connection closed
 connection closed
-('127.0.0.1', 50019) - "WebSocket /socket.io/" [accepted]
+('127.0.0.1', 65331) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者managerBabysitter  登入時間2022-07-31 14:05:34
-('127.0.0.1', 50021) - "WebSocket /socket.io/" [accepted]
+使用者admin1  登入時間2022-08-02 00:04:01
+('127.0.0.1', 65436) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者admin1  登入時間2022-07-31 14:05:34
-('127.0.0.1', 50035) - "WebSocket /socket.io/" [accepted]
+使用者managerBabysitter  登入時間2022-08-02 00:04:13
+('127.0.0.1', 65525) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者personalBabysitter1  登入時間2022-07-31 14:05:36
+使用者personalBabysitter1  登入時間2022-08-02 00:04:27
+Task exception was never retrieved
+future: <Task finished name='Task-1594' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=KeyError('保育組')>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 151, in on_updata_performance_table
+    await self.broadCast(label, sid)
+  File "socketIo.py", line 176, in broadCast
+    to = self.redisDB.selectManager(label[banch])['sid'],
+KeyError: '保育組'
+connection closed
+('127.0.0.1', 49938) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-02 00:06:50
+connection closed
+('127.0.0.1', 49958) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-02 00:06:52
+connection closed
+('127.0.0.1', 49975) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:06:54
+('127.0.0.1', 50720) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-02 00:09:19
+('127.0.0.1', 50724) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:09:19
+('127.0.0.1', 50725) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-02 00:09:19
+('127.0.0.1', 50740) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-02 00:09:21
+('127.0.0.1', 50743) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:09:21
+('127.0.0.1', 50746) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-02 00:09:21
+('127.0.0.1', 50764) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-02 00:09:24
+('127.0.0.1', 50768) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 50769) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:09:24
+使用者managerBabysitter  登入時間2022-08-02 00:09:25
+('127.0.0.1', 50784) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-02 00:09:26
+('127.0.0.1', 50792) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:09:27
+('127.0.0.1', 50796) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-02 00:09:28
+('127.0.0.1', 50804) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-02 00:09:28
+('127.0.0.1', 50808) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 50809) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:09:28
+使用者managerBabysitter  登入時間2022-08-02 00:09:28
+('127.0.0.1', 50824) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-02 00:09:30
+('127.0.0.1', 50828) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 50829) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:09:30
+使用者managerBabysitter  登入時間2022-08-02 00:09:30
+('127.0.0.1', 50853) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-02 00:09:35
+('127.0.0.1', 50861) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:09:36
+('127.0.0.1', 50863) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-02 00:09:36
+('127.0.0.1', 50898) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 50899) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-02 00:09:41
+('127.0.0.1', 50900) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:09:41
+使用者managerBabysitter  登入時間2022-08-02 00:09:42
+('127.0.0.1', 50943) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-02 00:09:48
+('127.0.0.1', 50951) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 50952) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:09:49
+使用者managerBabysitter  登入時間2022-08-02 00:09:49
+('127.0.0.1', 50964) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-02 00:09:50
+('127.0.0.1', 50972) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:09:50
+('127.0.0.1', 50974) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-02 00:09:51
+('127.0.0.1', 51008) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-02 00:09:56
+('127.0.0.1', 51012) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 51014) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:09:56
+使用者managerBabysitter  登入時間2022-08-02 00:09:56
+('127.0.0.1', 51047) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-02 00:10:02
+('127.0.0.1', 51055) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:10:03
+('127.0.0.1', 51057) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-02 00:10:03
+('127.0.0.1', 51068) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-02 00:10:04
+('127.0.0.1', 51078) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:10:05
+('127.0.0.1', 51080) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-02 00:10:05
+('127.0.0.1', 51114) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-02 00:10:11
+('127.0.0.1', 51123) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:10:11
+('127.0.0.1', 51125) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-02 00:10:12
+('127.0.0.1', 51131) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-02 00:10:12
+('127.0.0.1', 51139) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 51140) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:10:12
+使用者managerBabysitter  登入時間2022-08-02 00:10:13
+('127.0.0.1', 51171) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-02 00:10:17
+('127.0.0.1', 51179) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:10:18
+('127.0.0.1', 51181) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-02 00:10:18
+('127.0.0.1', 51203) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-02 00:10:22
+('127.0.0.1', 51207) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:10:22
+('127.0.0.1', 51209) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-02 00:10:22
+('127.0.0.1', 51227) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-02 00:10:25
+('127.0.0.1', 51237) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 51238) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-02 00:10:26
+('127.0.0.1', 51240) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:10:26
+使用者managerBabysitter  登入時間2022-08-02 00:10:26
+('127.0.0.1', 51274) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-02 00:10:32
+('127.0.0.1', 51282) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-02 00:10:32
+('127.0.0.1', 51286) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:10:32
+('127.0.0.1', 51294) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-02 00:10:34
+('127.0.0.1', 51302) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:10:34
+('127.0.0.1', 51304) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-02 00:10:35
+('127.0.0.1', 51314) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-02 00:10:36
+('127.0.0.1', 51322) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:10:36
+('127.0.0.1', 51326) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-02 00:10:37
+('127.0.0.1', 51334) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-02 00:10:38
+('127.0.0.1', 51342) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 51343) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:10:39
+使用者managerBabysitter  登入時間2022-08-02 00:10:39
+('127.0.0.1', 51354) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-02 00:10:39
+('127.0.0.1', 51362) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:10:40
+('127.0.0.1', 51365) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-02 00:10:41
 connection closed
 connection closed
 connection closed
-('127.0.0.1', 50060) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者managerBabysitter  登入時間2022-07-31 14:07:37
-('127.0.0.1', 50064) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者personalBabysitter1  登入時間2022-07-31 14:07:37
-('127.0.0.1', 50075) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者admin1  登入時間2022-07-31 14:07:37
 connection closed
-('127.0.0.1', 50230) - "WebSocket /socket.io/" [accepted]
-connection open
-使用者managerBabysitter  登入時間2022-07-31 14:08:11
 connection closed
-('127.0.0.1', 50976) - "WebSocket /socket.io/" [accepted]
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 51854) - "WebSocket /socket.io/" [accepted]
 connection open
-使用者managerBabysitter  登入時間2022-07-31 14:10:58
+使用者personalBabysitter1  登入時間2022-08-02 00:12:27
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 51871) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-02 00:12:29
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 51890) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:12:32
+Task exception was never retrieved
+future: <Task finished name='Task-4021' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=KeyError('保育組')>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 151, in on_updata_performance_table
+    await self.broadCast(label, sid)
+  File "socketIo.py", line 176, in broadCast
+    to = self.redisDB.selectManager(label[banch])['sid'],
+KeyError: '保育組'
+connection closed
+('127.0.0.1', 51950) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:12:42
+connection closed
+('127.0.0.1', 52255) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:13:48
+connection closed
+('127.0.0.1', 52269) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-02 00:13:50
+connection closed
+('127.0.0.1', 52289) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-02 00:13:52
+Task exception was never retrieved
+future: <Task finished name='Task-4109' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=KeyError('保育組')>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 151, in on_updata_performance_table
+    await self.broadCast(label, sid)
+  File "socketIo.py", line 176, in broadCast
+    to = self.redisDB.selectManager(label[banch])['sid'],
+KeyError: '保育組'
+('127.0.0.1', 52449) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:14:25
+('127.0.0.1', 52461) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 52462) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-02 00:14:27
+使用者managerBabysitter  登入時間2022-08-02 00:14:27
+('127.0.0.1', 52474) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:14:28
+('127.0.0.1', 52475) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-02 00:14:28
+('127.0.0.1', 52480) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-02 00:14:28
+('127.0.0.1', 52497) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:14:30
+('127.0.0.1', 52506) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-02 00:14:31
+('127.0.0.1', 52508) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-02 00:14:31
+('127.0.0.1', 52527) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:14:34
+('127.0.0.1', 52531) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 52532) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-02 00:14:34
+使用者personalBabysitter1  登入時間2022-08-02 00:14:34
+('127.0.0.1', 52552) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:14:37
+('127.0.0.1', 52556) - "WebSocket /socket.io/" [accepted]
+connection open
+('127.0.0.1', 52557) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-02 00:14:37
+使用者personalBabysitter1  登入時間2022-08-02 00:14:38
+('127.0.0.1', 52572) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:14:40
+('127.0.0.1', 52580) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-02 00:14:40
+('127.0.0.1', 52588) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-02 00:14:41
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 52602) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:14:43
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 52627) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-02 00:14:46
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+connection closed
+('127.0.0.1', 52642) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-02 00:14:48
+connection closed
+('127.0.0.1', 52847) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-02 00:15:34
+connection closed
+('127.0.0.1', 52869) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-02 00:15:37
+connection closed
+('127.0.0.1', 52884) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:15:39
+Task exception was never retrieved
+future: <Task finished name='Task-4506' coro=<AsyncServer._handle_event_internal() done, defined at /Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py:521> exception=KeyError('保育組')>
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 523, in _handle_event_internal
+    r = await server._trigger_event(data[0], namespace, sid, *data[1:])
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_server.py", line 568, in _trigger_event
+    return await self.namespace_handlers[namespace].trigger_event(
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/socketio/asyncio_namespace.py", line 37, in trigger_event
+    ret = await handler(*args)
+  File "socketIo.py", line 151, in on_updata_performance_table
+    await self.broadCast(label, sid)
+  File "socketIo.py", line 176, in broadCast
+    to = self.redisDB.selectManager(label[banch])['sid'],
+KeyError: '保育組'
+connection closed
+('127.0.0.1', 52948) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:15:49
+connection closed
+('127.0.0.1', 53194) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:16:46
+connection closed
+('127.0.0.1', 53363) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:17:23
+connection closed
+('127.0.0.1', 53654) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:18:28
+connection closed
+('127.0.0.1', 53738) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 00:18:35
+connection closed
+('127.0.0.1', 53780) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-02 00:18:42
+connection closed
+('127.0.0.1', 53934) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-02 00:19:04
+connection closed
+('127.0.0.1', 54213) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-02 00:19:52
+connection closed
+('127.0.0.1', 54219) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-02 00:19:52
+connection closed
+('127.0.0.1', 54236) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-02 00:19:55
+connection closed
+('127.0.0.1', 54258) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-02 00:19:58
+Shutting down
+connection closed
+connection closed
+connection closed
+Waiting for application shutdown.
+Application shutdown complete.
+Finished server process [99925]

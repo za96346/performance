@@ -1,4 +1,3 @@
-
 from cgi import print_arguments
 import socketio
 import uvicorn
@@ -9,6 +8,7 @@ from database import select_banch_all, select_user_banch,select_banch
 from redisdb import redisdb
 import time
 from loger import log
+
 #Sanic是Python 3.5及更新版本的一個非常高效的異步web伺服器。
 #sio = socketio.AsyncServer(async_mode='asgi', cors_allowed_origins = '*', logger=False, engineio_logger=False)
 #mgr = socketio.AsyncRedisManager('redis://127.0.0.1:5002', write_only = True)
@@ -27,6 +27,8 @@ socketEvent = {
     'new_emp_insert_performance_table': 'new_emp_insert_performance_table',
     'insert_performance_table': 'insert_performance_table'
 }
+
+
 
 def praseToken(token):
     #因為"QUERY_STRING" 自帶尾巴 所以要把尾巴處理掉
@@ -99,10 +101,7 @@ class MainNamespace(socketio.AsyncNamespace):
         self.enter_room(sid, userPermession)
         self.enter_room(sid, user)
         for item in self.rooms(sid):
-            if item != sid:
-                self.leave_room(sid, item)
-                self.redisDB.leaveRoom(sid)
-                print('進入房間 => ', item)
+            print('進入房間 => ', item)
 
     async def on_disconnect(self, sid):
         print("使用者離線 => ", sid)
@@ -117,19 +116,39 @@ class MainNamespace(socketio.AsyncNamespace):
         print('user',sid)
 
     async def on_performance_banch_change(self, sid, data):
+        #data => { "data": ["managerPublicRelations", 154, 4, "社工組", "公關組"] }
         print('connect performance_banch_change', data)
-        print('user',sid)
+        data = self.redisDB.jde(data)['data']
+        label = {'user': data[0], 'banch': [data[3]] if data[3] == data[4] else [data[3], data[4]], 'permession': select_banch(data[0])}
+        await self.broadCast(label, sid)
 
     async def on_group_change(self, sid, data):
         print('connect group_change', data)
         print('user',sid)
 
     async def on_updata_performance_table(self, sid, data):
-        #user = data[3]
-        #banch = data[12]
-        room = [data[3], data[12]]
-        for item in room:
-            await self.emit('updata_performance_table', 'update', room = item, skip_sid = sid, namespace = self.namespace)
+        #data => 
+        # {"data":
+        #   ["3",
+        #   "personalPublicRelations1",
+        #   "1、食物存frwef放區，保持清潔。並分類管理\n2、廚房自主管理ewf\n3、活動餐點主導。",
+        #   "personalPublicRelations1",
+        #   119,
+        #   5,
+        #   8,
+        #   10,
+        #   7,
+        #   2500,
+        #   "1.方案執行確實。2.季核銷效率待加強。",
+        #   1,
+        #   2,
+        #   "公關組"]
+        # }
+        print('connect updata_performance_table', data)
+        data = self.redisDB.jde(data)['data']
+            
+        label = {'user': data[3], 'banch': [data[-1]], 'permession': select_banch(data[3])}
+        await self.broadCast(label, sid)
 
     async def on_new_emp_insert_performance_table(self, sid, data):
         print('connect new_emp_insert_performance_table', data)
@@ -138,6 +157,26 @@ class MainNamespace(socketio.AsyncNamespace):
     async def on_insert_performance_table(self, sid, data):
         print('connect insert_performance_table', data)
         print('user',sid)
+
+    async def broadCast(self, label, sid):
+        #current data label => {'user': data[3], 'banch': data[13], 'permession': select_banch(data[3])}
+        print('廣播的房間', label)
+        if label['permession'] == 'manager':
+            await self.emit('updata_performance_table', 'update', room = 'admin', skip_sid = sid, namespace = self.namespace)
+            await self.emit('updata_performance_table', 'update', room = label['user'], skip_sid = sid, namespace = self.namespace)
+        elif label['permession'] == 'personal':
+            print('==>==>', self.redisDB.selectManager(label['banch']))
+            await self.emit('updata_performance_table', 'update', room = 'admin', skip_sid = sid, namespace = self.namespace)
+
+            await self.emit('updata_performance_table', 'update', room = label['user'], skip_sid = sid, namespace = self.namespace)
+            for banch in label['banch']:
+                await self.emit(
+                                    'updata_performance_table', 
+                                    'update', 
+                                    to = self.redisDB.selectManager(label[banch])['sid'],
+                                    skip_sid = sid, 
+                                    namespace = self.namespace
+                )
 
 class SocketIo (socketio.AsyncServer):
     def __init__(self, client_manager=None, logger=False, json=None, async_handlers=True, namespaces=None, **kwargs):
@@ -154,7 +193,3 @@ if __name__ == '__main__':
     port = int(os.getenv('SOCKET_IO_PORT'))
     SocketIoInstance = SocketIo(async_mode='asgi', cors_allowed_origins = '*', logger=False, engineio_logger=False)
     uvicorn.run(App(SocketIoInstance,static_files='*/html'), host = host, port = port)
-
-    
-
-

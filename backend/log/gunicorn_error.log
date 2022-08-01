@@ -1937,3 +1937,425 @@ AttributeError: 'CMySQLCursor' object has no attribute 'commit'
 [2022-07-31 14:07:35 +0800] [45680] [WARNING] Worker with pid 45703 was terminated due to signal 9
 [2022-07-31 14:07:35 +0800] [45680] [WARNING] Worker with pid 45697 was terminated due to signal 9
 [2022-07-31 14:07:35 +0800] [45680] [WARNING] Worker with pid 45709 was terminated due to signal 9
+[2022-07-31 15:49:41 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:51120)
+[2022-07-31 15:49:41 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:51121)
+[2022-07-31 15:49:41 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:51122)
+[2022-07-31 15:49:41 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:51123)
+[2022-07-31 15:49:41 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:51124)
+[2022-07-31 15:49:41 +0800] [51106] [WARNING] Worker with pid 51123 was terminated due to signal 9
+[2022-07-31 15:49:41 +0800] [51106] [WARNING] Worker with pid 51121 was terminated due to signal 9
+[2022-07-31 15:49:41 +0800] [51106] [WARNING] Worker with pid 51120 was terminated due to signal 9
+[2022-07-31 15:49:41 +0800] [51106] [WARNING] Worker with pid 51124 was terminated due to signal 9
+[2022-07-31 16:12:38 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:51134)
+[2022-07-31 16:12:38 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:51135)
+[2022-07-31 16:12:38 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:51136)
+[2022-07-31 16:24:41 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:51125)
+[2022-07-31 16:24:41 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:51126)
+[2022-07-31 16:24:41 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:51127)
+[2022-07-31 16:24:41 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:51128)
+[2022-07-31 16:24:41 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:51129)
+[2022-07-31 16:24:41 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:51130)
+[2022-07-31 16:24:41 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:51131)
+[2022-07-31 16:24:41 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:51132)
+[2022-07-31 16:24:41 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:51133)
+[2022-07-31 16:24:41 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53105)
+[2022-07-31 16:24:41 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53106)
+[2022-07-31 16:24:41 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53107)
+[2022-07-31 16:24:41 +0800] [51106] [WARNING] Worker with pid 53106 was terminated due to signal 9
+[2022-07-31 16:24:41 +0800] [51106] [WARNING] Worker with pid 53105 was terminated due to signal 9
+[2022-07-31 16:24:41 +0800] [51106] [WARNING] Worker with pid 51133 was terminated due to signal 9
+[2022-07-31 16:24:41 +0800] [51106] [WARNING] Worker with pid 51132 was terminated due to signal 9
+[2022-07-31 16:24:41 +0800] [51106] [WARNING] Worker with pid 51131 was terminated due to signal 9
+[2022-07-31 16:24:41 +0800] [51106] [WARNING] Worker with pid 51130 was terminated due to signal 9
+[2022-07-31 16:24:41 +0800] [51106] [WARNING] Worker with pid 51129 was terminated due to signal 9
+[2022-07-31 16:24:41 +0800] [51106] [WARNING] Worker with pid 51128 was terminated due to signal 9
+[2022-07-31 16:24:41 +0800] [51106] [WARNING] Worker with pid 51126 was terminated due to signal 9
+[2022-07-31 16:24:41 +0800] [51106] [WARNING] Worker with pid 51125 was terminated due to signal 9
+[2022-07-31 16:24:41 +0800] [51106] [WARNING] Worker with pid 53107 was terminated due to signal 9
+[2022-07-31 16:33:44 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:52116)
+[2022-07-31 16:33:44 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53196)
+[2022-07-31 16:33:44 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53197)
+[2022-07-31 16:33:44 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53199)
+[2022-07-31 16:33:44 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53200)
+[2022-07-31 16:33:44 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53204)
+[2022-07-31 16:33:44 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53205)
+[2022-07-31 16:33:44 +0800] [51106] [WARNING] Worker with pid 53200 was terminated due to signal 9
+[2022-07-31 16:33:44 +0800] [51106] [WARNING] Worker with pid 53197 was terminated due to signal 9
+[2022-07-31 16:33:44 +0800] [51106] [WARNING] Worker with pid 53205 was terminated due to signal 9
+[2022-07-31 16:33:44 +0800] [51106] [WARNING] Worker with pid 53204 was terminated due to signal 9
+[2022-07-31 16:52:34 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:52117)
+[2022-07-31 16:52:34 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:52118)
+[2022-07-31 16:52:34 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:52119)
+[2022-07-31 16:52:34 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:52120)
+[2022-07-31 16:52:34 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53206)
+[2022-07-31 16:52:34 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53207)
+[2022-07-31 16:52:34 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53208)
+[2022-07-31 16:52:34 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53210)
+[2022-07-31 16:52:34 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53211)
+[2022-07-31 16:52:34 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53212)
+[2022-07-31 16:52:34 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53214)
+[2022-07-31 16:52:34 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53215)
+[2022-07-31 16:52:34 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53216)
+[2022-07-31 16:52:34 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53217)
+[2022-07-31 16:52:34 +0800] [51106] [WARNING] Worker with pid 53212 was terminated due to signal 9
+[2022-07-31 16:52:34 +0800] [51106] [WARNING] Worker with pid 53207 was terminated due to signal 9
+[2022-07-31 16:52:34 +0800] [51106] [WARNING] Worker with pid 53206 was terminated due to signal 9
+[2022-07-31 16:52:34 +0800] [51106] [WARNING] Worker with pid 52119 was terminated due to signal 9
+[2022-07-31 16:52:34 +0800] [51106] [WARNING] Worker with pid 52118 was terminated due to signal 9
+[2022-07-31 16:52:34 +0800] [51106] [WARNING] Worker with pid 52117 was terminated due to signal 9
+[2022-07-31 16:52:34 +0800] [51106] [WARNING] Worker with pid 53214 was terminated due to signal 9
+[2022-07-31 16:52:34 +0800] [51106] [WARNING] Worker with pid 53216 was terminated due to signal 9
+[2022-07-31 16:52:34 +0800] [51106] [WARNING] Worker with pid 53217 was terminated due to signal 9
+[2022-07-31 16:52:34 +0800] [51106] [WARNING] Worker with pid 53215 was terminated due to signal 9
+[2022-07-31 16:52:34 +0800] [51106] [WARNING] Worker with pid 52120 was terminated due to signal 9
+[2022-07-31 16:52:34 +0800] [51106] [WARNING] Worker with pid 53210 was terminated due to signal 9
+[2022-07-31 16:52:34 +0800] [51106] [WARNING] Worker with pid 53208 was terminated due to signal 9
+[2022-07-31 17:21:02 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53235)
+[2022-07-31 17:21:02 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53236)
+[2022-07-31 17:21:02 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53239)
+[2022-07-31 17:21:02 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53240)
+[2022-07-31 17:21:02 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53241)
+[2022-07-31 17:21:02 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53242)
+[2022-07-31 17:21:02 +0800] [51106] [WARNING] Worker with pid 53240 was terminated due to signal 9
+[2022-07-31 17:21:02 +0800] [51106] [WARNING] Worker with pid 53235 was terminated due to signal 9
+[2022-07-31 17:21:02 +0800] [51106] [WARNING] Worker with pid 53242 was terminated due to signal 9
+[2022-07-31 17:21:02 +0800] [51106] [WARNING] Worker with pid 53241 was terminated due to signal 9
+[2022-07-31 17:21:02 +0800] [51106] [WARNING] Worker with pid 53236 was terminated due to signal 9
+[2022-07-31 17:38:56 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53243)
+[2022-07-31 17:38:56 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53244)
+[2022-07-31 17:38:56 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53245)
+[2022-07-31 17:38:56 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53246)
+[2022-07-31 17:38:56 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53247)
+[2022-07-31 17:38:56 +0800] [51106] [WARNING] Worker with pid 53246 was terminated due to signal 9
+[2022-07-31 17:38:56 +0800] [51106] [WARNING] Worker with pid 53245 was terminated due to signal 9
+[2022-07-31 17:38:56 +0800] [51106] [WARNING] Worker with pid 53243 was terminated due to signal 9
+[2022-07-31 17:54:03 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53221)
+[2022-07-31 17:54:03 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53222)
+[2022-07-31 17:54:03 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53223)
+[2022-07-31 17:54:03 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53248)
+[2022-07-31 17:54:03 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53249)
+[2022-07-31 17:54:03 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53250)
+[2022-07-31 17:54:03 +0800] [51106] [WARNING] Worker with pid 53248 was terminated due to signal 9
+[2022-07-31 17:54:03 +0800] [51106] [WARNING] Worker with pid 53223 was terminated due to signal 9
+[2022-07-31 17:54:03 +0800] [51106] [WARNING] Worker with pid 53222 was terminated due to signal 9
+[2022-07-31 17:54:03 +0800] [51106] [WARNING] Worker with pid 53249 was terminated due to signal 9
+[2022-07-31 17:54:03 +0800] [51106] [WARNING] Worker with pid 53250 was terminated due to signal 9
+[2022-07-31 18:11:47 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53259)
+[2022-07-31 18:11:47 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53260)
+[2022-07-31 18:11:47 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53261)
+[2022-07-31 18:11:47 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53263)
+[2022-07-31 18:11:47 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53264)
+[2022-07-31 18:11:47 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53265)
+[2022-07-31 18:11:47 +0800] [51106] [WARNING] Worker with pid 53263 was terminated due to signal 9
+[2022-07-31 18:11:47 +0800] [51106] [WARNING] Worker with pid 53261 was terminated due to signal 9
+[2022-07-31 18:11:47 +0800] [51106] [WARNING] Worker with pid 53259 was terminated due to signal 9
+[2022-07-31 18:11:47 +0800] [51106] [WARNING] Worker with pid 53264 was terminated due to signal 9
+[2022-07-31 18:11:47 +0800] [51106] [WARNING] Worker with pid 53265 was terminated due to signal 9
+[2022-07-31 18:29:29 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53272)
+[2022-07-31 18:29:29 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53273)
+[2022-07-31 18:29:29 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53274)
+[2022-07-31 18:29:29 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53275)
+[2022-07-31 18:29:29 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53276)
+[2022-07-31 18:29:29 +0800] [51106] [WARNING] Worker with pid 53274 was terminated due to signal 9
+[2022-07-31 18:29:29 +0800] [51106] [WARNING] Worker with pid 53275 was terminated due to signal 9
+[2022-07-31 18:29:29 +0800] [51106] [WARNING] Worker with pid 53272 was terminated due to signal 9
+[2022-07-31 18:42:09 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53288)
+[2022-07-31 18:42:09 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53289)
+[2022-07-31 18:59:25 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53284)
+[2022-07-31 18:59:25 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53285)
+[2022-07-31 18:59:25 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53286)
+[2022-07-31 18:59:25 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53287)
+[2022-07-31 18:59:25 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53293)
+[2022-07-31 18:59:25 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53294)
+[2022-07-31 18:59:25 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53295)
+[2022-07-31 18:59:25 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53296)
+[2022-07-31 18:59:25 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53297)
+[2022-07-31 18:59:25 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53308)
+[2022-07-31 18:59:25 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53309)
+[2022-07-31 18:59:25 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53310)
+[2022-07-31 18:59:25 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53311)
+[2022-07-31 18:59:25 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53317)
+[2022-07-31 18:59:25 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53318)
+[2022-07-31 18:59:25 +0800] [51106] [WARNING] Worker with pid 53294 was terminated due to signal 9
+[2022-07-31 19:15:14 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53348)
+[2022-07-31 19:15:14 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53349)
+[2022-07-31 19:15:14 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53350)
+[2022-07-31 19:15:14 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53351)
+[2022-07-31 19:15:14 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53352)
+[2022-07-31 19:15:14 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53353)
+[2022-07-31 19:15:14 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53354)
+[2022-07-31 19:15:14 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53363)
+[2022-07-31 19:15:14 +0800] [51106] [WARNING] Worker with pid 53353 was terminated due to signal 9
+[2022-07-31 19:15:14 +0800] [51106] [WARNING] Worker with pid 53354 was terminated due to signal 9
+[2022-07-31 19:15:14 +0800] [51106] [WARNING] Worker with pid 53352 was terminated due to signal 9
+[2022-07-31 19:15:14 +0800] [51106] [WARNING] Worker with pid 53350 was terminated due to signal 9
+[2022-07-31 19:15:14 +0800] [51106] [WARNING] Worker with pid 53351 was terminated due to signal 9
+[2022-07-31 19:15:14 +0800] [51106] [WARNING] Worker with pid 53363 was terminated due to signal 9
+[2022-07-31 19:31:21 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53298)
+[2022-07-31 19:31:21 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53307)
+[2022-07-31 19:31:21 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53358)
+[2022-07-31 19:31:21 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53359)
+[2022-07-31 19:31:21 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53360)
+[2022-07-31 19:31:21 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53361)
+[2022-07-31 19:31:21 +0800] [51106] [WARNING] Worker with pid 53298 was terminated due to signal 9
+[2022-07-31 19:31:21 +0800] [51106] [WARNING] Worker with pid 53361 was terminated due to signal 9
+[2022-07-31 19:48:29 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53368)
+[2022-07-31 19:48:29 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53369)
+[2022-07-31 20:06:28 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53355)
+[2022-07-31 20:06:28 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53356)
+[2022-07-31 20:06:28 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53357)
+[2022-07-31 20:06:28 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53366)
+[2022-07-31 20:06:28 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53367)
+[2022-07-31 20:06:28 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53370)
+[2022-07-31 20:06:28 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53371)
+[2022-07-31 20:06:28 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53372)
+[2022-07-31 20:06:28 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53373)
+[2022-07-31 20:06:28 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53378)
+[2022-07-31 20:06:28 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53379)
+[2022-07-31 20:06:28 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53380)
+[2022-07-31 20:06:28 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53381)
+[2022-07-31 20:06:28 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53382)
+[2022-07-31 20:06:28 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53383)
+[2022-07-31 20:06:28 +0800] [51106] [WARNING] Worker with pid 53357 was terminated due to signal 9
+[2022-07-31 20:06:28 +0800] [51106] [WARNING] Worker with pid 53383 was terminated due to signal 9
+[2022-07-31 20:06:28 +0800] [51106] [WARNING] Worker with pid 53355 was terminated due to signal 9
+[2022-07-31 20:06:28 +0800] [51106] [WARNING] Worker with pid 53381 was terminated due to signal 9
+[2022-07-31 20:06:28 +0800] [51106] [WARNING] Worker with pid 53356 was terminated due to signal 9
+[2022-07-31 20:06:28 +0800] [51106] [WARNING] Worker with pid 53382 was terminated due to signal 9
+[2022-07-31 20:06:28 +0800] [51106] [WARNING] Worker with pid 53380 was terminated due to signal 9
+[2022-07-31 20:06:28 +0800] [51106] [WARNING] Worker with pid 53371 was terminated due to signal 9
+[2022-07-31 20:06:28 +0800] [51106] [WARNING] Worker with pid 53372 was terminated due to signal 9
+[2022-07-31 20:06:28 +0800] [51106] [WARNING] Worker with pid 53366 was terminated due to signal 9
+[2022-07-31 20:06:28 +0800] [51106] [WARNING] Worker with pid 53367 was terminated due to signal 9
+[2022-07-31 20:06:28 +0800] [51106] [WARNING] Worker with pid 53370 was terminated due to signal 9
+[2022-07-31 20:06:28 +0800] [51106] [WARNING] Worker with pid 53379 was terminated due to signal 9
+[2022-07-31 20:06:28 +0800] [51106] [WARNING] Worker with pid 53378 was terminated due to signal 9
+[2022-07-31 20:19:53 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53389)
+[2022-07-31 20:19:53 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53390)
+[2022-07-31 20:19:53 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53391)
+[2022-07-31 20:19:53 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53392)
+[2022-07-31 20:19:53 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53393)
+[2022-07-31 20:19:53 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53394)
+[2022-07-31 20:19:53 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53403)
+[2022-07-31 20:19:53 +0800] [51106] [WARNING] Worker with pid 53392 was terminated due to signal 9
+[2022-07-31 20:19:53 +0800] [51106] [WARNING] Worker with pid 53390 was terminated due to signal 9
+[2022-07-31 20:19:53 +0800] [51106] [WARNING] Worker with pid 53389 was terminated due to signal 9
+[2022-07-31 20:19:53 +0800] [51106] [WARNING] Worker with pid 53403 was terminated due to signal 9
+[2022-07-31 20:19:53 +0800] [51106] [WARNING] Worker with pid 53391 was terminated due to signal 9
+[2022-07-31 20:19:53 +0800] [51106] [WARNING] Worker with pid 53393 was terminated due to signal 9
+[2022-07-31 20:36:33 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53395)
+[2022-07-31 20:36:33 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53396)
+[2022-07-31 20:36:33 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53397)
+[2022-07-31 20:49:16 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53423)
+[2022-07-31 21:08:38 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53409)
+[2022-07-31 21:08:38 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53410)
+[2022-07-31 21:08:38 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53411)
+[2022-07-31 21:20:38 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53385)
+[2022-07-31 21:20:38 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53386)
+[2022-07-31 21:20:38 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53398)
+[2022-07-31 21:20:38 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53399)
+[2022-07-31 21:20:38 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53400)
+[2022-07-31 21:20:38 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53401)
+[2022-07-31 21:20:38 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53402)
+[2022-07-31 21:20:38 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53405)
+[2022-07-31 21:20:38 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53421)
+[2022-07-31 21:20:38 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53422)
+[2022-07-31 21:20:38 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53438)
+[2022-07-31 21:20:38 +0800] [51106] [WARNING] Worker with pid 53421 was terminated due to signal 9
+[2022-07-31 21:20:38 +0800] [51106] [WARNING] Worker with pid 53405 was terminated due to signal 9
+[2022-07-31 21:20:38 +0800] [51106] [WARNING] Worker with pid 53422 was terminated due to signal 9
+[2022-07-31 21:20:38 +0800] [51106] [WARNING] Worker with pid 53398 was terminated due to signal 9
+[2022-07-31 21:20:38 +0800] [51106] [WARNING] Worker with pid 53386 was terminated due to signal 9
+[2022-07-31 21:27:33 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53590)
+[2022-07-31 21:27:33 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53591)
+[2022-07-31 21:27:33 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53607)
+[2022-07-31 21:27:33 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53608)
+[2022-07-31 21:27:33 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53609)
+[2022-07-31 21:27:33 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53610)
+[2022-07-31 21:27:33 +0800] [51106] [WARNING] Worker with pid 53590 was terminated due to signal 9
+[2022-07-31 21:27:33 +0800] [51106] [WARNING] Worker with pid 53607 was terminated due to signal 9
+[2022-07-31 21:27:33 +0800] [51106] [WARNING] Worker with pid 53609 was terminated due to signal 9
+[2022-07-31 21:27:33 +0800] [51106] [WARNING] Worker with pid 53608 was terminated due to signal 9
+[2022-07-31 21:27:33 +0800] [51106] [WARNING] Worker with pid 53610 was terminated due to signal 9
+[2022-07-31 22:16:37 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53589)
+[2022-07-31 22:16:37 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53619)
+[2022-07-31 22:16:37 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53669)
+[2022-07-31 22:16:37 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53670)
+[2022-07-31 22:16:37 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53671)
+[2022-07-31 22:16:37 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53672)
+[2022-07-31 22:16:37 +0800] [51106] [WARNING] Worker with pid 53672 was terminated due to signal 9
+[2022-07-31 22:16:37 +0800] [51106] [WARNING] Worker with pid 53671 was terminated due to signal 9
+[2022-07-31 22:16:37 +0800] [51106] [WARNING] Worker with pid 53619 was terminated due to signal 9
+[2022-08-01 00:44:28 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53615)
+[2022-08-01 00:50:12 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:55317)
+[2022-08-01 01:03:43 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53406)
+[2022-08-01 01:03:43 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53407)
+[2022-08-01 01:03:43 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53408)
+[2022-08-01 01:03:43 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53611)
+[2022-08-01 01:03:43 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53612)
+[2022-08-01 01:03:43 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53613)
+[2022-08-01 01:03:43 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53614)
+[2022-08-01 01:03:43 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53617)
+[2022-08-01 01:03:43 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53673)
+[2022-08-01 01:03:43 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:53674)
+[2022-08-01 01:03:43 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:55319)
+[2022-08-01 01:03:43 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:55321)
+[2022-08-01 01:03:43 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:55322)
+[2022-08-01 01:03:43 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:55323)
+[2022-08-01 01:03:43 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:55325)
+[2022-08-01 01:03:43 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:60251)
+[2022-08-01 01:03:43 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:60286)
+[2022-08-01 01:03:43 +0800] [51106] [WARNING] Worker with pid 60286 was terminated due to signal 9
+[2022-08-01 01:03:43 +0800] [51106] [WARNING] Worker with pid 53408 was terminated due to signal 9
+[2022-08-01 01:03:43 +0800] [51106] [WARNING] Worker with pid 53406 was terminated due to signal 9
+[2022-08-01 01:03:43 +0800] [51106] [WARNING] Worker with pid 53613 was terminated due to signal 9
+[2022-08-01 01:03:43 +0800] [51106] [WARNING] Worker with pid 53612 was terminated due to signal 9
+[2022-08-01 01:03:43 +0800] [51106] [WARNING] Worker with pid 55321 was terminated due to signal 9
+[2022-08-01 01:03:43 +0800] [51106] [WARNING] Worker with pid 53673 was terminated due to signal 9
+[2022-08-01 01:03:43 +0800] [51106] [WARNING] Worker with pid 53674 was terminated due to signal 9
+[2022-08-01 01:03:43 +0800] [51106] [WARNING] Worker with pid 55319 was terminated due to signal 9
+[2022-08-01 01:03:43 +0800] [51106] [WARNING] Worker with pid 53614 was terminated due to signal 9
+[2022-08-01 01:03:43 +0800] [51106] [WARNING] Worker with pid 53407 was terminated due to signal 9
+[2022-08-01 01:03:43 +0800] [51106] [WARNING] Worker with pid 53611 was terminated due to signal 9
+[2022-08-01 01:03:43 +0800] [51106] [WARNING] Worker with pid 60251 was terminated due to signal 9
+[2022-08-01 01:03:43 +0800] [51106] [WARNING] Worker with pid 55323 was terminated due to signal 9
+[2022-08-01 01:03:43 +0800] [51106] [WARNING] Worker with pid 55322 was terminated due to signal 9
+[2022-08-01 08:45:30 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:60450)
+[2022-08-01 08:45:30 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:60455)
+[2022-08-01 08:45:30 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:60456)
+[2022-08-01 08:45:30 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:60458)
+[2022-08-01 08:45:30 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:60459)
+[2022-08-01 08:45:30 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:60460)
+[2022-08-01 08:45:30 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:60461)
+[2022-08-01 08:45:30 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:60462)
+[2022-08-01 08:45:30 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:60463)
+[2022-08-01 08:45:30 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:60466)
+[2022-08-01 08:45:30 +0800] [51106] [WARNING] Worker with pid 60462 was terminated due to signal 9
+[2022-08-01 08:45:30 +0800] [51106] [WARNING] Worker with pid 60461 was terminated due to signal 9
+[2022-08-01 08:45:30 +0800] [51106] [WARNING] Worker with pid 60460 was terminated due to signal 9
+[2022-08-01 08:45:30 +0800] [51106] [WARNING] Worker with pid 60459 was terminated due to signal 9
+[2022-08-01 08:45:30 +0800] [51106] [WARNING] Worker with pid 60456 was terminated due to signal 9
+[2022-08-01 08:45:30 +0800] [51106] [WARNING] Worker with pid 60466 was terminated due to signal 9
+[2022-08-01 08:45:30 +0800] [51106] [WARNING] Worker with pid 60463 was terminated due to signal 9
+[2022-08-01 08:45:30 +0800] [51106] [WARNING] Worker with pid 60455 was terminated due to signal 9
+[2022-08-01 08:56:20 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:60453)
+[2022-08-01 08:56:20 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:60457)
+[2022-08-01 08:56:20 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:65077)
+[2022-08-01 08:56:20 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:65079)
+[2022-08-01 08:56:20 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:65080)
+[2022-08-01 08:56:20 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:65081)
+[2022-08-01 08:56:21 +0800] [51106] [WARNING] Worker with pid 65081 was terminated due to signal 9
+[2022-08-01 08:56:21 +0800] [51106] [WARNING] Worker with pid 65080 was terminated due to signal 9
+[2022-08-01 08:56:21 +0800] [51106] [WARNING] Worker with pid 65077 was terminated due to signal 9
+[2022-08-01 08:56:21 +0800] [51106] [WARNING] Worker with pid 60457 was terminated due to signal 9
+[2022-08-01 08:56:21 +0800] [51106] [WARNING] Worker with pid 60453 was terminated due to signal 9
+[2022-08-01 09:03:02 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:65082)
+[2022-08-01 09:03:02 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:65084)
+[2022-08-01 09:03:02 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:65085)
+[2022-08-01 09:03:02 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:65086)
+[2022-08-01 09:03:02 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:65088)
+[2022-08-01 09:03:02 +0800] [51106] [CRITICAL] WORKER TIMEOUT (pid:65089)
+[2022-08-01 09:03:02 +0800] [51106] [WARNING] Worker with pid 65084 was terminated due to signal 9
+[2022-08-01 09:03:02 +0800] [51106] [WARNING] Worker with pid 65082 was terminated due to signal 9
+[2022-08-01 09:03:02 +0800] [51106] [WARNING] Worker with pid 65085 was terminated due to signal 9
+[2022-08-01 23:12:30 +0800] [89763] [WARNING] Worker with pid 89790 was terminated due to signal 3
+[2022-08-01 23:26:47,169] ERROR in app: Exception on /getUserData [POST]
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/siou/Downloads/code/performance/backend/package/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/siou/Downloads/code/performance/backend/package/flask_cors/decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "/Users/siou/Downloads/code/performance/backend/backend.py", line 209, in getUserData
+    banch = select_user_banch(user)
+  File "/Users/siou/Downloads/code/performance/backend/database.py", line 215, in select_user_banch
+    cursor.execute(f"select `banch` from `user` where `account`='{account}';")
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/mysql/connector/cursor.py", line 572, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/mysql/connector/connection.py", line 922, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/mysql/connector/connection.py", line 732, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'account': 'admin1'}'' at line 1
+[2022-08-01 23:26:48,984] ERROR in app: Exception on /getUserData [POST]
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/siou/Downloads/code/performance/backend/package/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/siou/Downloads/code/performance/backend/package/flask_cors/decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "/Users/siou/Downloads/code/performance/backend/backend.py", line 209, in getUserData
+    banch = select_user_banch(user)
+  File "/Users/siou/Downloads/code/performance/backend/database.py", line 215, in select_user_banch
+    cursor.execute(f"select `banch` from `user` where `account`='{account}';")
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/mysql/connector/cursor.py", line 572, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/mysql/connector/connection.py", line 922, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/mysql/connector/connection.py", line 732, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'account': 'managerBabysitter'}'' at line 1
+[2022-08-01 23:28:54,028] ERROR in app: Exception on /getUserData [POST]
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/siou/Downloads/code/performance/backend/package/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/siou/Downloads/code/performance/backend/package/flask_cors/decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "/Users/siou/Downloads/code/performance/backend/backend.py", line 210, in getUserData
+    banch = select_user_banch(user)
+  File "/Users/siou/Downloads/code/performance/backend/database.py", line 215, in select_user_banch
+    cursor.execute(f"select `banch` from `user` where `account`='{account}';")
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/mysql/connector/cursor.py", line 572, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/mysql/connector/connection.py", line 922, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/mysql/connector/connection.py", line 732, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'account': 'admin1'}'' at line 1
+[2022-08-01 23:28:56,638] ERROR in app: Exception on /getUserData [POST]
+Traceback (most recent call last):
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/siou/Downloads/code/performance/backend/package/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/siou/Downloads/code/performance/backend/package/flask_cors/decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "/Users/siou/Downloads/code/performance/backend/backend.py", line 210, in getUserData
+    banch = select_user_banch(user)
+  File "/Users/siou/Downloads/code/performance/backend/database.py", line 215, in select_user_banch
+    cursor.execute(f"select `banch` from `user` where `account`='{account}';")
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/mysql/connector/cursor.py", line 572, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/mysql/connector/connection.py", line 922, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/mysql/connector/connection.py", line 732, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'account': 'managerBabysitter'}'' at line 1

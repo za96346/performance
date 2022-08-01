@@ -2,7 +2,7 @@ import React, { useEffect,useRef,useState} from "react"
 import {  useParams,useNavigate } from "react-router-dom"
 import { bubble_sorting } from "../ algorithm/bubble_sorting"
 import { fixed_title,fixed_title_emp,group_change,performance_banch_change,position_arr, select_all_banch } from "../api"
-import { rule_num_letter,rule_num,search,obj_to_arr, update, check_and_recatch_data } from "../method/method_func"
+import { rule_num_letter,rule_num,search,obj_to_arr, update } from "../method/method_func"
 import session from "../method/storage"
 
 
@@ -186,26 +186,26 @@ export function Id_name(props){
         ,set_new_arr//設定組別管理 當有更改組名 新增組別
     }=props
 
-    var rowitem_ref=useRef(0)
-    var textarea1_ref=useRef(null)
-    var textarea2_ref=useRef(null)
+    let rowitem_ref=useRef(0)
+    let textarea1_ref=useRef(null)
+    let textarea2_ref=useRef(null)
 
-    var timeout=useRef(null)
-    var composition=useRef(false)
-    var reCatchData=useRef(false)
+    let timeout=useRef(null)
+    let composition=useRef(false)
+    let reCatchData=useRef(false)
 
 
-    var token = session.getItem('token')
+    const token = session.getItem('token')
     const {page}=useParams()
     const {article_page}=useParams()
 
     
-    var permession = session.getItem('permession')
+    const permession = session.getItem('permession')
     
-    const [toggle,set_toggle]=useState()
-    const [bg,set_bg]=useState()
-    const value=useRef({})
-    const navigate=useNavigate()
+    const [toggle, set_toggle] = useState()
+    const [bg, set_bg] = useState()
+    const value = useRef({})
+    const navigate = useNavigate()
 
 
     useEffect(()=>{
@@ -258,35 +258,35 @@ export function Id_name(props){
     },[page_data_arr])
 
     function autoSave(e){
-        var values =e.target.value
-        var name=e.target.name
+        let values = e.target.value
+        let name = e.target.name
         clearTimeout(timeout.current)
         set_new_emp('更改中')
 
-        var sec=1500
+        let sec=1500
         
-        if(component_state===1&&!composition.current){
+        if(component_state === 1 && !composition.current){
             
-            if(name==='goal'){
+            if(name === 'goal'){
                 
                 value.current.goal=values
             }
-            else if(name==='attitude'){
+            else if(name === 'attitude'){
                 value.current.attitude=rule_num(e,10)
             }
-            else if(name==='efficient'){
+            else if(name === 'efficient'){
                 value.current.efficient=rule_num(e,10)
             }
-            else if(name==='professional'){
+            else if(name === 'professional'){
                 value.current.professional=rule_num(e,10)
             }
-            else if(name==='describes'){
+            else if(name === 'describes'){
                 value.current.describes=values
             }
-            else if(name==='be_late'){
+            else if(name === 'be_late'){
                 value.current.be_late=rule_num(e,100000)
             }
-            else if(name==='day_off_not_on_rule'){
+            else if(name === 'day_off_not_on_rule'){
                 value.current.day_off_not_on_rule=rule_num(e,100000)
             }
             //每次去計算 award 績效獎金
@@ -323,9 +323,18 @@ export function Id_name(props){
                 result=result.split(' ')
                 if(parseInt(result[1])>=1&&parseInt(result[1])<=12){
                     reCatchData.current=true
-                    value.current.group=values
+                    const originGroup = value.current.group
+                    value.current.group = values
                     //把他的資料換組
-                    performance_banch_change(token,[value.current.account,parseInt(result[0]),parseInt(result[1]),values])
+                    performance_banch_change(token, 
+                        [
+                            value.current.account, 
+                            parseInt(result[0]), 
+                            parseInt(result[1]), 
+                            values, 
+                            originGroup
+                        ]
+                    )
                 }
                 else{
                     set_new_emp('請輸入正確的格式')
@@ -366,7 +375,16 @@ export function Id_name(props){
         timeout.current= setTimeout(() => {
             set_new_emp('存取中...')
             console.log('useeffect',value.current)
-            search(page_data_arr,item_index,obj_to_arr(value.current),reCatchData.current,synchronize_update,set_new_emp,set_page_data_arr,page)
+            search(
+                page_data_arr,
+                item_index,
+                obj_to_arr(value.current),
+                reCatchData.current,
+                synchronize_update,
+                set_new_emp,
+                set_page_data_arr,page,
+                () => {}
+            )
         }, sec)
         }
     }

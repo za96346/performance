@@ -9,9 +9,9 @@ export const personal_sidebar = ['每月考核績效', '年度考核分數'];
 
 export function admin_sidebar() {
     const admin_sidebar_orignal = ['組別管理', '總覽', '幹部', '離職員工', '新增年度'];
-    var banch = session.getItem('all_banch')
+    const banch = session.getItem('all_banch')
     //console.log(banch)
-    if (banch === null || banch === undefined) {
+    if (!banch) {
         return admin_sidebar_orignal
     }
     for (let item = 0; item < banch.length; item++) {
@@ -22,7 +22,7 @@ export function admin_sidebar() {
 
 }
 export function manager_sidebar() {
-    var banch = session.getItem('banch')
+    const banch = session.getItem('banch')
     const manager = [banch];
     return manager
 }
@@ -109,7 +109,7 @@ export async function change_banch_name(token, data) {
         }
     }).then((response) => {
         console.log(response)
-        //SocketIO.action(socketEvent.change_banch_name, data, socketNameSpace.main)
+        SocketIO.action(socketEvent.change_banch_name, data, socketNameSpace.main)
         return response.data
     }).catch((error) => {
         console.log(error)
@@ -130,7 +130,7 @@ export async function performance_banch_change(token, data) {
             'Access-Control-Allow-Origin': '*'
         }
     }).then((response) => {
-        //SocketIO.action(socketEvent.performance_banch_change, data, socketNameSpace.main)
+        SocketIO.action(socketEvent.performance_banch_change, data, socketNameSpace.main)
         console.log(response)
         return response.data
     }).catch((error) => {
@@ -153,7 +153,7 @@ export async function group_change(token, data) {
             'Access-Control-Allow-Origin': '*'
         }
     }).then((response) => {
-        //SocketIO.action(socketEvent.group_change, data, socketNameSpace.main)
+        SocketIO.action(socketEvent.group_change, data, socketNameSpace.main)
         console.log(response)
         return true
     }).catch((error) => {
@@ -175,7 +175,7 @@ export async function updata_performance_table(data, token) {
             'Access-Control-Allow-Origin': '*'
         }
     }).then((response) => {
-        //SocketIO.action(socketEvent.updata_performance_table, data, socketNameSpace.main)
+        SocketIO.action(socketEvent.updata_performance_table, data, socketNameSpace.main)
         console.log(response)
         return true
     }).catch((error) => {
@@ -198,7 +198,7 @@ export async function new_emp_insert_performance_table(token, data) {
         }
 
     }).then((response) => {
-        //SocketIO.action(socketEvent.new_emp_insert_performance_table, data, socketNameSpace.main)
+        SocketIO.action(socketEvent.new_emp_insert_performance_table, data, socketNameSpace.main)
         console.log('NewEmpInsertPerformanceTable', response)
         return response.data
     }).catch((error) => {
@@ -222,7 +222,7 @@ export async function insert_performance_table(token, data) {
         }
 
     }).then((response) => {
-        //SocketIO.action(socketEvent.insert_performance_table, data, socketNameSpace.main)
+        SocketIO.action(socketEvent.insert_performance_table, data, socketNameSpace.main)
         console.log('InsertPerformanceTable', response)
         return response.data
     }).catch((error) => {
@@ -378,6 +378,29 @@ export async function login(login_data) {
     }).catch((error) => {
         console.log(error)
         alert('帳號或密碼輸入錯誤')
+        return false
+
+    })
+}
+
+export async function getUserData(token) {
+    return await axios({
+        method: 'POST',
+        url: config.url + config.urlGetUserData,
+        headers: {
+            'token': token,
+            'Content-Type': 'application/json',
+            'Access-Control-Allow-Origin': '*'
+        }
+    }).then((response) => {
+        var data = response.data
+
+        session.setItem('token', data.token)
+        session.setItem('banch', data.banch)
+        session.setItem('permession', data.permession)
+
+    }).catch((error) => {
+        console.log(error)
         return false
 
     })

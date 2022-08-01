@@ -34,12 +34,8 @@ class redisdb(redis.Redis):
             self.lset(redisUserList, duplicateIndex, self.jen(data))
         else:
             #not duplicate then insert
-            if self.rpushx(redisUserList, self.jen(data)):
-                pass
-            else:
-                self.rpush(redisUserList, self.jen(data))
+            self.lpush(redisUserList, self.jen(data))
         self.persist(redisUserList)
-        print('重複==>>', isDuplication, duplicateIndex, self.llen(redisUserList))
         self.Deduplication(redisUserList, 0, -1)
 
     def leaveRoom(self, sid):
@@ -54,6 +50,13 @@ class redisdb(redis.Redis):
 
     def selectUserSelf(sid):
         pass
+
+    def selectManager(self, banch):
+        listDb = self.jde(self.lrange(redisUserList, 0, -1))
+        for item in listDb:
+            if item["banch"] == banch and item["permession"] == 'manager':
+                return item
+        return False
 
     def storeDeduplication(self, storeData, target):
         #please give the origin of target takes json dumps
@@ -93,5 +96,6 @@ if __name__ == '__main__':
     host = os.getenv('REDIS_DB_HOST')
     port = int(os.getenv('REDIS_DB_PORT'))
     r = redisdb(host, port, db=0)
-    r.saveUser({'id': 'bitch', 3: 6})
+    r.saveUser({'user': 'bitch', 3: 6})
+    r.saveUser({'user': 'bitcsvdsvh', 3: 6})
 

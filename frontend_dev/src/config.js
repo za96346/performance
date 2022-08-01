@@ -1,6 +1,5 @@
-// export const ip = '172.21.1.51';
 export const ip = '127.0.0.1';
-
+// export const ip = '172.21.1.51';
 export const config = {
     url: `http://${ip}:5001/`,
     urlYearPerformance: 'backend/year_performance',
@@ -13,7 +12,8 @@ export const config = {
     urlSelectAllBanch: 'backend/SelectAllBanch',
     urlPerformanceBanchChange: 'backend/PerformanceBanchChange',
     urlNewEmpInsertPerformanceTable: 'backend/NewEmpInsertPerformanceTable',
-    urlChangeBanchName: 'backend/ChangeBanchName'
+    urlChangeBanchName: 'backend/ChangeBanchName',
+    urlGetUserData: 'getUserData'
 };
 export const socketUrl = {
     url: `http://${ip}:5002`,
@@ -31,5 +31,6 @@ export const socketEvent = {
     group_change: 'group_change',
     updata_performance_table: 'updata_performance_table',
     new_emp_insert_performance_table: 'new_emp_insert_performance_table',
-    insert_performance_table: 'insert_performance_table'
+    insert_performance_table: 'insert_performance_table',
+    logOut: 'logOut'
 }

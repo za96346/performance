@@ -9,6 +9,7 @@ import { article_bar_arr,admin_sidebar } from "./api";
 import Error from "./error";
 import { useEffect,useState } from "react";
 import Word_preview from "./backend_component/word_preview";
+import Blank from "./blank";
 
 
 const Home=()=> {
@@ -54,6 +55,7 @@ const Home=()=> {
         {
           select_router()
         }
+        <Route exact={true} path="/blank" element={<Blank />}/>
         <Route exact={true} path="/backend/wordFile/:banch/:people/:year/:month"element={<Word_preview />}/>
         <Route exact={true} path="/access====>error" element={<Error/>}/>
         <Route exact={true} path="*" element={<Error/>}/>

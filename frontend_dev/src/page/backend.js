@@ -15,23 +15,6 @@ const Backend=({access})=>{
     var token = session.getItem('token')
     var permession = session.getItem('permession')
     const navigate=useNavigate()
-
-
-    function select_permession(){
-        if(token){
-
-            if(permession==="admin"){
-                return(<Admin/>)
-
-            }
-            else if(permession==="manager"){
-                return(<Manager/>)
-            }
-            else{
-                return(<Personal/>)
-            }
-        }
-    }
     useEffect(()=>{
         if(page==="登出"){
             session.clear()
@@ -61,7 +44,13 @@ const Backend=({access})=>{
     return(
         <Fragment>
             {
-                select_permession()
+                token && (
+                    permession === "admin"
+                    ?<Admin/>
+                    :permession === "manager"
+                        ?<Manager/>
+                        :<Personal/>
+                )
             }
             
         </Fragment>

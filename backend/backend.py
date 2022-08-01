@@ -200,6 +200,25 @@ def login():
         return jsonify(dic),200
     return jsonify('帳號或密碼輸入錯誤'),500
 
+@app.route('/getUserData', methods=['POST'])
+@cross_origin()
+def getUserData():
+    token = request.headers['token']
+    user, status = token_decoding(token)
+    print('getUserData => ', user, status)
+    user = user["account"]
+    if status:
+        banch = select_user_banch(user)
+        permession = select_banch(user)
+        token = token_encoding(user)
+        dic = {
+            'token': token,
+            'banch':banch,
+            'permession':permession
+        }
+        return jsonify(dic),200
+    return jsonify('擷取資料錯誤'),500
+
 
 @app.route('/backend/InsertBanchTable',methods=['POST'])
 @cross_origin()
