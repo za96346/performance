@@ -26,7 +26,7 @@ const Article=({data,synchronize_update,synchronize})=>{
     const navigate = useNavigate()
     const {page} = useParams()
     const {article_page} = useParams()
-    var permession = session.getItem('permession')
+    const permession = session.getItem('permession')
 
     function article_bar_onclick_class(index){
         if(article_bar_onclick.now_item===article_bar_arr[index]){

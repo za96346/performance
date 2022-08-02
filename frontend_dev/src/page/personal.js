@@ -11,14 +11,14 @@ const Personal=()=>{
     const {page}=useParams()
     const {article_page}=useParams()
     const navigate=useNavigate()
-    var permession= session.getItem('permession')
+    const permession= session.getItem('permession')
     const [data,set_data]=useState([]);
     const [combine, setCombine] = useState(personal_sidebar.concat(log_out))
 
     const identifyCallback=useCallback(()=>{
         function identify(){
             if(page!=='登出'){
-                var value=[]
+                let value=[]
 
                 if(page === personal_sidebar[0]){
                     value = session.getItem('data')[permession] || []

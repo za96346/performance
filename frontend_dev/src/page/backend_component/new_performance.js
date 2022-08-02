@@ -43,9 +43,9 @@ const New_performance = ({data, synchronize_update, synchronize}) => {
             return
         }
         synchronize_update(true)
-        var result=await insert_performance_table(token,confirm_data)
-        if(result==='新增成功'){
-            check_and_recatch_data(token,synchronize_update,2000, () => {})
+        const result = await insert_performance_table(token, confirm_data)
+        if(result === '新增成功') {
+            check_and_recatch_data(token, synchronize_update, 2000, () => {})
         }
         alert(result)
     }

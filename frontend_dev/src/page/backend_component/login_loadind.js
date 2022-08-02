@@ -1,7 +1,7 @@
 
 
 export function Login_loading({text}){
-    var p={
+    const p = {
 
         fontSize:'small',
 

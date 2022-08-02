@@ -73,8 +73,8 @@ export function Search_name({search,set_search}){
         text:'請選擇組員'
     })
     const name_arr=[]
-    var banch_index = session.getItem('banch_index')
-    var permession = session.getItem('permession') || ''
+    const banch_index = session.getItem('banch_index')
+    const permession = session.getItem('permession') || ''
     for(const data of banch_index[page]){
         permession === 'admin'
         ?name_arr.push(data[2])

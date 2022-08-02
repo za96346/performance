@@ -11,7 +11,7 @@ const Sidebar=({sidebar_arr,style})=>{
         now_item:'',
         classname:''
     })
-    var permession = session.getItem('permession')
+    const permession = session.getItem('permession')
     function sidebar_onclick_class(index){
         if(sidebar_onclick.now_item===sidebar_arr[index]){
             return 'sidebar_div_onclick'

@@ -8,7 +8,7 @@ import session from "../method/storage";
 
 
 const Banch_page=({data,synchronize_update,synchronize})=>{
-    var permession = session.getItem('permession')
+    const permession = session.getItem('permession')
     const {page}=useParams()
     const {article_page}=useParams()
     const [page_data_arr,set_page_data_arr]=useState([])

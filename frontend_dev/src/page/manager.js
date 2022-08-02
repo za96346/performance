@@ -24,11 +24,11 @@ const Manager=()=>{
 
         function identify(){
             if(page!=='登出'){
-                var year_perform = session.getItem('year_performance')[page] || []
-                var manager_personal_year = session.getItem('year_performance')['manager_personal'] || []
+                const year_perform = session.getItem('year_performance')[page] || []
+                const manager_personal_year = session.getItem('year_performance')['manager_personal'] || []
                 
-                var month_perform = session.getItem('data')[page] || []
-                var manager_personal_month = session.getItem('data')['manager_personal'] || []
+                const month_perform = session.getItem('data')[page] || []
+                const manager_personal_month = session.getItem('data')['manager_personal'] || []
                 if(article_page === article_bar_arr[1]){
                     set_data(year_perform?.length > 0 ? year_perform : [])
                 }
@@ -42,7 +42,7 @@ const Manager=()=>{
                     set_data(manager_personal_year?.length > 0 ? manager_personal_year : [])
                 }
                 else{
-                    var value = session.getItem('banch_index')[page] || []
+                    const value = session.getItem('banch_index')[page] || []
                     set_data(value?.length > 0 ? value : [])
                 }
             }

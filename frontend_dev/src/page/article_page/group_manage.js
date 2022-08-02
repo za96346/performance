@@ -8,7 +8,7 @@ import session from "../method/storage";
 
 const Group_manage=({data,synchronize_update,synchronize})=>{
     const {page}=useParams()
-    var token = session.getItem('token')
+    const token = session.getItem('token')
     const navigate = useNavigate()
     const {article_page}=useParams()
     const [page_data_arr,set_page_data_arr]=useState([])
@@ -18,16 +18,15 @@ const Group_manage=({data,synchronize_update,synchronize})=>{
     useEffect(()=>{
         //當input更改資料的時候
         //new_arr=[原來的組,更改名稱後的組]
-        var original_group=new_arr[0]
-        var change_group=new_arr[1]
+        const original_group = new_arr[0]
+        const change_group = new_arr[1]
         console.log('new_arr',new_arr)
-        if(change_group!==''&&change_group!=='新增'){
-            var temp=commit.map((item)=>{
+        if(change_group !== '' && change_group !== '新增'){
+            const temp = commit.map((item) => {
                 //item [原來的組,更改名稱後的組]
-                if(original_group===item[0]){
-                    return [item[0],change_group]
-                }
-                else{
+                if (original_group === item[0]) {
+                    return [item[0], change_group]
+                } else {
                     return item
                 }
             })
@@ -44,7 +43,7 @@ const Group_manage=({data,synchronize_update,synchronize})=>{
 
         if(data.length!==0){
             set_page_data_arr(data)
-            var temp=data.map((item)=>{
+            const temp = data.map((item) => {
                 return [item,item]
             })
             set_commit(temp)

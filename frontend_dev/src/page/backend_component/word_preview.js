@@ -11,7 +11,7 @@ const Word_preview=()=>{
     const {year}=useParams()
     const {month}=useParams()
     const [arr,set_arr]=useState([])
-    var permession = session.getItem('permession')
+    const permession = session.getItem('permession')
 
     function identify_undefined(props){
         if(props==='undefined'){
@@ -23,22 +23,22 @@ const Word_preview=()=>{
     const navigate=useNavigate()
     useEffect(() => {
         
-        var result_name=[]
-        var result_year=[]
-        var result_month=[]
-        var data = session.getItem('data')[banch]
+        let result_name=[]
+        let result_year=[]
+        let result_month=[]
+        let data = session.getItem('data')[banch]
         
-        if(data!==undefined){
-            people!=='請選擇組員'&&typeof(people)!='undefined'&&people.length>0
-            ?result_name=sequential_search(data,1,people)
-            :result_name=data
-            year!=='undefined' && year.length>0
-            ?result_year=sequential_search(data,4,parseInt(year))
-            :result_year=data
-            month!=='undefined' && month.length>0 
-            ?result_month=sequential_search(data,5,parseInt(month))
-            :result_month=data
-            var result=intersection(result_month,result_name,result_year)
+        if (data !== undefined) {
+            people !== '請選擇組員' && typeof(people) != 'undefined' && people?.length > 0
+                ?result_name=sequential_search(data,1,people)
+                :result_name=data
+            year !== 'undefined' && year?.length > 0
+                ?result_year = sequential_search(data, 4, parseInt(year))
+                :result_year = data
+            month !== 'undefined' && month?.length > 0 
+                ?result_month = sequential_search(data, 5, parseInt(month))
+                :result_month = data
+            const result = intersection(result_month, result_name, result_year)
             
             set_arr(result)
         }

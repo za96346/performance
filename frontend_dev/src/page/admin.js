@@ -25,7 +25,7 @@ const Admin = () => {
                 if (article_page === article_bar_arr[1]) {
                     //年度
                     if(page === '總覽'){
-                        var a = session.getItem('year_performance')[page] || []
+                        const a = session.getItem('year_performance')[page] || []
                         for(let a_item of a){
                             state = false
                             for(let temp_item of temp){
@@ -59,10 +59,10 @@ const Admin = () => {
                 else if (page === '新增年度') {
                     //新增年度
                     value = []
-                    var obj = session.getItem('banch_index') || []
+                    const obj = session.getItem('banch_index') || []
 
                     for(let key in obj){
-                        var items = obj[key]
+                        const items = obj[key]
                         if(key !== '離職員工' && key !== '幹部' && key !== '總覽') {
                             for(let i = 0; i < items?.length; i++) {
                                 if(items[i][6] !== '管理員') {

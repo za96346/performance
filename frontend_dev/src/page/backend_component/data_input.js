@@ -7,7 +7,7 @@ import session from "../method/storage"
 
 
 export function Return_component(props){
-    var {page_data_arr
+    const {page_data_arr
         ,set_page_data_arr
         ,number
         ,set_new_emp
@@ -17,51 +17,50 @@ export function Return_component(props){
         ,set_new_arr
     }=props
 
-    const itemSize=30
-    const bufferSize=20
-    var screenHeight=500
+    const itemSize = 30
+    const bufferSize = 20
+    const screenHeight = 500
 
-    const visibleCount=screenHeight/itemSize
-    const fixed_title_size=40
+    const visibleCount = screenHeight / itemSize
+    const fixed_title_size = 40
    
-    const ele=useRef(null)
-    const [arr,set_arr]=useState([])
+    const ele = useRef(null)
+    const [arr, set_arr] = useState([])
 
 
-    const {article_page}=useParams()
-    const {page}=useParams()
+    const { article_page } = useParams()
+    const { page } = useParams()
 
 
-    const arrHeight=itemSize*arr.length
+    const arrHeight = itemSize * arr?.length
 
-    const [now_item,set_now_item]=useState()
+    const [now_item, set_now_item] = useState()
 
 
-    const [startIndex,setStartIndex]=useState(0)
-    const [endIndex,setEndIndex]=useState(visibleCount)
-    const [offset,setoffset]=useState(0)
+    const [startIndex, setStartIndex] = useState(0)
+    const [endIndex, setEndIndex] = useState(visibleCount)
+    const [offset, setoffset] = useState(0)
 
-    const [itemOffset,setItemoffset]=useState(0)
+    const [itemOffset, setItemoffset] = useState(0)
 
-    useEffect(()=>{
+    useEffect(() => {
         set_arr(page_data_arr)
 
-    },[page_data_arr,page,article_page])
+    },[page_data_arr, page,article_page])
 
-    useEffect(()=>{
-       
+    useEffect(() => {
         setoffset(startIndex*30)
     },[startIndex])
 
     function onScroll(e){
-        var Top=ele.current.scrollTop
-        var startidx=Math.floor(Top/itemSize)
-        var endidx=startidx+visibleCount
-        var startoffset=Top - (Top % itemSize);
+        const Top = ele.current.scrollTop
+        const startidx = Math.floor(Top / itemSize)
+        const endidx = startidx + visibleCount
+        const startoffset = Top - (Top % itemSize);
         
         //console.log(startIndex,endIndex,offset)
 
-        let originStartIdx=startidx
+        const originStartIdx = startidx
         
         setStartIndex(Math.max(originStartIdx - bufferSize, 0))
         setEndIndex(Math.min(
@@ -72,33 +71,32 @@ export function Return_component(props){
 
     };  
 
-    function render_display(startidx,endidx,now_item,itemOffset){
+    function render_display(startidx, endidx, now_item, itemOffset) {
         const content = [];
-        for(let i=startidx;i<=endidx;++i){
-            var Height=''
-            var Zindex=0
-            var Bgcolor=''
-            var Boxshadow=''
-            var Color=''
-            var Top=i * itemSize+fixed_title_size+'px'
-            if(now_item===i){
+        for(let i = startidx; i <= endidx; ++i) {
+            let Height = ''
+            let Zindex = 0
+            let Bgcolor = ''
+            let Boxshadow = ''
+            let Color = ''
+            let Top = i * itemSize + fixed_title_size + 'px'
+            if(now_item === i) {
     
-                Height=itemOffset+'px'
-                Zindex=15
-                Bgcolor='rgb(255,255,255)'
-                Boxshadow='2px 2px 10px rgb(112,128,144)'
-                Color='rgb(0,0,0)'
+                Height = itemOffset + 'px'
+                Zindex = 15
+                Bgcolor = 'rgb(255,255,255)'
+                Boxshadow = '2px 2px 10px rgb(112,128,144)'
+                Color = 'rgb(0,0,0)'
+            } else {
+                Height = itemSize + 'px'
+                Zindex = ''
+                Bgcolor = ''
+                Boxshadow = ''
+                Color = ''
             }
-            else{
-                Height=itemSize+'px'
-                Zindex=''
-                Bgcolor=''
-                Boxshadow=''
-                Color=''
-            }
-            if(i>now_item){
+            if(i > now_item) {
             
-                Top=itemOffset+i * itemSize+fixed_title_size+'px'
+                Top = itemOffset + i * itemSize + fixed_title_size + 'px'
             }
         
             content.push({
@@ -140,9 +138,9 @@ export function Return_component(props){
             <div className="employee_container">
                 {
                     arr instanceof Array && arr.length>0
-                    ? arr.slice(startIndex,endIndex).map((item,index)=>{
-                        var style_content=render_display(startIndex,endIndex,now_item,itemOffset)
-                        var style_arr=style_content[index]
+                    ? arr.slice(startIndex,endIndex).map((item, index) => {
+                        const style_content = render_display(startIndex, endIndex, now_item, itemOffset)
+                        const style_arr = style_content[index]
                         return(
                             <Id_name 
                             confirm_data={confirm_data}
@@ -171,7 +169,7 @@ export function Return_component(props){
 
 export function Id_name(props){
     
-    var {page_data_arr//所有的資料  UseState state
+    const {page_data_arr//所有的資料  UseState state
         ,set_page_data_arr//設定所有的資料 UseState set_state
         ,set//設定目前onclick的元件編號item_index UseState set_state
         ,item//每個元件中所需的資料['','','','','','','','','','']
@@ -184,20 +182,20 @@ export function Id_name(props){
         ,set_confirm_data
         ,confirm_data
         ,set_new_arr//設定組別管理 當有更改組名 新增組別
-    }=props
+    } = props
 
-    let rowitem_ref=useRef(0)
-    let textarea1_ref=useRef(null)
-    let textarea2_ref=useRef(null)
+    let rowitem_ref = useRef(0)
+    let textarea1_ref = useRef(null)
+    let textarea2_ref = useRef(null)
 
-    let timeout=useRef(null)
-    let composition=useRef(false)
-    let reCatchData=useRef(false)
+    let timeout = useRef(null)
+    let composition = useRef(false)
+    let reCatchData = useRef(false)
 
 
     const token = session.getItem('token')
-    const {page}=useParams()
-    const {article_page}=useParams()
+    const { page } = useParams()
+    const { article_page } = useParams()
 
     
     const permession = session.getItem('permession')
@@ -298,19 +296,17 @@ export function Id_name(props){
 
             }, 2000);
         }
-        else if(component_state===4 && !composition.current){
-            if(name==='id'){
-                value.current.id=rule_num_letter(e)
-                reCatchData.current=true
+        else if(component_state===4 && !composition.current) {
+            if(name === 'id') {
+                value.current.id = rule_num_letter(e)
+                reCatchData.current = true
                 
-            }
-            else if(name==='name'){
-                value.current.name=values
-                reCatchData.current=true
-            }
-            else if(name==='group'){
-                sec=500
-                var result=window.prompt('請輸入換組年份月份(年 月)')
+            } else if (name === 'name') {
+                value.current.name = values
+                reCatchData.current = true
+            } else if (name === 'group') {
+                sec = 500
+                let result = window.prompt('請輸入換組年份月份(年 月)')
                 console.log(result)
                 if(!result){
                     set_new_emp('請輸入正確的格式')
@@ -320,9 +316,9 @@ export function Id_name(props){
                     
                     return
                 }
-                result=result.split(' ')
-                if(parseInt(result[1])>=1&&parseInt(result[1])<=12){
-                    reCatchData.current=true
+                result = result.split(' ')
+                if (parseInt(result[1]) >= 1 && parseInt(result[1]) <= 12) {
+                    reCatchData.current = true
                     const originGroup = value.current.group
                     value.current.group = values
                     //把他的資料換組
@@ -335,46 +331,36 @@ export function Id_name(props){
                             originGroup
                         ]
                     )
-                }
-                else{
+                } else {
                     set_new_emp('請輸入正確的格式')
-                    
                     return
                 }
                 
-            }
-            else if(name==='account'){
-                var return_status=window.confirm(`確定帳號為'${values}'?\n確認後無法更改`)
-                if(return_status===true){
-                    value.current.account=rule_num_letter(e)
-                    reCatchData.current=true
-                }
-                else{
+            } else if (name === 'account') {
+                const return_status = window.confirm(`確定帳號為'${values}'?\n確認後無法更改`)
+                if (return_status === true) {
+                    value.current.account = rule_num_letter(e)
+                    reCatchData.current = true
+                } else {
                     return
                 }
-            }
-            else if(name==='password'){
-                
-                value.current.password=rule_num_letter(e)
-            }
-            else if(name==='onWorkDay'){
-                value.current.onWorkDay=rule_num(e,1000000)
-            }
-            else if(name==='position'){
-                sec=500
-                value.current.position=values
-                reCatchData.current=true
-
-            }
-            else if(name==='workState'){
-                sec=500
-                value.current.workState==='on'?value.current.workState='off':value.current.workState='on'
-                reCatchData.current=true
+            } else if (name === 'password') {
+                value.current.password = rule_num_letter(e)
+            } else if (name === 'onWorkDay') {
+                value.current.onWorkDay = rule_num(e,1000000)
+            } else if (name === 'position') {
+                sec = 500
+                value.current.position = values
+                reCatchData.current = true
+            } else if (name === 'workState') {
+                sec = 500
+                value.current.workState === 'on' ? value.current.workState = 'off' : value.current.workState = 'on'
+                reCatchData.current = true
                 synchronize_update(true)
             }
-        timeout.current= setTimeout(() => {
+        timeout.current = setTimeout(() => {
             set_new_emp('存取中...')
-            console.log('useeffect',value.current)
+            console.log('useeffect', value.current)
             search(
                 page_data_arr,
                 item_index,
@@ -388,57 +374,59 @@ export function Id_name(props){
         }, sec)
         }
     }
-    function get_scrollHeight(e){
+    function get_scrollHeight(e) {
         set(item_index)
-
-        if(textarea1_ref.current.value.length>textarea2_ref.current.value.length){
-            if(textarea1_ref.current.scrollHeight){
+        if (textarea1_ref.current.value?.length > textarea2_ref.current.value?.length) {
+            if (textarea1_ref.current.scrollHeight) {
                 setTimeout(() => {
                     setItemoffset(textarea1_ref.current.scrollHeight)
-                },10);
+                }, 10);
             }
-        }
-        else{
-            if(textarea2_ref.current.scrollHeight){
+        } else {
+            if (textarea2_ref.current.scrollHeight) {
                 setTimeout(() => {
                     setItemoffset(textarea2_ref.current.scrollHeight)
-                },10);
+                }, 10);
             }
         }
     }
-    function get_clientHeight(){
+    function get_clientHeight() {
         set(item_index)
         //console.log('rowitem_ref.current',rowitem_ref.current)
-        setItemoffset(rowitem_ref.current.clientHeight!==null&&rowitem_ref!==null?rowitem_ref.current.clientHeight:0)
+        setItemoffset(
+            rowitem_ref.current.clientHeight !== null 
+            && 
+            rowitem_ref !==null 
+                ? rowitem_ref.current.clientHeight 
+                : 0
+        )
     }
 
-    function composition_method(e){
+    function composition_method(e) {
         const isChrome = !!window.chrome && !!window.chrome.webstore
         
-        console.log('e.target.value',e.target.value)
-        if(e.type==='compositionstart'){
-            composition.current=true
-            console.log('e.type:',e.type)
-            console.log('composition:',composition)
-        }
-        
-        else if(e.type==='compositionend'){
-            composition.current=false
-            console.log('e.type:',e.type)
-            console.log('composition:',composition)
+        console.log('e.target.value', e.target.value)
+        if (e.type === 'compositionstart') {
+            composition.current = true
+            console.log('e.type:', e.type)
+            console.log('composition:', composition)
+        } else if (e.type === 'compositionend') {
+            composition.current = false
+            console.log('e.type:', e.type)
+            console.log('composition:', composition)
             autoSave(e)
             if (!composition && isChrome) {
                 // fire onChange
             }
         }
     }
-    function change_confirm_data(e){
+    function change_confirm_data(e) {
         //新增年度
-        var values=e.target.value
-        var name=e.target.name
-        var arr =confirm_data.map((item)=>{
-            if(item[0]===name){
-                return[item[0],item[1],values]
+        const values = e.target.value
+        const name = e.target.name
+        const arr = confirm_data.map((item) => {
+            if (item[0] === name) {
+                return[item[0], item[1], values]
             }
             return item
         })
@@ -447,7 +435,7 @@ export function Id_name(props){
 
 
     if(component_state===1){
-        var readOnly=page==='每月考核績效'?true:false
+        const readOnly = page ==='每月考核績效' ? true : false
         
         return(
             <div 
@@ -523,25 +511,34 @@ export function Id_name(props){
     }
     else if(component_state===4){
         if(item[0]==='+'){
-            return( <div ref={rowitem_ref}
-                className="row_container"
-                onClick={()=>{            
-                    var page_data=page_data_arr.slice(0,page_data_arr.length-1)
-                    set_page_data_arr([...page_data,['','','',page,'','',position_arr[0],'on'],['+']])
-                    get_clientHeight()}}
-                style={style}>{item}</div>)
-        }else{
-            
+            return (
+                <div ref={rowitem_ref}
+                    className="row_container"
+                    onClick={() => {         
+                        set_page_data_arr((prev) => [ ...prev, ['', '', '', page, '', '', position_arr[0], 'on'], ['+'] ])
+                        get_clientHeight()
+                    }}
+                    style={style}>
+                        {item}
+                </div>
+            )
+        } else {
             return(
             
                 <div
-                    onDoubleClick={()=>navigate(`/backend/${permession}/${page}/每月考核績效`,{state:{name:value.current.name,year:undefined,month:undefined}})}
+                    onDoubleClick={()=> 
+                        navigate(`/backend/${permession}/${page}/每月考核績效`,{
+                            state: {
+                                name: value.current.name, 
+                                year: undefined, 
+                                month: undefined}
+                        })
+                    }
                     ref={rowitem_ref}
                     className="row_container"
-                    onClick={()=>{
-                        get_clientHeight()}}
+                    onClick={get_clientHeight}
                     style={style}>
-    
+
                     <div><input 
                             style={{width:'2vw'}} onInput={autoSave}
                             name={'id'} defaultValue={value.current.id} type='text'/></div>
@@ -637,8 +634,7 @@ export function Id_name(props){
 export function Fixed_title({component_state,page_data_arr,set_page_data_arr}){
     function sort_fun(tar_position,step){
         //console.log('page_data_arr',page_data_arr)
-        var arr
-        arr=bubble_sorting(page_data_arr,tar_position,step)
+        const arr = bubble_sorting(page_data_arr,tar_position,step)
         set_page_data_arr(arr)
     }
     if(component_state===1){

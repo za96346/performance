@@ -36,9 +36,9 @@ const Performance_per_month=({data,synchronize_update,synchronize})=>{
         }
     },[page,article_page,data])
     useEffect(()=>{
-        var result_name=[]
-        var result_year=[]
-        var result_month=[]
+        let result_name=[]
+        let result_year=[]
+        let result_month=[]
         console.log('search',search)
         if(typeof(page_data_arr)!='undefined'&&data){
             
@@ -53,7 +53,7 @@ const Performance_per_month=({data,synchronize_update,synchronize})=>{
             :result_month=data
             
             
-            var result=intersection(result_month,result_name,result_year)
+            const result = intersection(result_month, result_name, result_year)
             console.log(`data長度${data.length}`)
             console.log(`名字 收尋結果${result_name.length}則`)
             console.log(`年度 收尋結果${result_year.length}則`)
@@ -61,11 +61,11 @@ const Performance_per_month=({data,synchronize_update,synchronize})=>{
             console.log(`總收尋結果${result.length}則`)
             set_page_data_arr(result)
         }
-    },[search,data])
+    },[search, data])
 
 
     function bar(){
-        if(admin_sidebar().indexOf(page)===-1){
+        if(admin_sidebar().indexOf(page) === -1) {
             return(
                 <> 
                     <New_employee new_emp={new_emp}/>{/*自動存取的按鈕 */}

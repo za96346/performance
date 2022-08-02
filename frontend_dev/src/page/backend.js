@@ -12,8 +12,8 @@ import session from "./method/storage";
 const Backend=({access})=>{
     const {page}=useParams()
     const {article_page}=useParams()
-    var token = session.getItem('token')
-    var permession = session.getItem('permession')
+    const token = session.getItem('token')
+    const permession = session.getItem('permession')
     const navigate=useNavigate()
     useEffect(()=>{
         if(page==="登出"){

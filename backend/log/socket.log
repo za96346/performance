@@ -2565,3 +2565,28 @@ connection closed
 Waiting for application shutdown.
 Application shutdown complete.
 Finished server process [99925]
+Started server process [36251]
+Waiting for application startup.
+Application startup complete.
+Uvicorn running on http://127.0.0.1:5002 (Press CTRL+C to quit)
+('127.0.0.1', 55096) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 20:23:30
+('127.0.0.1', 55245) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者personalBabysitter1  登入時間2022-08-02 20:23:51
+connection closed
+('127.0.0.1', 55286) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 20:23:55
+('127.0.0.1', 55375) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-02 20:24:12
+connection closed
+('127.0.0.1', 64618) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者managerBabysitter  登入時間2022-08-02 20:58:52
+connection closed
+('127.0.0.1', 64660) - "WebSocket /socket.io/" [accepted]
+connection open
+使用者admin1  登入時間2022-08-02 20:58:56

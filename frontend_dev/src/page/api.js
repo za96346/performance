@@ -33,7 +33,7 @@ export const fixed_title_emp = ['id', '姓名', '組別', '帳號', '密碼', '�
 
 
 export function all_view(data) {
-    var temp = []
+    let temp = []
 
     for (let key in data) {
         if (key !== '離職員工' && key !== '幹部') {
@@ -78,7 +78,7 @@ export function select_emp_name_id(number) {
 
 export function select_route(navigate) {
 
-    var permession = session.getItem('permession')
+    const permession = session.getItem('permession')
     if (permession === "admin") {
         console.log('\nRoute==>', permession)
         navigate(`/backend/admin/${admin_sidebar()[0]}`)//跳過 組別管理
@@ -267,9 +267,9 @@ export async function backend(token) {
             'Access-Control-Allow-Origin': '*'
         }
     }).then((response) => {
-        var data = response.data
+        let data = response.data
         console.log('每月績效', data)
-        var result = all_view(data)
+        const result = all_view(data)
         data['總覽'] = result
         session.setItem('data', data)
         return true
@@ -293,9 +293,9 @@ export async function banch_index(token) {
             'Access-Control-Allow-Origin': '*'
         }
     }).then((response) => {
-        var data = response.data
+        let data = response.data
         console.log('組員資料', data)
-        var result = all_view(data)
+        const result = all_view(data)
 
         data['總覽'] = result
         session.setItem('banch_index', data)
@@ -317,8 +317,8 @@ export async function year_performance(token) {
             'Access-Control-Allow-Origin': '*'
         }
     }).then((response) => {
-        var data = response.data
-        var result = all_view(data)
+        let data = response.data
+        const result = all_view(data)
         data['總覽'] = result
         console.log('年度績效', data)
         session.setItem('year_performance', data)
@@ -341,7 +341,7 @@ export async function select_all_banch(token) {
             'Access-Control-Allow-Origin': '*'
         }
     }).then((response) => {
-        var data = response.data
+        let data = response.data
         console.log('所有組別', data)
         session.setItem('all_banch', data)
         return true
@@ -366,7 +366,7 @@ export async function login(login_data) {
             'Access-Control-Allow-Origin': '*'
         }
     }).then((response) => {
-        var data = response.data
+        const data = response.data
 
         session.setItem('token', data.token)
         session.setItem('user_name', data.user_name)
@@ -393,7 +393,7 @@ export async function getUserData(token) {
             'Access-Control-Allow-Origin': '*'
         }
     }).then((response) => {
-        var data = response.data
+        const data = response.data
 
         session.setItem('token', data.token)
         session.setItem('banch', data.banch)

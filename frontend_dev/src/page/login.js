@@ -29,7 +29,7 @@ const Login = ({ set_permession_state }) => {
     const navigate = useNavigate()
 
     useEffect(() => {
-        var token = session.getItem('token')
+        const token = session.getItem('token')
         if (token) { select_route(navigate) }
         else { set_permession_state(false) }
         fade_in(style0, set_style0, 0, '1s')
@@ -47,7 +47,7 @@ const Login = ({ set_permession_state }) => {
     async function a() {
         set_load_in(true)
         set_text('正在驗證登入資訊')
-        var states = await login(login_data)//return true or false
+        const states = await login(login_data)//return true or false
         if (states) {
             setTimeout(() => {
                 set_text('正在收集資料')
@@ -55,13 +55,13 @@ const Login = ({ set_permession_state }) => {
 
             set_permession_state(true)
 
-            var token = session.getItem('token')
-            var result3 = await year_performance(token)
-            var result1 = await banch_index(token)
-            var result2 = await backend(token)
-            var result4 = await select_all_banch(token)
+            const token = session.getItem('token')
+            const result3 = await year_performance(token)
+            const result1 = await banch_index(token)
+            const result2 = await backend(token)
+            const result4 = await select_all_banch(token)
             console.log('here')
-            var timer = setInterval(() => {
+            const timer = setInterval(() => {
                 if (result1 && result2 && result3 && result4) {
 
                     set_load_in(false)

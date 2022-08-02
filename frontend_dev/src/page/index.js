@@ -17,7 +17,7 @@ const Home=()=> {
   
   const [permession_state,set_permession_state]=useState(false)
   useEffect(()=>{
-    var token = session.getItem('token')
+    const token = session.getItem('token')
     if(token){
       set_permession_state(true)
     }
@@ -27,7 +27,7 @@ const Home=()=> {
   function select_router(){
     
     if(permession_state===true){
-      var permession = session.getItem('permession')
+      const permession = session.getItem('permession')
       if(permession==="admin"){
           return(<>
             <Route exact={true} path="/backend/admin/:page"element={<Backend  access={'admin'}/>}/>

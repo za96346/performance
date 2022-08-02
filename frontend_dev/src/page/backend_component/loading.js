@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 export function Loading(){
-    var p={
+    const p = {
 
         
         fontSize:'small',

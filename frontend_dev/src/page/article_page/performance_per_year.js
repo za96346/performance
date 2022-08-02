@@ -17,20 +17,20 @@ const Performance_per_year=({data,synchronize_update,synchronize})=>{
         month:undefined,
     })
 
-    var result_name=[]
-    var result_year=[]
+    let result_name = []
+    let result_year = []
 
 
-    useEffect(()=>{
-        if(data.length!==0){
+    useEffect(() => {
+        if ( data.length !== 0) {
             set_page_data_arr(data)
-        }else{
+        } else {
             set_page_data_arr([])
         }
        
-    },[page,article_page,data])
+    },[page, article_page,data])
 
-    useEffect(()=>{
+    useEffect(() => {
         console.log('search',search)
         if(typeof(page_data_arr)!='undefined' && data){
             search.name!=='請選擇組員'&&typeof(search.name)!='undefined'&&search.name.length>0
@@ -40,7 +40,7 @@ const Performance_per_year=({data,synchronize_update,synchronize})=>{
             ?result_year=sequential_search(data,3,parseInt(search.year))
             :result_year=data
 
-            var result=intersection(data,result_name,result_year)
+            const result = intersection(data, result_name, result_year)
             console.log(`名字 收尋結果${result_name.length}則`)
             console.log(`年度 收尋結果${result_year.length}則`)
             console.log(`總收尋結果${result.length}則`)
