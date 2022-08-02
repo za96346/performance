@@ -32,5 +32,6 @@ export const socketEvent = {
     updata_performance_table: 'updata_performance_table',
     new_emp_insert_performance_table: 'new_emp_insert_performance_table',
     insert_performance_table: 'insert_performance_table',
-    logOut: 'logOut'
+    logOut: 'logOut',
+    insert_banch_table: 'insert_banch_table'
 }

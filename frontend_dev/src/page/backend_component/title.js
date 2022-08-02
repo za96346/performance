@@ -1,36 +1,33 @@
 import { Fragment } from "react"
 import { useState,useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { fade_in } from "../fade_in";
+import FadeIn from "../Hoc/fade_in";
 import session from "../method/storage";
 import SocketIO from "../socketIo";
 import { check_and_recatch_data } from "../method/method_func";
 import { select_route } from "../api";
+
+const Fade = FadeIn(300, 1)
 const Title=({sidebar_arr, synchronize_update})=>{
-    const {page} = useParams()
     const permession = session.getItem('permession')
     const navigate = useNavigate()
-    const [style_opacity, set_style_opacity] = useState({opacity:0,transition:''})
     const [slideIn, setSlideIn] = useState(-200);
-
-    useEffect(()=>{
-        fade_in(style_opacity,set_style_opacity, 300, '1s')
-    },[])
 
     useEffect(() => {
         if (session.getItem('slideIn') === 1) setSlideIn(0);
         SocketIO.action().then((instance) => instance.mainOnListen(setSlideIn))
-        //SocketIO.instance.mainOnListen(setSlideIn)
     }, [])
 
 
-    const navigation = () => select_route(navigate)
+    const navigation = () => {
+        navigate('/access====>error')
+    }
 
     return(
         <Fragment>
-            <div style={style_opacity} onClick={()=>{navigate(`/backend/${permession}/${sidebar_arr[0]}`)}}
+            <Fade onClick={() => {navigate(`/backend/${permession}/${sidebar_arr[0]}`)}}
                  className="title">
-            </div>
+            </Fade>
             <div 
                 onClick={() => {
                     check_and_recatch_data(session.getItem('token'), synchronize_update, 1500, navigation)

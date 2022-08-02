@@ -45,8 +45,9 @@ class redisdb(redis.Redis):
                 self.lrem(redisUserList, 1,item)
         
 
-    def selectUserAll():
-        pass
+    def selectUserAll(self):
+        return self.jde(self.lrange(redisUserList, 0, -1))
+
 
     def selectUserSelf(sid):
         pass

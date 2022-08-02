@@ -28,7 +28,7 @@ const Performance_per_month=({data,synchronize_update,synchronize})=>{
             name:!state?'':state.name,
             year:!state?undefined:state.year,
             month:!state?undefined:state.month})
-        if(data.length!==0){
+        if(data.length !== 0){
             set_page_data_arr(data)
         }
         else{
@@ -42,15 +42,15 @@ const Performance_per_month=({data,synchronize_update,synchronize})=>{
         console.log('search',search)
         if(typeof(page_data_arr)!='undefined'&&data){
             
-            search.name!=='請選擇組員'&&typeof(search.name)!='undefined'&&search.name.length>0
-            ?result_name=sequential_search(data,1,search.name)
-            :result_name=data
+            search.name !== '請選擇組員' && typeof(search.name) != 'undefined' && search.name.length > 0
+                ?result_name=sequential_search(data,1,search.name)
+                :result_name=data
             typeof(search.year)!='undefined' && search.year.length>0
-            ?result_year=sequential_search(data,4,parseInt(search.year))
-            :result_year=data
+                ?result_year=sequential_search(data,4,parseInt(search.year))
+                :result_year=data
             typeof(search.month)!='undefined' && search.month.length>0
-            ?result_month=sequential_search(data,5,parseInt(search.month))
-            :result_month=data
+                ?result_month=sequential_search(data,5,parseInt(search.month))
+                :result_month=data
             
             
             const result = intersection(result_month, result_name, result_year)

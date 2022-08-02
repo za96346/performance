@@ -112,14 +112,36 @@ class MainNamespace(socketio.AsyncNamespace):
                 print('離開房間 => ', item)
 
     async def on_change_banch_name(self, sid, data):
+        #data => {"data": [ ["fvwef", "fvwef"], ["保育組", "保育組"], ["公關組", "公關組f"], ["社工組", "社工組"]]}
         print('connect change_banch_name', data)
-        print('user',sid)
+        data = self.redisDB.jde(data)['data']
+        for item in data:
+            if item[0] != item[1]:
+                label = {'user': '', 'banch': [item[0]], 'permession': 'changeBanchName', 'event': 'change_banch_name'}
+                await self.broadCast(label, sid)
+        
+    async def on_insert_banch_table(self, sid, data):
+        #data => {"data": ["sockio", "200", "hiyou", "公關組", "w", "91", "一般職員", "on"]}
+        print('connect insert_banch_table', data)
+        data = self.redisDB.jde(data)['data']
+        label = {
+            'user': data[0], 
+            'banch': [data[3]], 
+            'permession': select_banch(data[0]),
+            'event': 'insert_banch_table'
+            }
+        await self.broadCast(label, sid)
 
     async def on_performance_banch_change(self, sid, data):
         #data => { "data": ["managerPublicRelations", 154, 4, "社工組", "公關組"] }
         print('connect performance_banch_change', data)
         data = self.redisDB.jde(data)['data']
-        label = {'user': data[0], 'banch': [data[3]] if data[3] == data[4] else [data[3], data[4]], 'permession': select_banch(data[0])}
+        label = {
+            'user': data[0], 
+            'banch': [data[3]] if data[3] == data[4] else [data[3], data[4]], 
+            'permession': select_banch(data[0]),
+            'event': 'performance_banch_change'
+        }
         await self.broadCast(label, sid)
 
     async def on_group_change(self, sid, data):
@@ -147,7 +169,7 @@ class MainNamespace(socketio.AsyncNamespace):
         print('connect updata_performance_table', data)
         data = self.redisDB.jde(data)['data']
             
-        label = {'user': data[3], 'banch': [data[-1]], 'permession': select_banch(data[3])}
+        label = {'user': data[3], 'banch': [data[-1]], 'permession': select_banch(data[3]), 'event': 'updata_performance_table'}
         await self.broadCast(label, sid)
 
     async def on_new_emp_insert_performance_table(self, sid, data):
@@ -162,21 +184,32 @@ class MainNamespace(socketio.AsyncNamespace):
         #current data label => {'user': data[3], 'banch': data[13], 'permession': select_banch(data[3])}
         print('廣播的房間', label)
         if label['permession'] == 'manager':
-            await self.emit('updata_performance_table', 'update', room = 'admin', skip_sid = sid, namespace = self.namespace)
-            await self.emit('updata_performance_table', 'update', room = label['user'], skip_sid = sid, namespace = self.namespace)
+            await self.emit(label['event'], 'update', room = 'admin', skip_sid = sid, namespace = self.namespace)
+            await self.emit(label['event'], 'update', room = label['user'], skip_sid = sid, namespace = self.namespace)
         elif label['permession'] == 'personal':
             print('==>==>', self.redisDB.selectManager(label['banch']))
-            await self.emit('updata_performance_table', 'update', room = 'admin', skip_sid = sid, namespace = self.namespace)
+            await self.emit(label['event'],  'update', room = 'admin', skip_sid = sid, namespace = self.namespace)
 
-            await self.emit('updata_performance_table', 'update', room = label['user'], skip_sid = sid, namespace = self.namespace)
+            await self.emit(label['event'] , 'update', room = label['user'], skip_sid = sid, namespace = self.namespace)
             for banch in label['banch']:
                 await self.emit(
-                                    'updata_performance_table', 
+                                    label['event'], 
                                     'update', 
                                     to = self.redisDB.selectManager(label[banch])['sid'],
                                     skip_sid = sid, 
                                     namespace = self.namespace
                 )
+        elif label['permession'] == 'changeBanchName':
+            allUser = self.redisDB.selectUserAll()
+            for user in allUser:
+                if user['banch'] == label['banch'][0]:
+                    await self.emit(
+                        label['event'],
+                        'update', 
+                        to = user['sid'],
+                        skip_sid = sid, 
+                        namespace = self.namespace
+                    )
 
 class SocketIo (socketio.AsyncServer):
     def __init__(self, client_manager=None, logger=False, json=None, async_handlers=True, namespaces=None, **kwargs):

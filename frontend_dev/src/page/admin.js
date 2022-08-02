@@ -35,7 +35,7 @@ const Admin = () => {
                                     break
                                 }
                             }
-                            if(state===false){
+                            if(state === false){
                                 temp.push(a_item)
                             }
                         }
@@ -51,7 +51,7 @@ const Admin = () => {
                 }
                 else if (article_page === article_bar_arr[2]) {
                     //每月
-                    value = session.getItem('data')[page] | []
+                    value = session.getItem('data')[page] || []
                     //console.log('每月資料',value)
                     set_data(value?.length > 0 ? value : [])
                 }

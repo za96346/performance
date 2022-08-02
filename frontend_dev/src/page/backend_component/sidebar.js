@@ -1,9 +1,11 @@
 import { Fragment } from "react"
 import { useState,useEffect } from "react";
 import { useNavigate,Link,NavLink, useParams } from "react-router-dom";
-import { fade_in } from "../fade_in";
+import FadeIn from "../Hoc/fade_in";
 import session from "../method/storage";
-const Sidebar=({sidebar_arr,style})=>{
+
+const Fade = FadeIn(600, 1)
+const Sidebar=({sidebar_arr, style})=>{
     const {page}=useParams()
     const navigate=useNavigate()
     const [disp,set_disp]=useState({display:'none'})
@@ -24,19 +26,13 @@ const Sidebar=({sidebar_arr,style})=>{
         set_sidebar_onclick({sidebar_onclick,now_item:page})
 
     }, [page])
-    const [style_opacity,set_style_opacity]=useState({opacity:0,transition:''})
-    useEffect(()=>{
-        fade_in(style_opacity,set_style_opacity,600,'1.5s')
-    },[])
 
     return(
-        <Fragment>
-            <div style={style_opacity} className={style}>
-                
 
+            <Fade className={style}>
                 {
-                    sidebar_arr?.map((item,index)=>{
-                            if(sidebar_arr[0]==='組別管理'&&index===0){
+                    sidebar_arr?.map((item,index) => {
+                            if(sidebar_arr[0] === '組別管理' && index === 0) {
                                 return(                                    
                                     <Link
                                     onMouseEnter={(e)=>{e.target.style.background='rgb(16, 63, 65)'}}
@@ -45,8 +41,8 @@ const Sidebar=({sidebar_arr,style})=>{
                                     className={sidebar_onclick_class(index)}
                                         onClick={()=>{
                                                 disp.display==='none'
-                                                ?set_disp(style==='large'?{display:'flex'}:{display:'flex'})
-                                                :set_disp({display:'none'})
+                                                    ?set_disp(style==='large' ? {display:'flex'} : {display:'flex'})
+                                                    :set_disp({display:'none'})
                                             }}
                                         key={index}>
                                         {item}
@@ -83,10 +79,8 @@ const Sidebar=({sidebar_arr,style})=>{
                         }
                     )
                 }
-            </div>
+            </Fade>
             
-
-        </Fragment>
     )
 }
 export default Sidebar;

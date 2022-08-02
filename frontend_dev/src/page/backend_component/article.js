@@ -9,12 +9,14 @@ import Public_relation from "../article_page/public_relation"
 import Social_worker from "../article_page/scioal_worker"
 import Performance_per_month from "../article_page/performance_per_month";
 import Performance_per_year from "../article_page/performance_per_year";
-import { fade_in } from "../fade_in";
 import Emp_workoff from "../article_page/emp_workoff"
 import New_performance from "./new_performance";
 import Group_manage from "../article_page/group_manage";
 import session from "../method/storage";
 
+import FadeIn from "../Hoc/fade_in";
+
+const Fade = FadeIn(1200, 1)
 const Article=({data,synchronize_update,synchronize})=>{
     const [article_bar_onclick,set_article_bar_onclick]=useState({
         now_item:'',
@@ -36,11 +38,6 @@ const Article=({data,synchronize_update,synchronize})=>{
             return article_bar_onclick.classname
         }
     }
-    const [style_opacity,set_style_opacity]=useState({opacity:0,transition:''})
-    useEffect(()=>{
-        fade_in(style_opacity,set_style_opacity,900,'2s')
-        console.log('article_data_check',data)
-    },[])
 
 
     useEffect(()=>{
@@ -105,10 +102,10 @@ const Article=({data,synchronize_update,synchronize})=>{
 
     return(
         <Fragment>
-            <div style={style_opacity} className="article">
+            <Fade className="article">
                 <div style={{margin:'2vh 2vw'}}>
                 {
-                    page==='組別變動'||page==='新增年度'||page==='組別管理'
+                    page === '組別變動' || page === '新增年度' || page === '組別管理'
                     ?<></>
                     :article_bar()
                 }
@@ -116,7 +113,7 @@ const Article=({data,synchronize_update,synchronize})=>{
                     select_article_page()
                 }
                 </div>
-            </div>
+            </Fade>
             
 
         </Fragment>

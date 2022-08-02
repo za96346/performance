@@ -2359,3 +2359,4 @@ Traceback (most recent call last):
   File "/Users/siou/.pyenv/versions/3.8.13/lib/python3.8/site-packages/mysql/connector/connection.py", line 732, in _handle_result
     raise errors.get_exception(packet)
 mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'account': 'managerBabysitter'}'' at line 1
+[2022-08-03 00:43:53 +0800] [46267] [WARNING] Worker with pid 46292 was terminated due to signal 3

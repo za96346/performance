@@ -246,6 +246,7 @@ export async function insert_banch_table(token, data) {
         }
     }).then((response) => {
         console.log('response data===>', response.data['data'])
+        SocketIO.action(socketEvent.insert_banch_table, data, socketNameSpace.main)
         return response.data['data']//data=>insert or update
         //insert=>tell you that this people is a new create.
         //updata=>tell you that this people is exist.

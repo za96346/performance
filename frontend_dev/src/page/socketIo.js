@@ -82,7 +82,11 @@ export default class SocketIO extends Manager{
             session.setItem('slideIn', '1')
             setSlideIn(0)
         })
-
+        this.socket(socketNameSpace.main).on(socketEvent.insert_banch_table, (data) => {
+            console.log('insert_performance_table data =>', data)
+            session.setItem('slideIn', '1')
+            setSlideIn(0)
+        })
     }
 
     static #_emitBasicEvent(instance, event, params) {

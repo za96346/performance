@@ -61,7 +61,7 @@ const Group_manage=({data,synchronize_update,synchronize})=>{
         <>
             
             {
-                page_data_arr.length>0
+                page_data_arr.length > 0
                 ?<Return_component
                 page_data_arr={page_data_arr}
                 set_page_data_arr={set_page_data_arr}
@@ -75,18 +75,19 @@ const Group_manage=({data,synchronize_update,synchronize})=>{
             <div style={{overflow:'auto',width:'100%',alignItems:'center',justifyContent:'center',display:'flex'}}>
                 <button 
                     style={{display:btn}}
-                    onClick={()=>{
-                        set_page_data_arr([...page_data_arr,`新增`])
-                        set_commit([...commit,[`新增`,'新增']])
+                    onClick={() => {
+                        set_page_data_arr((prev) => [...prev, `新增`])
+                        set_commit((prev) => [...prev, [`新增`,'新增']])
                         set_btn('none')
                     }}>
                     新增</button>
                 <button
-                onClick={async()=>{
-                    await change_banch_name(token,commit)
-                    check_and_recatch_data(token,synchronize_update,1000, () => {})
-                }}
-                >儲存</button>
+                    onClick={async() => {
+                        await change_banch_name(token, commit)
+                        check_and_recatch_data(token, synchronize_update, 1000, () => {})
+                    }}>
+                    儲存
+                </button>
             </div>
         </>
     )

@@ -251,9 +251,6 @@ export function Id_name(props){
         item[7]==='on'?set_toggle({marginLeft:'20px'}):set_toggle({marginRight:'20px'})
         item[7]==='on'?set_bg({backgroundColor:'rgb(136,255,136)'}):set_bg({backgroundColor:''})
     },[value.current.workState,item])
-    useEffect(()=>{
-        
-    },[page_data_arr])
 
     function autoSave(e){
         let values = e.target.value
@@ -514,12 +511,12 @@ export function Id_name(props){
             return (
                 <div ref={rowitem_ref}
                     className="row_container"
-                    onClick={() => {         
-                        set_page_data_arr((prev) => [ ...prev, ['', '', '', page, '', '', position_arr[0], 'on'], ['+'] ])
+                    onClick={() => {
+                        set_page_data_arr((prev) => [ ...prev.slice(0, -1) , ['', '', '', page, '', '', position_arr[0], 'on'], ['+'] ])
                         get_clientHeight()
                     }}
                     style={style}>
-                        {item}
+                    {item}
                 </div>
             )
         } else {
@@ -616,7 +613,7 @@ export function Id_name(props){
             onClick={get_clientHeight}
             style={style} >
                 <input onChange={(e)=>{
-                    set_new_arr([page_data_arr[item_index],e.target.value])
+                    set_new_arr([page_data_arr[item_index], e.target.value])
                     }} 
                         style={{width:'10vw'}} 
                         defaultValue={value.current.banch==='新增'?'':value.current.banch} 

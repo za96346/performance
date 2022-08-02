@@ -106,6 +106,7 @@ def select_user_work_state(account):
     if data=='on':
         return True
     elif data=='off':
+        print('工作狀態 離職 => 無法登入')
         return False
 
 
@@ -127,6 +128,7 @@ def select_user_password(account, password):
             print("right password", data)
             return True
         else:
+            print('wrong passwod', data)
             return False
 
     else:

@@ -9,13 +9,14 @@ export async function check_and_recatch_data(token, synchronize_update, sec, nav
     })
     .then(() => banch_index(token))
     .then(() => backend(token))
-    .then(() => getUserData(token))
     .then(() => select_all_banch(token))
     .then(() => {
         setTimeout(() => {
             synchronize_update(false)//設定同步頁面結束
         }, sec);
-    }).then(() => {
+    })
+    .then(() => getUserData(token))
+    .then(() => {
         navegationFunc()
     }).catch((error) => {
         console.log(error)
@@ -45,18 +46,16 @@ export async function search(
         console.log('item_index 要更新的位置',item_index)
         console.log('new_item 新的資料',new_item)
     
-        for(let data=0;data<arr.length;data++){
+        for(let data = 0; data < arr?.length; data++) {
             if(arr[data].length===1){
                 //如果判斷到 陣列裡面是「’+‘」號  就不加入 跳過
-            }
-            else if(data!==item_index){
+            } else if (data !== item_index) {
                 list.push(arr[data])
-            }
-            else{
+            } else {
                 //如果跑到的data與item_index要插入的位置相等 
                 //新增  並且帶入check function
                 list.push(new_item)
-                await check_arr(new_item,reCatchData,synchronize_update, navegationFunc)
+                await check_arr(new_item,reCatchData, synchronize_update, navegationFunc)
             }
         }
         
@@ -112,9 +111,9 @@ export async function check_arr(arr, reCatchData, synchronize_update, navegation
         }
     }
     if(count === arr.length){
-        let result = await insert_banch_table(token,arr) //api
+        let result = await insert_banch_table(token, arr) //api
         //result?alert(`資料庫存取成功${result}`):alert(`資料庫存取失敗${result}`)
-        if(result === 'update' &&reCatchData === true){
+        if(result === 'update' && reCatchData === true){
             check_and_recatch_data(token, synchronize_update, 200, navegationFunc)//負責設定同步畫面及同步抓取資料
             reCatchData = false//重新抓取資料狀態 否
         }
