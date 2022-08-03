@@ -16,7 +16,7 @@ const Backend=({access})=>{
     const permession = session.getItem('permession')
     const navigate=useNavigate()
     useEffect(()=>{
-        if(page==="登出"){
+        if(page === "登出"){
             session.clear()
             navigate('/')
             // SocketIO.action().then((result) => {

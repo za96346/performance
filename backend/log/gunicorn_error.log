@@ -2360,3 +2360,33 @@ Traceback (most recent call last):
     raise errors.get_exception(packet)
 mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'account': 'managerBabysitter'}'' at line 1
 [2022-08-03 00:43:53 +0800] [46267] [WARNING] Worker with pid 46292 was terminated due to signal 3
+[2022-08-03 21:06:49 +0800] [82864] [CRITICAL] WORKER TIMEOUT (pid:82880)
+[2022-08-03 21:06:49 +0800] [82864] [CRITICAL] WORKER TIMEOUT (pid:82884)
+[2022-08-03 21:06:49 +0800] [82864] [CRITICAL] WORKER TIMEOUT (pid:82885)
+[2022-08-03 21:06:49 +0800] [82864] [CRITICAL] WORKER TIMEOUT (pid:82886)
+[2022-08-03 21:06:49 +0800] [82864] [CRITICAL] WORKER TIMEOUT (pid:82887)
+[2022-08-03 21:24:16 +0800] [82864] [CRITICAL] WORKER TIMEOUT (pid:82881)
+[2022-08-03 21:24:17 +0800] [82864] [CRITICAL] WORKER TIMEOUT (pid:82888)
+[2022-08-03 21:24:17 +0800] [82864] [CRITICAL] WORKER TIMEOUT (pid:82889)
+[2022-08-03 21:24:17 +0800] [82864] [CRITICAL] WORKER TIMEOUT (pid:82890)
+[2022-08-03 21:24:17 +0800] [82864] [CRITICAL] WORKER TIMEOUT (pid:82891)
+[2022-08-03 21:24:17 +0800] [82864] [CRITICAL] WORKER TIMEOUT (pid:82892)
+[2022-08-03 21:24:17 +0800] [82864] [CRITICAL] WORKER TIMEOUT (pid:82893)
+[2022-08-03 21:24:17 +0800] [82864] [CRITICAL] WORKER TIMEOUT (pid:82894)
+[2022-08-03 21:24:17 +0800] [82864] [CRITICAL] WORKER TIMEOUT (pid:82895)
+[2022-08-03 21:24:17 +0800] [82864] [CRITICAL] WORKER TIMEOUT (pid:82896)
+[2022-08-03 21:24:17 +0800] [82864] [CRITICAL] WORKER TIMEOUT (pid:83788)
+[2022-08-03 21:24:17 +0800] [82864] [CRITICAL] WORKER TIMEOUT (pid:83789)
+[2022-08-03 21:24:17 +0800] [82864] [CRITICAL] WORKER TIMEOUT (pid:83790)
+[2022-08-03 21:24:17 +0800] [82864] [WARNING] Worker with pid 83788 was terminated due to signal 9
+[2022-08-03 21:24:17 +0800] [82864] [WARNING] Worker with pid 82896 was terminated due to signal 9
+[2022-08-03 21:24:17 +0800] [82864] [WARNING] Worker with pid 82895 was terminated due to signal 9
+[2022-08-03 21:24:17 +0800] [82864] [WARNING] Worker with pid 82893 was terminated due to signal 9
+[2022-08-03 21:24:17 +0800] [82864] [WARNING] Worker with pid 82892 was terminated due to signal 9
+[2022-08-03 21:24:17 +0800] [82864] [WARNING] Worker with pid 82891 was terminated due to signal 9
+[2022-08-03 21:24:17 +0800] [82864] [WARNING] Worker with pid 82890 was terminated due to signal 9
+[2022-08-03 21:24:17 +0800] [82864] [WARNING] Worker with pid 82889 was terminated due to signal 9
+[2022-08-03 21:24:17 +0800] [82864] [WARNING] Worker with pid 82888 was terminated due to signal 9
+[2022-08-03 21:24:17 +0800] [82864] [WARNING] Worker with pid 82881 was terminated due to signal 9
+[2022-08-03 21:24:17 +0800] [82864] [WARNING] Worker with pid 83789 was terminated due to signal 9
+[2022-08-03 21:24:17 +0800] [82864] [WARNING] Worker with pid 82894 was terminated due to signal 9

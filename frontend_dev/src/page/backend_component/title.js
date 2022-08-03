@@ -20,7 +20,8 @@ const Title=({sidebar_arr, synchronize_update})=>{
 
 
     const navigation = () => {
-        navigate('/access====>error')
+        select_route(navigate)
+        window.location.reload()
     }
 
     return(

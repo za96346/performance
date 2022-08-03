@@ -19,7 +19,7 @@ export function Return_component(props){
 
     const itemSize = 30
     const bufferSize = 20
-    const screenHeight = 500
+    const screenHeight = 900
 
     const visibleCount = screenHeight / itemSize
     const fixed_title_size = 40

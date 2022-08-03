@@ -145,6 +145,7 @@ class MainNamespace(socketio.AsyncNamespace):
         await self.broadCast(label, sid)
 
     async def on_group_change(self, sid, data):
+        #暫不作用
         print('connect group_change', data)
         print('user',sid)
 
@@ -173,10 +174,12 @@ class MainNamespace(socketio.AsyncNamespace):
         await self.broadCast(label, sid)
 
     async def on_new_emp_insert_performance_table(self, sid, data):
+        #暫不作用
         print('connect new_emp_insert_performance_table', data)
         print('user',sid)
 
     async def on_insert_performance_table(self, sid, data):
+        #暫不作用
         print('connect insert_performance_table', data)
         print('user',sid)
 

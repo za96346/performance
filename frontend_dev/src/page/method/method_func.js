@@ -55,7 +55,7 @@ export async function search(
                 //如果跑到的data與item_index要插入的位置相等 
                 //新增  並且帶入check function
                 list.push(new_item)
-                await check_arr(new_item,reCatchData, synchronize_update, navegationFunc)
+                await check_arr(new_item, reCatchData, synchronize_update, navegationFunc)
             }
         }
         
