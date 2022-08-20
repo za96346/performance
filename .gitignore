@@ -1,4 +1,7 @@
 Gmail/
-frontend_dev/node_modules
-frontend_dev/node_modules/
-frontend_dev/package-lock.json
+frontend/node_modules
+frontend/node_modules/
+frontend/package-lock.json
+frontend/build
+volume
+.env

@@ -1,4 +1,4 @@
-from cgi import print_arguments
+
 import socketio
 import uvicorn
 import os
@@ -216,7 +216,7 @@ class MainNamespace(socketio.AsyncNamespace):
 
 class SocketIo (socketio.AsyncServer):
     def __init__(self, client_manager=None, logger=False, json=None, async_handlers=True, namespaces=None, **kwargs):
-        super().__init__(client_manager, logger, json, async_handlers, namespaces, **kwargs)
+        super().__init__(client_manager, logger, json, async_handlers, namespaces,**kwargs)
         self.register_namespace(MainNamespace('/main'))
         self.register_namespace(BasicNamespace('/'))
 

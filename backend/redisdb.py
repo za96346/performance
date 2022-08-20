@@ -14,8 +14,8 @@ class redisdb(redis.Redis):
             'add': 'j',
             'ijief': 90,
         }
-        self._test()
-        subprocess.run(["redis-cli", "flushall"])#run command to cleer redis DB when this class be instanced everyTime
+        # self._test()
+        # subprocess.run(["redis-cli", "flushall"])#run command to cleer redis DB when this class be instanced everyTime
 
     def _test(self):
         self.set('foo', 'bar')

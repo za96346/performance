@@ -1,4 +1,4 @@
-export const ip = '127.0.0.1';
+export const ip = '3.94.123.240';
 // export const ip = '172.21.1.51';
 export const config = {
     url: `http://${ip}:5001/`,
