@@ -20,7 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && cp nginx.conf Dockerfile ./build",
+    "build": "react-scripts build && cp nginx.conf Dockerfile ./build && cd .. && docker-compose up -d --build && docker image prune -f &&  docker logs -f performance_socket",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

@@ -3720,3 +3720,27 @@ Shutting down
 Waiting for application shutdown.
 Application shutdown complete.
 Finished server process [82835]
+Started server process [14012]
+Waiting for application startup.
+Application startup complete.
+[Errno 49] error while attempting to bind on address ('172.20.0.4', 5002): can't assign requested address
+Waiting for application shutdown.
+Application shutdown complete.
+Started server process [14174]
+Waiting for application startup.
+Application startup complete.
+Uvicorn running on http://127.0.0.1:5002 (Press CTRL+C to quit)
+Shutting down
+Waiting for application shutdown.
+Application shutdown complete.
+Finished server process [14174]
+Server initialized for asgi.
+Started server process [21611]
+Waiting for application startup.
+Application startup complete.
+Uvicorn running on http://127.0.0.1:5002 (Press CTRL+C to quit)
+Shutting down
+Waiting for application shutdown.
+Application shutdown complete.
+Finished server process [21611]
+Server initialized for asgi.

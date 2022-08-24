@@ -2390,3 +2390,14 @@ mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your
 [2022-08-03 21:24:17 +0800] [82864] [WARNING] Worker with pid 82881 was terminated due to signal 9
 [2022-08-03 21:24:17 +0800] [82864] [WARNING] Worker with pid 83789 was terminated due to signal 9
 [2022-08-03 21:24:17 +0800] [82864] [WARNING] Worker with pid 82894 was terminated due to signal 9
+[2022-08-23 22:37:50 +0800] [14255] [ERROR] Invalid address: ('172.20.0.5', 5001)
+[2022-08-23 22:37:50 +0800] [14255] [ERROR] Retrying in 1 second.
+[2022-08-23 22:37:51 +0800] [14255] [ERROR] Invalid address: ('172.20.0.5', 5001)
+[2022-08-23 22:37:51 +0800] [14255] [ERROR] Retrying in 1 second.
+[2022-08-23 22:37:52 +0800] [14255] [ERROR] Invalid address: ('172.20.0.5', 5001)
+[2022-08-23 22:37:52 +0800] [14255] [ERROR] Retrying in 1 second.
+[2022-08-23 22:37:53 +0800] [14255] [ERROR] Invalid address: ('172.20.0.5', 5001)
+[2022-08-23 22:37:53 +0800] [14255] [ERROR] Retrying in 1 second.
+[2022-08-23 22:37:54 +0800] [14255] [ERROR] Invalid address: ('172.20.0.5', 5001)
+[2022-08-23 22:37:54 +0800] [14255] [ERROR] Retrying in 1 second.
+[2022-08-23 22:37:55 +0800] [14255] [ERROR] Can't connect to ('172.20.0.5', 5001)

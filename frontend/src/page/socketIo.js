@@ -6,16 +6,17 @@ import { socketUrl, socketNameSpace } from '../config';
 export default class SocketIO extends Manager{
     static instance = null
     constructor() {
-        super(socketUrl.url,{
+        super(socketUrl.url, {
             transports: ['websocket'],
             autoConnect: true,
             forceNew: true,
             query: `${session.getItem('token')}siousiou`,
+            // path: '/perSocket'
         })
         this.socketID = null;
     }
 
-    static async action(event = null, params = null, nameSpace = '/') {
+    static async action(event = null, params = null, nameSpace = socketNameSpace.basic) {
         //action 1 => get only one instanse of this class => params is not must
         //action 2 => emit event => event is must
         if (!SocketIO.instance) {

@@ -41,7 +41,7 @@ def praseToken(token):
             return token_decoding(token[0: strStep-4])
 
 class App (socketio.ASGIApp):
-    def __init__(self, socketio_server, other_asgi_app=None, static_files=None, socketio_path='socket.io', on_startup=None, on_shutdown=None):
+    def __init__(self, socketio_server, other_asgi_app=None, static_files=None, socketio_path='', on_startup=None, on_shutdown=None):
         super().__init__(socketio_server, other_asgi_app, static_files, socketio_path, on_startup, on_shutdown)
         
 class RedisManager (socketio.AsyncRedisManager):
@@ -52,7 +52,9 @@ class BasicNamespace(socketio.AsyncNamespace):
     def __init__(self, namespace):
         super().__init__(namespace)
         self.namespace = namespace
+        print('basic name space init')
     async def on_connect(self, sid, environ):
+        print('我')
         pass
 
         #await self.emit('DataBaseChange', {'user': user}, room = "lobby", namespace = 'main')
@@ -74,6 +76,7 @@ class MainNamespace(socketio.AsyncNamespace):
         port = int(os.getenv('REDIS_DB_PORT'))
         self.namespace = namespace
         self.redisDB = redisdb(host, port, db = 0)
+        print('main name space init')
     
     async def on_connect(self, sid, environ):
         data, status = praseToken(environ["QUERY_STRING"])
@@ -219,13 +222,14 @@ class SocketIo (socketio.AsyncServer):
         super().__init__(client_manager, logger, json, async_handlers, namespaces,**kwargs)
         self.register_namespace(MainNamespace('/main'))
         self.register_namespace(BasicNamespace('/'))
+        # print(os.environ['asgi.scope'])
 
         
 
 
-if __name__ == '__main__': 
+if __name__ == '__main__':
     load_dotenv()
     host = os.getenv('SOCKET_IO_HOST')
     port = int(os.getenv('SOCKET_IO_PORT'))
     SocketIoInstance = SocketIo(async_mode='asgi', cors_allowed_origins = '*', logger=False, engineio_logger=False)
-    uvicorn.run(App(SocketIoInstance,static_files='*/html'), host = host, port = port)
+    uvicorn.run(App(SocketIoInstance,static_files='*/html', socketio_path='socket.io'), host = host, port = port)

@@ -1,23 +1,23 @@
-export const ip = '3.94.123.240';
+export const ip = '192.168.137.94';
 // export const ip = '172.21.1.51';
 export const config = {
-    url: `http://${ip}:5001/`,
-    urlYearPerformance: 'backend/year_performance',
-    urlBanchIndex: 'backend/banch_index',
-    urlBackEnd: 'backend',
-    urlInsertBanchTable: 'backend/InsertBanchTable',
-    urlInsertPerformanceTable: 'backend/InsertPerformanceTable',
-    urlUpdatePerformance: 'backend/UpdatePerformanceTable',
-    urlGroupChange: 'backend/GroupChange',
-    urlSelectAllBanch: 'backend/SelectAllBanch',
-    urlPerformanceBanchChange: 'backend/PerformanceBanchChange',
-    urlNewEmpInsertPerformanceTable: 'backend/NewEmpInsertPerformanceTable',
-    urlChangeBanchName: 'backend/ChangeBanchName',
-    urlGetUserData: 'getUserData'
+    url: `http://${ip}/perApi`,
+    urlYearPerformance: '/backend/year_performance',
+    urlBanchIndex: '/backend/banch_index',
+    urlBackEnd: '/backend',
+    urlInsertBanchTable: '/backend/InsertBanchTable',
+    urlInsertPerformanceTable: '/backend/InsertPerformanceTable',
+    urlUpdatePerformance: '/backend/UpdatePerformanceTable',
+    urlGroupChange: '/backend/GroupChange',
+    urlSelectAllBanch: '/backend/SelectAllBanch',
+    urlPerformanceBanchChange: '/backend/PerformanceBanchChange',
+    urlNewEmpInsertPerformanceTable: '/backend/NewEmpInsertPerformanceTable',
+    urlChangeBanchName: '/backend/ChangeBanchName',
+    urlGetUserData: '/getUserData'
 };
 export const socketUrl = {
     url: `http://${ip}:5002`,
-    urlMain: '/main',
+    // urlMain: '/perSocket',
 }
 export const socketNameSpace = {
     basic: '/',

@@ -108,7 +108,7 @@ def accroding_permession_select_route(permession,account,state):
     print('banch::::',banch)
     return handle(banch,state,permession,account)
         
-@app.route('/backend', methods=['POST'])
+@app.route('/perApi/backend', methods=['POST'])
 @cross_origin()
 def backend():
     token = request.headers['token']
@@ -120,7 +120,7 @@ def backend():
     return jsonify('fail'),500
 
 
-@app.route('/backend/year_performance', methods=['POST'])
+@app.route('/perApi/backend/year_performance', methods=['POST'])
 @cross_origin()
 def backend_year_performance():
     token = request.headers['token']
@@ -152,7 +152,7 @@ def handle_select_employee(arr,permession,account):
             dic[banch[0]]=banch_data
         return dic
 
-@app.route('/backend/banch_index', methods=['POST'])
+@app.route('/perApi/backend/banch_index', methods=['POST'])
 @cross_origin()
 def backend_banch_index():
     token = request.headers['token']
@@ -178,7 +178,7 @@ def backend_banch_index():
         return jsonify(data),200
     return jsonify('fail'),500
 
-@app.route('/', methods=['POST'])
+@app.route('/perApi', methods=['POST'])
 @cross_origin()
 def login():
     data = request.get_json()
@@ -200,7 +200,7 @@ def login():
         return jsonify(dic),200
     return jsonify('帳號或密碼輸入錯誤'),500
 
-@app.route('/getUserData', methods=['POST'])
+@app.route('/perApi/getUserData', methods=['POST'])
 @cross_origin()
 def getUserData():
     token = request.headers['token']
@@ -220,7 +220,7 @@ def getUserData():
     return jsonify('擷取資料錯誤'),500
 
 
-@app.route('/backend/InsertBanchTable',methods=['POST'])
+@app.route('/perApi/backend/InsertBanchTable',methods=['POST'])
 @cross_origin()
 def backend_InsertBanchTable():
     token=request.headers['token']
@@ -235,7 +235,7 @@ def backend_InsertBanchTable():
         return jsonify(dict),200
     return jsonify('fail'),500
     
-@app.route('/backend/InsertPerformanceTable',methods=['POST'])
+@app.route('/perApi/backend/InsertPerformanceTable',methods=['POST'])
 @cross_origin()
 def backendInsertPerformanceTable():
     token=request.headers['token']
@@ -246,7 +246,7 @@ def backendInsertPerformanceTable():
         return jsonify(result),200
     return jsonify('fail'),500
 
-@app.route('/backend/SelectAllBanch',methods=['POST'])
+@app.route('/perApi/backend/SelectAllBanch',methods=['POST'])
 @cross_origin()
 def backendSelectAllBanch():
     token=request.headers['token']
@@ -261,7 +261,7 @@ def backendSelectAllBanch():
         return jsonify([]),200
     return jsonify('fail'),500
 
-@app.route('/backend/UpdatePerformanceTable',methods=['POST'])
+@app.route('/perApi/backend/UpdatePerformanceTable',methods=['POST'])
 @cross_origin()
 def backendUpdatePerformanceTable():
     token=request.headers['token']
@@ -285,7 +285,7 @@ def backendGetFile():
         return jsonify(),200
     return jsonify('fail'),500
 '''
-@app.route('/backend/GroupChange',methods=['POST'])
+@app.route('/perApi/backend/GroupChange',methods=['POST'])
 @cross_origin()
 def backendGroupChange():
     token=request.headers['token']
@@ -298,7 +298,7 @@ def backendGroupChange():
     return jsonify('fail'),500
 
 
-@app.route('/backend/PerformanceBanchChange',methods=['POST'])
+@app.route('/perApi/backend/PerformanceBanchChange',methods=['POST'])
 @cross_origin()
 def backendPerformanceBanchChange():
     token=request.headers['token']
@@ -314,7 +314,7 @@ def backendPerformanceBanchChange():
 
 
 
-@app.route('/backend/NewEmpInsertPerformanceTable',methods=['POST'])
+@app.route('/perApi/backend/NewEmpInsertPerformanceTable',methods=['POST'])
 @cross_origin()
 def backendNewEmpInsertPerformanceTable():
     token=request.headers['token']
@@ -329,7 +329,7 @@ def backendNewEmpInsertPerformanceTable():
 
 
 
-@app.route('/backend/ChangeBanchName',methods=['POST'])
+@app.route('/perApi/backend/ChangeBanchName',methods=['POST'])
 @cross_origin()
 def backendChangeBanchName():
     token=request.headers['token']
@@ -350,6 +350,6 @@ if __name__=="__main__":
     #rint(a)
     # 跨域請求套件
     app.debug = True
-    app.run(host='0.0.0.0', port=5000,threaded=True)
+    app.run(host='0.0.0.0', port=5001,threaded=True)
     
     
