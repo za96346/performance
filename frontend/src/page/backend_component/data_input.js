@@ -258,7 +258,7 @@ export function Id_name(props){
         clearTimeout(timeout.current)
         set_new_emp('更改中')
 
-        let sec=1500
+        let sec = 500
         
         if(component_state === 1 && !composition.current){
             
