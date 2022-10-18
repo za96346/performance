@@ -1,4 +1,4 @@
-export const ip = '192.168.137.94';
+export const ip = '220.133.178.104';
 // export const ip = '172.21.1.51';
 export const config = {
     url: `http://${ip}/perApi`,

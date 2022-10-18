@@ -91,9 +91,9 @@ services:
       #  MYSQL_USER: wordpress
       #  MYSQL_PASSWORD: wordpress
       MYSQL_DATABASE: dajia
-      expose: 3306
-    # ports:
-    #   - "3306:3306"
+      # expose: 3306
+    ports:
+      - "3306:3306"
     networks:
       perbackendNet:
         ipv4_address: 172.20.0.2

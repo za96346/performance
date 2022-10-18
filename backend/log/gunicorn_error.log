@@ -2401,3 +2401,25 @@ mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your
 [2022-08-23 22:37:54 +0800] [14255] [ERROR] Invalid address: ('172.20.0.5', 5001)
 [2022-08-23 22:37:54 +0800] [14255] [ERROR] Retrying in 1 second.
 [2022-08-23 22:37:55 +0800] [14255] [ERROR] Can't connect to ('172.20.0.5', 5001)
+[2022-09-09 14:53:25 +0800] [19234] [ERROR] Invalid address: ('172.20.0.5', 5001)
+[2022-09-09 14:53:25 +0800] [19234] [ERROR] Retrying in 1 second.
+[2022-09-09 14:53:26 +0800] [19234] [ERROR] Invalid address: ('172.20.0.5', 5001)
+[2022-09-09 14:53:26 +0800] [19234] [ERROR] Retrying in 1 second.
+[2022-09-09 14:53:27 +0800] [19234] [ERROR] Invalid address: ('172.20.0.5', 5001)
+[2022-09-09 14:53:27 +0800] [19234] [ERROR] Retrying in 1 second.
+[2022-09-09 14:53:28 +0800] [19234] [ERROR] Invalid address: ('172.20.0.5', 5001)
+[2022-09-09 14:53:28 +0800] [19234] [ERROR] Retrying in 1 second.
+[2022-09-09 14:53:29 +0800] [19234] [ERROR] Invalid address: ('172.20.0.5', 5001)
+[2022-09-09 14:53:29 +0800] [19234] [ERROR] Retrying in 1 second.
+[2022-09-09 14:53:30 +0800] [19234] [ERROR] Can't connect to ('172.20.0.5', 5001)
+[2022-09-09 14:54:03 +0800] [19710] [ERROR] Invalid address: ('172.20.0.5', 5001)
+[2022-09-09 14:54:03 +0800] [19710] [ERROR] Retrying in 1 second.
+[2022-09-09 14:54:04 +0800] [19710] [ERROR] Invalid address: ('172.20.0.5', 5001)
+[2022-09-09 14:54:04 +0800] [19710] [ERROR] Retrying in 1 second.
+[2022-09-09 14:54:05 +0800] [19710] [ERROR] Invalid address: ('172.20.0.5', 5001)
+[2022-09-09 14:54:05 +0800] [19710] [ERROR] Retrying in 1 second.
+[2022-09-09 14:54:06 +0800] [19710] [ERROR] Invalid address: ('172.20.0.5', 5001)
+[2022-09-09 14:54:06 +0800] [19710] [ERROR] Retrying in 1 second.
+[2022-09-09 14:54:07 +0800] [19710] [ERROR] Invalid address: ('172.20.0.5', 5001)
+[2022-09-09 14:54:07 +0800] [19710] [ERROR] Retrying in 1 second.
+[2022-09-09 14:54:08 +0800] [19710] [ERROR] Can't connect to ('172.20.0.5', 5001)

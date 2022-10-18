@@ -172,6 +172,8 @@ def select_admin_user_name_emp_id(banch):
     connection.close()
     data = return_tuple_to_list(data)
     return data
+
+
 def use_position_select_admin_user_name_emp_id(position):
     connection = __init__()
     cursor = connection.cursor()
