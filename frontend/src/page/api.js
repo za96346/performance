@@ -1,7 +1,6 @@
 import axios from "axios"
 import { ip, socketEvent, socketNameSpace } from "../config";
 import session from "./method/storage";
-import SocketIO from "./socketIo";
 import { config } from "../config";
 export const article_bar_arr = ['首頁', '年度考核分數', '每月考核績效']
 export const log_out = ['登出']
@@ -109,7 +108,6 @@ export async function change_banch_name(token, data) {
         }
     }).then((response) => {
         console.log(response)
-        SocketIO.action(socketEvent.change_banch_name, data, socketNameSpace.main)
         return response.data
     }).catch((error) => {
         console.log(error)
@@ -130,7 +128,6 @@ export async function performance_banch_change(token, data) {
             'Access-Control-Allow-Origin': '*'
         }
     }).then((response) => {
-        SocketIO.action(socketEvent.performance_banch_change, data, socketNameSpace.main)
         console.log(response)
         return response.data
     }).catch((error) => {
@@ -153,7 +150,6 @@ export async function group_change(token, data) {
             'Access-Control-Allow-Origin': '*'
         }
     }).then((response) => {
-        SocketIO.action(socketEvent.group_change, data, socketNameSpace.main)
         console.log(response)
         return true
     }).catch((error) => {
@@ -175,7 +171,6 @@ export async function updata_performance_table(data, token) {
             'Access-Control-Allow-Origin': '*'
         }
     }).then((response) => {
-        SocketIO.action(socketEvent.updata_performance_table, data, socketNameSpace.main)
         console.log(response)
         return true
     }).catch((error) => {
@@ -198,7 +193,6 @@ export async function new_emp_insert_performance_table(token, data) {
         }
 
     }).then((response) => {
-        SocketIO.action(socketEvent.new_emp_insert_performance_table, data, socketNameSpace.main)
         console.log('NewEmpInsertPerformanceTable', response)
         return response.data
     }).catch((error) => {
@@ -222,7 +216,6 @@ export async function insert_performance_table(token, data) {
         }
 
     }).then((response) => {
-        SocketIO.action(socketEvent.insert_performance_table, data, socketNameSpace.main)
         console.log('InsertPerformanceTable', response)
         return response.data
     }).catch((error) => {
@@ -246,7 +239,6 @@ export async function insert_banch_table(token, data) {
         }
     }).then((response) => {
         console.log('response data===>', response.data['data'])
-        SocketIO.action(socketEvent.insert_banch_table, data, socketNameSpace.main)
         return response.data['data']//data=>insert or update
         //insert=>tell you that this people is a new create.
         //updata=>tell you that this people is exist.
@@ -373,7 +365,6 @@ export async function login(login_data) {
         session.setItem('user_name', data.user_name)
         session.setItem('banch', data.banch)
         session.setItem('permession', data.permession)
-        SocketIO.action()
         return true
 
     }).catch((error) => {

@@ -3,7 +3,6 @@ import { useState,useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import FadeIn from "../Hoc/fade_in";
 import session from "../method/storage";
-import SocketIO from "../socketIo";
 import { check_and_recatch_data } from "../method/method_func";
 import { select_route } from "../api";
 
@@ -15,7 +14,6 @@ const Title=({sidebar_arr, synchronize_update})=>{
 
     useEffect(() => {
         if (session.getItem('slideIn') === 1) setSlideIn(0);
-        SocketIO.action().then((instance) => instance.mainOnListen(setSlideIn))
     }, [])
 
 

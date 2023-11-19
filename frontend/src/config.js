@@ -1,5 +1,5 @@
-export const ip = '220.133.178.104';
-// export const ip = '172.21.1.51';
+// export const ip = '220.133.178.104';
+export const ip = 'localhost:5001';
 export const config = {
     url: `http://${ip}/perApi`,
     urlYearPerformance: '/backend/year_performance',

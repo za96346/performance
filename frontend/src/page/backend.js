@@ -6,7 +6,6 @@ import Personal from "./personal";
 import Manager from "./manager";
 import { personal_sidebar } from "./api";
 import { admin_sidebar } from "./api";
-import SocketIO from "./socketIo";
 import session from "./method/storage";
 
 const Backend=({access})=>{
@@ -19,9 +18,6 @@ const Backend=({access})=>{
         if(page === "登出"){
             session.clear()
             navigate('/')
-            // SocketIO.action().then((result) => {
-            //     result.disconnect()
-            // })
         }
         else if(admin_sidebar().indexOf(page)===-1&&
                 personal_sidebar.indexOf(page)===-1){
@@ -36,10 +32,6 @@ const Backend=({access})=>{
         }
 
     })
-
-    useEffect(() => {
-        SocketIO.action()
-    }, [])
 
     return(
         <Fragment>
